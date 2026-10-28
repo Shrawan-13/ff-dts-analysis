@@ -88,6 +88,7 @@ analysis/
     management-summary.md        one-page summary for higher staff
     report.md                    final feasibility report
     qa-test-plan.md              dynamic QA validation plan (QA-01..QA-10)
+    maintenance-day-test-card.md one-page live test card for QA
     report-draft.md              earlier draft (historical)
   gh-repo-reference/
     analyze.py, analyze.yml, README.md

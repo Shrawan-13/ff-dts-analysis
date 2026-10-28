@@ -6,6 +6,8 @@
   decision gates, and appendices.
 - `qa-test-plan.md` — dynamic QA validation plan (QA-01..QA-10), environment,
   metrics, evidence, acceptance criteria.
+- `maintenance-day-test-card.md` — one-page, non-technical live test card for
+  QA during an authorized maintenance window.
 - `report-draft.md` — earlier draft kept for history; superseded by `report.md`.
 - `../outputs/evidence-verification.txt` — output of
   `scripts/verify_evidence.py` (32/32 static checks pass).
