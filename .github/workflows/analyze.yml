@@ -58,13 +58,20 @@ jobs:
 
       - name: Dump IL2CPP
         run: |
-          set -o pipefail
           mkdir -p out
+          # v6.7.46 crashes while generating il2cpp.h on this protected binary,
+          # but dump.cs / script.json / stringliteral.json are written first.
+          set +e
           echo 0 | dotnet tools/Il2CppDumper/Il2CppDumper.dll \
             input/config/lib/arm64-v8a/libil2cpp.so \
             input/global-metadata.dec.dat \
             out 2>&1 | tee out/dumper.log
+          echo "dumper exit: $?"
+          set -e
           ls -lh out | head -30
+          test -s out/dump.cs
+          test -s out/script.json
+          test -s out/stringliteral.json
 
       - name: Analyze
         run: |
@@ -81,6 +88,7 @@ jobs:
           git push || true
 
       - name: Upload artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: il2cpp-dump
