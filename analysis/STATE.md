@@ -450,6 +450,9 @@ python3 scripts/findmembers.py aim_assist
 ## GitHub status
 
 - Repo: `https://github.com/Shrawan-13/ff-dts-analysis`
+- Analysis state/report/scripts pushed on 2026-10-28 in commit `8c8dfcc`
+  (`main`), under `analysis/`. The 55 MB decrypted metadata and the encrypted
+  patch bundle are **not** committed.
 - Token: retrieve from keyring with
   `secret-tool lookup service gh:github.com username Shrawan-13`
   (do not print/persist it).

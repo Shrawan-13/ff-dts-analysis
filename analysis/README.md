@@ -102,6 +102,10 @@ analysis/
 
 Repo: `https://github.com/Shrawan-13/ff-dts-analysis`
 
+Analysis state/report/scripts were pushed on 2026-10-28 in commit `8c8dfcc`
+under `analysis/`. The 55 MB decrypted metadata and the encrypted patch bundle
+are not committed.
+
 The release tag `input` already contains the 427 MB XAPK. The current workflow
 is dumper-dependent and fails; replace the Il2CppDumper step with a
 metadata-only run. Token: retrieve from keyring with
