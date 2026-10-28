@@ -1,0 +1,94 @@
+name: IL2CPP analysis
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download input XAPK from release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p input
+          gh release download input --pattern '*.xapk' --dir input
+          ls -lh input
+
+      - name: Extract game binaries
+        run: |
+          set -eux
+          mkdir -p input/xapk input/config input/asset
+          unzip -q input/*.xapk -d input/xapk
+          unzip -q input/xapk/config.arm64_v8a.apk 'lib/arm64-v8a/libil2cpp.so' -d input/config
+          unzip -q input/xapk/asset_pack_install_time.apk \
+            'assets/bin/Data/Managed/Metadata/global-metadata.dat' -d input/asset
+          python3 scripts/decrypt_metadata.py \
+            input/asset/assets/bin/Data/Managed/Metadata/global-metadata.dat \
+            input/global-metadata.dec.dat
+          ls -lh input/config/lib/arm64-v8a/libil2cpp.so input/global-metadata.dec.dat
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '7.0.x'
+
+      - name: Cache Il2CppDumper
+        id: cache-dumper
+        uses: actions/cache@v4
+        with:
+          path: tools/Il2CppDumper
+          key: il2cppdumper-6.7.46
+
+      - name: Get Il2CppDumper
+        if: steps.cache-dumper.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p tools
+          curl -sSL \
+            https://github.com/Perfare/Il2CppDumper/releases/download/v6.7.46/Il2CppDumper-net7-v6.7.46.zip \
+            -o /tmp/dumper.zip
+          unzip -q /tmp/dumper.zip -d tools/Il2CppDumper
+
+      - name: Dump IL2CPP
+        run: |
+          set -o pipefail
+          mkdir -p out
+          echo 0 | dotnet tools/Il2CppDumper/Il2CppDumper.dll \
+            input/config/lib/arm64-v8a/libil2cpp.so \
+            input/global-metadata.dec.dat \
+            out 2>&1 | tee out/dumper.log
+          ls -lh out | head -30
+
+      - name: Analyze
+        run: |
+          python3 scripts/analyze.py out out/dump.cs > out/report.md
+          head -200 out/report.md
+
+      - name: Publish report to repo
+        run: |
+          cp out/report.md report.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add report.md
+          git commit -m 'Update analysis report' || true
+          git push || true
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: il2cpp-dump
+          retention-days: 3
+          compression-level: 6
+          path: |
+            out/dump.cs
+            out/script.json
+            out/stringliteral.json
+            out/report.md
+            out/dumper.log
