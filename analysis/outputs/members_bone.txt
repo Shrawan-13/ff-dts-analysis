@@ -1,0 +1,1123 @@
+
+### T43 .AIDismemberConfig  (fields=3 methods=1)
+  F mRefBone typeIdx=53032
+
+### T246 .DynamicBonePair  (fields=2 methods=1)
+  F dynamicbone typeIdx=31877
+
+### T248 .PrefabDynamicbone  (fields=2 methods=2)
+  F dynamicbonepairs typeIdx=11632
+
+### T249 .PrefabDynamicboneV2  (fields=7 methods=6)
+  F m_DynamicBones typeIdx=11629
+  F m_Dynamicbonetype typeIdx=91915
+
+### T268 .PetsPawn  (fields=8 methods=15)
+  F BipBoneTransform typeIdx=53032
+  F m_Bones typeIdx=5262
+  M GetBoneByName decl=268 ret=53029 params=65544 slot=486
+
+### T450 .EffectElement  (fields=5 methods=1)
+  F m_TargetBoneName typeIdx=51811
+
+### T451 .RunTimeEffectManager  (fields=1 methods=8)
+  M ProcessBoneNameRefs decl=451 ret=73094 params=196607 slot=150
+  M ProcessBoneNameRefsWithAvatar decl=451 ret=25731 params=327679 slot=150
+  M ProcessBoneNameRefsInAvatarPrefab decl=451 ret=25731 params=262143 slot=145
+
+### T493 .VehicleEffectChange  (fields=16 methods=36)
+  F m_InGameHorseMoveEffectBoneNameRefs typeIdx=10935
+  M CacheInGameHorseMoveEffectBoneNameRefs decl=493 ret=73094 params=131071 slot=129
+  M ResetInGameHorseMoveEffectBoneNameRefs decl=493 ret=73094 params=65535 slot=129
+
+### T565 .DynamicBoneAngleLimit  (fields=11 methods=1)
+  F m_BoneBlendRate typeIdx=51053
+
+### T567 .Particle  (fields=20 methods=1)
+  F m_BoneLength typeIdx=51053
+
+### T571 .DynamicBone  (fields=53 methods=31)
+  F m_ValidBones typeIdx=14485
+  F m_BoneTotalLength typeIdx=51052
+  M UpdateDynamicBones decl=571 ret=73094 params=196607 slot=129
+
+### T577 .DynamicBoneNet  (fields=4 methods=18)
+  M UpdateDynamicBones decl=577 ret=73094 params=131071 slot=129
+
+### T589 .ANGLE_LIMIT  (fields=12 methods=1)
+  F BoneBlendRate typeIdx=51053
+
+### T594 .HangString  (fields=45 methods=33)
+  F FirstBoneRotZOffset typeIdx=51053
+  F m_RenderFirstBoneMatrix typeIdx=44410
+  F m_HasRenderFirstBoneMatrix typeIdx=25732
+  F m_LastSimulationFirstBonePosition typeIdx=72634
+  M GetFirstBoneMatrix decl=594 ret=44409 params=65535 slot=129
+  M SetFirstBoneMatrix decl=594 ret=73094 params=131071 slot=129
+  M StringCalcSub_1_FirstBone decl=594 ret=73094 params=65535 slot=129
+
+### T599 .ANGLELIMIT_PROPERTY  (fields=15 methods=1)
+  F BoneBlendRate typeIdx=51053
+
+### T600 .HangStringProperty  (fields=21 methods=1)
+  F FirstBoneRotZOffset typeIdx=51053
+
+### T620 .BoneWeightType  (fields=3 methods=0)
+  F Bone2 typeIdx=82410
+  F Bone4 typeIdx=82410
+
+### T623 .SplitProperty  (fields=6 methods=2)
+  F boneWeightType typeIdx=82409
+  F boneWeight2 typeIdx=40249
+  F boneWeight3 typeIdx=40249
+  F boneWeight4 typeIdx=40249
+  F greaterBoneWeight typeIdx=25735
+  F boneTriangleExtent typeIdx=82406
+
+### T624 .SABoneColliderProperty  (fields=6 methods=2)
+  F boneProperty typeIdx=82404
+
+### T625 .SABoneColliderBuilderProperty  (fields=5 methods=3)
+  M ToSABoneColliderProperty decl=625 ret=82414 params=65535 slot=134
+
+### T638 .SABoneCollider  (fields=8 methods=15)
+  F boneColliderProperty typeIdx=82415
+  F defaultBoneColliderProperty typeIdx=82415
+  F edittingBoneColliderProperty typeIdx=82416
+  M get_boneProperty decl=638 ret=82403 params=65535 slot=2182
+
+### T639 .SABoneColliderBuilder  (fields=4 methods=5)
+  F boneColliderBuilderProperty typeIdx=82412
+  F edittingBoneColliderBuilderProperty typeIdx=82413
+
+### T656 .UMAAssetIndexer  (fields=12 methods=24)
+  F BaseMaleBone typeIdx=72136
+  F BaseFemaleBone typeIdx=72136
+  M GetBaseBoneData decl=656 ret=72139 params=131071 slot=134
+
+### T1020 .CopyBonesToUMA  (fields=5 methods=11)
+  F COPY_BONE_PREFIX typeIdx=51829
+  M FindBoneRoot decl=1020 ret=53029 params=65535 slot=129
+  M FindBoneInHierarchy decl=1020 ret=53029 params=196607 slot=129
+  M RebindBones decl=1020 ret=25731 params=131071 slot=129
+
+### T1370 UMA.UmaSettings  (fields=42 methods=2)
+  F UsingSetBoneWeights typeIdx=25739
+  F UsingSetBoneWeights2 typeIdx=25739
+
+### T1397 UMA.SkinnedMeshCombiner  (fields=11 methods=33)
+  F bonesCollection typeIdx=4734
+  F bonesList typeIdx=12558
+  F s_BoneIndexEntryPool typeIdx=16334
+  F s_BoneIndexEntryPoolUsedCnt typeIdx=40250
+  F s_nonSharedBoneMapping typeIdx=21159
+  F s_sharedBoneMapping typeIdx=21159
+  M BuildBones decl=1397 ret=73094 params=262143 slot=150
+  M ResetBoneIndexEntryPool decl=1397 ret=73094 params=65535 slot=145
+  M AllocBoneIndexEntry decl=1397 ret=82874 params=65535 slot=145
+  M UseBoneWeight2 decl=1397 ret=25731 params=131071 slot=145
+  M BuildBoneWeights decl=1397 ret=73094 params=786431 slot=145
+  M TranslateBoneIndex decl=1397 ret=40244 params=458751 slot=145
+  M BuildBoneWeightsNative decl=1397 ret=73094 params=786431 slot=145
+
+### T1399 UMA.SlotDataAsset  (fields=15 methods=11)
+  F animatedBoneNames typeIdx=21452
+  F animatedBoneHashes typeIdx=21158
+  F dynamicBoneRoots typeIdx=21452
+  F dynamicBones typeIdx=21666
+  F dynamicBoneAngleLimits typeIdx=21663
+  F dynamicBoneColliders typeIdx=21665
+  M ValidateDynamicBones decl=1399 ret=25731 params=65535 slot=134
+
+### T1406 UMA.OptimizedBoneWeightV2  (fields=2 methods=15)
+  F boneIndex typeIdx=72039
+  M ConvertBoneWeight2 decl=1406 ret=20910 params=131071 slot=150
+  M TranslateBoneWeight2 decl=1406 ret=73094 params=196607 slot=134
+  M TranslateBoneWeight decl=1406 ret=73094 params=196607 slot=134
+  M ExplicitTranslateBoneWeight2 decl=1406 ret=73094 params=196607 slot=134
+  M ExplicitTranslateBoneWeight decl=1406 ret=73094 params=196607 slot=134
+  M UpdateBoneIndex decl=1406 ret=46834 params=196607 slot=150
+
+### T1407 UMA.OptimizedBoneWeight  (fields=3 methods=14)
+  F boneIndex typeIdx=72039
+  M TranslateBoneWeight2 decl=1407 ret=73094 params=196607 slot=134
+  M TranslateBoneWeight decl=1407 ret=73094 params=196607 slot=134
+  M ExplicitTranslateBoneWeight2 decl=1407 ret=73094 params=196607 slot=134
+  M ExplicitTranslateBoneWeight decl=1407 ret=73094 params=196607 slot=134
+  M ConvertBoneWeight2 decl=1407 ret=20910 params=131071 slot=150
+  M UpdateBoneIndex decl=1407 ret=46833 params=196607 slot=150
+
+### T1408 UMA.UMABoneWeight  (fields=8 methods=9)
+  F boneIndex0 typeIdx=40249
+  F boneIndex1 typeIdx=40249
+  F boneIndex2 typeIdx=40249
+  F boneIndex3 typeIdx=40249
+  M UpdateBoneIndex decl=1408 ret=72096 params=196607 slot=150
+  M TranslateBoneWeight2 decl=1408 ret=73094 params=196607 slot=134
+  M TranslateBoneWeight decl=1408 ret=73094 params=196607 slot=134
+  M ConvertBoneWeight2 decl=1408 ret=20910 params=131071 slot=150
+
+### T1410 .DynamicBoneType  (fields=4 methods=0)
+  F DynamicBone typeIdx=91917
+
+### T1418 UMA.UMAData  (fields=89 methods=70)
+  F isBone2 typeIdx=25735
+  F dynamicBoneType typeIdx=91916
+  F dynamicBoneAnimatePhysicsMode typeIdx=25749
+  F animatedBonesTable typeIdx=4447
+  M ResetAnimatedBones decl=1418 ret=73094 params=65535 slot=134
+  M RegisterAnimatedBone decl=1418 ret=73094 params=131071 slot=134
+  M RegisterAnimatedBoneHierarchy decl=1418 ret=73094 params=131071 slot=134
+
+### T1419 UMA.UMADefaultMeshCombiner  (fields=23 methods=17)
+  F boneWeightsCache typeIdx=20909
+  F emptyBoneWeights typeIdx=20909
+  F boneWeights2Cache typeIdx=20911
+  F emptyBoneWeights2 typeIdx=20911
+  M ApplyBonesNative decl=1419 ret=73094 params=262143 slot=129
+
+### T1420 UMA.UMADynamicBoneAngleLimitNodeProperties  (fields=15 methods=1)
+  F m_BaseAxisParentBone typeIdx=51811
+  F m_BaseAxis2ParentBone typeIdx=51811
+  F m_BoneBlendRate typeIdx=51053
+
+### T1430 UMA.UMAGeneratorBuiltin  (fields=39 methods=42)
+  F ReuseDynamicBone typeIdx=25749
+  F dbBones typeIdx=11628
+  M SetupDynamicBones decl=1430 ret=73094 params=131071 slot=132
+  M GetAndRemoveDynamicBone decl=1430 ret=31875 params=262143 slot=129
+  M FilterDynamicBone decl=1430 ret=73094 params=196607 slot=132
+  M AddColliderForDynamicBone decl=1430 ret=73094 params=196607 slot=132
+  M AddAngleLimitForDynamicBone decl=1430 ret=73094 params=262143 slot=132
+
+### T1439 UMA.UMAMeshAsset  (fields=6 methods=9)
+  F animatedBoneNames typeIdx=21452
+  F animatedBoneHashes typeIdx=21158
+
+### T1449 UMA.UMAMeshData  (fields=47 methods=43)
+  F boneWeights typeIdx=21661
+  F unityBoneWeights typeIdx=20908
+  F unity3PBoneWeights typeIdx=20912
+  F bones typeIdx=21526
+  F rootBone typeIdx=53038
+  F umaBones typeIdx=21671
+  F umaBoneCount typeIdx=40249
+  F rootBoneHash typeIdx=40249
+  F boneNameHashes typeIdx=21158
+  F RootBoneName typeIdx=51811
+  F optimizedBoneWeights typeIdx=21304
+  F optimizedBoneWeightsV2 typeIdx=21306
+  F optimizedBoneWeightArray typeIdx=20929
+  F optimized3PBoneWeightArray typeIdx=20929
+  F EXTRA_BONE_INDEX typeIdx=40274
+  F BoneNameHashDict typeIdx=4457
+  F BonesDict typeIdx=4677
+  F extraBoneNameHashes typeIdx=21158
+  F extraBones typeIdx=21671
+  M UseShareBones decl=1449 ret=25731 params=65535 slot=134
+  M GetBoneHashs decl=1449 ret=21152 params=65535 slot=134
+  M GetBonePoses decl=1449 ret=21243 params=65535 slot=134
+  M GetUMABones decl=1449 ret=21670 params=65535 slot=134
+  M GetBoneWeights2 decl=1449 ret=20910 params=65535 slot=129
+  M GetBoneWeights decl=1449 ret=20906 params=65535 slot=129
+  M GetBoneWeight2New decl=1449 ret=20910 params=65535 slot=134
+  M Get3PBoneWeightNewOpt decl=1449 ret=20906 params=65535 slot=134
+  M GetBoneWeightNew decl=1449 ret=20906 params=65535 slot=134
+
+### T1450 UMA.UMAMeshDataForBuild  (fields=10 methods=10)
+  F boneNameHashesList typeIdx=12557
+  F s_WarmupBoneWeight typeIdx=20909
+  F s_WarmupBoneWeight2 typeIdx=20911
+  M ApplyBonesAndBindPosesNative decl=1450 ret=73094 params=327679 slot=134
+
+### T1451 UMA.UMAMeshDataOptimize  (fields=0 methods=8)
+  M Tranlate3PBoneWeight2Array decl=1451 ret=73094 params=327679 slot=150
+  M Tranlate3PBoneWeightArray decl=1451 ret=73094 params=327679 slot=150
+  M TranlateBoneWeight2Array decl=1451 ret=73094 params=327679 slot=150
+  M TranlateBoneWeightArray decl=1451 ret=73094 params=327679 slot=150
+  M UpdateBoneIndexForBoneWightArray decl=1451 ret=73094 params=262143 slot=150
+  M UpdateBoneIndexFor3PBoneWightArray decl=1451 ret=73094 params=262143 slot=150
+
+### T1456 .BoneData  (fields=8 methods=1)
+  F boneNameHash typeIdx=40249
+  F parentBoneNameHash typeIdx=40249
+  F boneTransform typeIdx=53032
+
+### T1457 UMA.UMASkeleton  (fields=5 methods=24)
+  F <rootBoneHash>k__BackingField typeIdx=40245
+  F boneHashDataBackup typeIdx=16680
+  F boneHashDataLookup typeIdx=4778
+  M get_rootBoneHash decl=1457 ret=40244 params=65535 slot=2182
+  M set_rootBoneHash decl=1457 ret=73094 params=131071 slot=2180
+  M get_boneCount decl=1457 ret=40244 params=4 slot=2502
+  M get_boneHashData decl=1457 ret=4777 params=65535 slot=2177
+  M set_boneHashData decl=1457 ret=73094 params=131071 slot=2177
+  M AddBonesRecursive decl=1457 ret=73094 params=131071 slot=129
+  M HasBone decl=1457 ret=25731 params=65543 slot=454
+  M AddBone decl=1457 ret=73094 params=65544 slot=454
+  M GetBoneTransform decl=1457 ret=53029 params=65545 slot=454
+  M GetBoneGameObject decl=1457 ret=37074 params=65546 slot=454
+  M EnsureBone decl=1457 ret=73094 params=65554 slot=454
+  M EnsureBoneHierarchy decl=1457 ret=73094 params=19 slot=454
+
+### T1458 UMA.UmaTPose  (fields=11 methods=7)
+  F boneInfo typeIdx=21427
+  M DeSerializeSkeletonBone decl=1458 ret=51111 params=131071 slot=129
+  M DeSerializeHumanBone decl=1458 ret=38545 params=131071 slot=129
+
+### T1462 .PoseBone  (fields=5 methods=1)
+  F bone typeIdx=51811
+
+### T2868 message.MHHELEDEJHG  (fields=550 methods=0)
+  F PlayerBonesType typeIdx=43770
+
+### T2869 message.IEDKILKNAPF  (fields=229 methods=0)
+  F ONNGMBONEFF typeIdx=40273
+
+### T2983 message.HIKMJEOPFCI  (fields=262 methods=0)
+  F EPRI_PLAYER_UGC_BONES_SCALE typeIdx=37955
+
+### T11037 COW.AvatarDynamicEffectManager  (fields=17 methods=17)
+  F m_HairDynamicBone typeIdx=31876
+  F m_HairDynamicBone_L typeIdx=31876
+  F m_HairDynamicBone_R typeIdx=31876
+  F m_DynamicBones typeIdx=21031
+  M SetUpChestDynamicBone decl=11037 ret=73094 params=131071 slot=129
+  M SetupDynamicBoneForIngameMode decl=11037 ret=73094 params=65535 slot=134
+
+### T11041 .BoneNameRefOriginalInfo  (fields=6 methods=3)
+  F BoneNameRef typeIdx=25719
+  F BoneNameRefTrans typeIdx=53032
+
+### T11042 .AnimEffectPooledInfo  (fields=11 methods=5)
+  F CachedBoneNameRefs typeIdx=20904
+  F BoneNameRefOriginalInfos typeIdx=15950
+
+### T11049 COW.AvatarEffect  (fields=40 methods=98)
+  M ProcessBoneNameRefsWithNoSave decl=11049 ret=73094 params=196607 slot=129
+  M ProcessBoneNameRefsWhenPoolGet decl=11049 ret=73094 params=393215 slot=129
+  M ProcessBoneNameRefs decl=11049 ret=73094 params=393215 slot=129
+  M ProcessOneBoneNameRefInternal decl=11049 ret=25731 params=262143 slot=129
+
+### T11056 .BoneInfo  (fields=8 methods=1)
+  F boneName typeIdx=51811
+
+### T11057 COW.BodyPartUtilByName  (fields=4 methods=13)
+  F m_isFindBoneTransformThisFrame typeIdx=25732
+  F m_bones typeIdx=15967
+  M GetOrAddBoneControl decl=11057 ret=75055 params=131071 slot=134
+  M ControlBoneWorldRotation decl=11057 ret=73094 params=196607 slot=134
+  M SetBoneDynamicScale decl=11057 ret=73094 params=262143 slot=134
+  M TryGetBone decl=11057 ret=25731 params=196607 slot=129
+  M ReFindBoneTransform decl=11057 ret=73094 params=65535 slot=134
+  M AddOrUpdateBoneScale decl=11057 ret=73094 params=196607 slot=134
+  M setAllBoneScale decl=11057 ret=73094 params=65535 slot=129
+  M searchAllBoneTransform decl=11057 ret=73094 params=65535 slot=129
+
+### T11961 COW.WorkshopNPCRigName  (fields=3 methods=3)
+  F BoneName typeIdx=51811
+  F BoneNameKet typeIdx=51811
+
+### T11998 COW.EngineSwitch3  (fields=34 methods=0)
+  F UsingUMABoneWeights2 typeIdx=34599
+  F UsingUnity2018BoneWeightsSettings typeIdx=34599
+
+### T12013 COW.GameVarDef  (fields=5664 methods=7)
+  F GunFireBoneDeltaAngeX typeIdx=51064
+  F GunFireBoneDeltaAngeX_Crouch typeIdx=51064
+  F GunFireBoneDeltaAngeZ_Crouch typeIdx=51064
+  F IKBoneRotateSpeed typeIdx=51064
+  F DynamicBoneRotateOptimize typeIdx=25745
+  F DynamicBoneRotateUseNewPitch typeIdx=25745
+  F DynamicBoneRotateMin typeIdx=51064
+  F EnableDynamicBoneColliderCacheOpt typeIdx=25745
+  F UMAReuseDynamicBoneInGame typeIdx=25745
+  F UMASkipBoneResetWhenEnsure typeIdx=25745
+  F EnableSkeletonUtilityBoneOnReset typeIdx=25739
+  F EnableSkeletonUtilityBoneOnResetCallback typeIdx=25739
+  F EnableBone2SkinFor3P typeIdx=25739
+  F UsingUMABoneWeightsCache typeIdx=25739
+  F UsingUMABoneWeights2 typeIdx=25739
+  F UMANativeBoneWeight typeIdx=25745
+  F UMAExplicitBoneWeightTranslation typeIdx=25745
+  F MinFireIKBoneRotateAngle typeIdx=51057
+  F UsingUnity2018BoneWeightsSettings typeIdx=25739
+  F UMACopyBonesToUMA typeIdx=25745
+  F IsUseSecondWeaponBoneLeftWeapon typeIdx=25739
+  F EnableDynamicBoneAngleLimit typeIdx=25739
+
+### T12015 COW.ResourceIDDef  (fields=11728 methods=11)
+  F VFX_OPENCHEST2_BONELIGHT_BLUE typeIdx=49741
+  F VFX_OPENCHEST2_BONELIGHT_PURPLE typeIdx=49741
+  F VFX_OPENCHEST2_BONELIGHT_RED typeIdx=49741
+  F VFX_OPENCHEST2_BONELIGHT_YELLOW typeIdx=49741
+
+### T12733 COW.IngameAvatarClothEffectComponent  (fields=24 methods=62)
+  M ProcessBoneNameRefsIngame decl=12733 ret=73094 params=393215 slot=129
+  M ProcessBoneNameRefsIngameWithGos decl=12733 ret=73094 params=393215 slot=134
+  M RecoverBoneNameRefsIngame decl=12733 ret=73094 params=131071 slot=134
+
+### T12735 COW.IngameAvatarWeaponEffectComponent  (fields=7 methods=14)
+  F m_BoneNameRefObjs typeIdx=10934
+  M ProcessBoneNameRefs decl=12735 ret=73094 params=131071 slot=129
+  M ProcessSingleBoneNameRef decl=12735 ret=73094 params=131071 slot=129
+  M RestoreBoneNameRefsBeforeRecycle decl=12735 ret=73094 params=65535 slot=129
+
+### T13248 COW.UGCPlayerRepItem  (fields=197 methods=111)
+  F PROP_ID_HEADBONESSCALE typeIdx=40273
+  F PROP_ID_BODYBONESSCALE typeIdx=40273
+  F PROP_ID_LIMBBONESSCALE typeIdx=40273
+  F PROP_ID_BONES typeIdx=40273
+  F OnHeadBonesScaleChangeEvent typeIdx=2501
+  F OnBodyBonesScaleChangeEvent typeIdx=2501
+  F OnLimbBonesScaleChangeEvent typeIdx=2501
+  F OnBonesChangeEvent typeIdx=2406
+  F <HeadBonesScale>k__BackingField typeIdx=72634
+  F <BodyBonesScale>k__BackingField typeIdx=72634
+  F <LimbBonesScale>k__BackingField typeIdx=72634
+  F <Bones>k__BackingField typeIdx=51807
+  M get_HeadBonesScale decl=13248 ret=72633 params=65535 slot=2182
+  M set_HeadBonesScale decl=13248 ret=73094 params=131071 slot=2177
+  M get_BodyBonesScale decl=13248 ret=72633 params=65535 slot=2182
+  M set_BodyBonesScale decl=13248 ret=73094 params=131071 slot=2177
+  M get_LimbBonesScale decl=13248 ret=72633 params=65535 slot=2182
+  M set_LimbBonesScale decl=13248 ret=73094 params=131071 slot=2177
+  M get_Bones decl=13248 ret=51806 params=65535 slot=2182
+  M set_Bones decl=13248 ret=73094 params=131071 slot=2177
+
+### T13277 COW.UGCSkeletonPartLookAtControllerRepItem  (fields=8 methods=9)
+  F PROP_ID_CONTROLBONE typeIdx=40273
+  F OnControlBoneChangeEvent typeIdx=2406
+  F <ControlBone>k__BackingField typeIdx=51807
+  M get_ControlBone decl=13277 ret=51806 params=65535 slot=2182
+  M set_ControlBone decl=13277 ret=73094 params=131071 slot=2177
+
+### T13278 COW.UGCSkeletonPartRepItem  (fields=11 methods=11)
+  F PROP_ID_BONESCALE typeIdx=40273
+  F PROP_ID_BONEPOSITION typeIdx=40273
+  F PROP_ID_BONEROTATION typeIdx=40273
+  F OnBoneScaleChangeEvent typeIdx=2501
+  F OnBonePositionChangeEvent typeIdx=2501
+  F OnBoneRotationChangeEvent typeIdx=2501
+  F <BoneScale>k__BackingField typeIdx=72634
+  F <BonePosition>k__BackingField typeIdx=72634
+  F <BoneRotation>k__BackingField typeIdx=72634
+  M get_BoneScale decl=13278 ret=72633 params=65535 slot=2182
+  M set_BoneScale decl=13278 ret=73094 params=131071 slot=2177
+  M get_BonePosition decl=13278 ret=72633 params=65535 slot=2182
+  M set_BonePosition decl=13278 ret=73094 params=131071 slot=2177
+  M get_BoneRotation decl=13278 ret=72633 params=65535 slot=2182
+  M set_BoneRotation decl=13278 ret=73094 params=131071 slot=2177
+
+### T13641 COW.TransformAvatarEffect  (fields=6 methods=12)
+  M ProcessBoneNameRefs decl=13641 ret=73094 params=327679 slot=129
+
+### T14792 COW.EffectObject  (fields=18 methods=1)
+  F ProcessedMultiStateBoneNameRef typeIdx=25735
+  F BoneObjects typeIdx=12080
+
+### T14800 COW.LobbyAvatarClothEffectComponent  (fields=23 methods=31)
+  M ProcessWeaponBoneNameRefs decl=14800 ret=73094 params=131071 slot=129
+  M ProcessBoneNameRefs decl=14800 ret=73094 params=196607 slot=129
+  M ProcessBoneNameRefsOnly decl=14800 ret=73094 params=327679 slot=129
+  M ResolveBoneNameRefTransform decl=14800 ret=53029 params=196607 slot=129
+  M ReProcessMultiStateBoneNameRefsWhenVisibleChange decl=14800 ret=73094 params=131071 slot=134
+  M RecoverMultiStateBoneNameRefs decl=14800 ret=73094 params=131071 slot=129
+
+### T14806 COW.LobbyAvatarLookAtComponent  (fields=31 methods=20)
+  F m_boneNeck typeIdx=53030
+  F m_boneSpine1 typeIdx=53030
+  F m_boneEyeL typeIdx=53030
+  F m_boneEyeR typeIdx=53030
+
+### T14814 COW.SparkPetCosmeticManager  (fields=5 methods=19)
+  M ProcessChildBoneNameRefs decl=14814 ret=73094 params=131071 slot=129
+  M RestoreBoneNameRefs decl=14814 ret=73094 params=131071 slot=129
+
+### T14824 COW.UIAvatarBoneNodeAdapter  (fields=4 methods=6)
+  F m_BoneNodeDic typeIdx=5420
+  F m_boneRoot typeIdx=53030
+  M GetBoneNode decl=14824 ret=84256 params=131071 slot=134
+  M SwapBoneNodes decl=14824 ret=73094 params=131071 slot=134
+
+### T14861 COW.UIAnimedAvatar  (fields=143 methods=326)
+  F m_BoneNodeAdapter typeIdx=55490
+  F m_TmpDynamicBones typeIdx=5450
+  F m_DynamicBonesActive typeIdx=25732
+  F _dynamicBones typeIdx=11630
+  M get_dynamicBones decl=14861 ret=11627 params=65535 slot=2193
+  M OnDisableDynamicBones decl=14861 ret=73094 params=65535 slot=129
+  M OnEnableDynamicBones decl=14861 ret=73094 params=65535 slot=129
+
+### T14869 COW.UIStatedAvatar  (fields=28 methods=102)
+  M ReProcessMultiStateBoneNameRefsWhenVisibleChange decl=14869 ret=73094 params=131071 slot=134
+
+### T14875 COW.UIPetAvatar  (fields=31 methods=55)
+  M ProcessBoneNameRefs decl=14875 ret=73094 params=131071 slot=129
+
+### T14877 COW.UISparkPetAvatar  (fields=31 methods=73)
+  F m_DyeVFXBoneNameRefManager typeIdx=25721
+  M ApplyDyeVFXBoneRef decl=14877 ret=73094 params=131071 slot=129
+  M ReleaseDyeVFXBoneNameRefManager decl=14877 ret=73094 params=65535 slot=129
+
+### T18121 COW.UIUGCAvatarEditorBoneItemController  (fields=4 methods=8)
+  F var_BoneName typeIdx=71506
+
+### T18123 .BoneEditingInfo  (fields=3 methods=1)
+  F BoneName typeIdx=51811
+  F BoneConfig typeIdx=73705
+  F BoneScalePct typeIdx=51053
+
+### T18132 COW.UIUGCAvatarEditorController  (fields=42 methods=68)
+  F m_boneEditingInfos typeIdx=5427
+  F m_boneEditingInfoList typeIdx=16658
+  F var_BoneItems typeIdx=71506
+  F m_boneScaleComponent typeIdx=25698
+  F m_nextFindBoneScaleComponentTime typeIdx=51050
+  M event_OnBoneScaleChanged decl=18132 ret=73094 params=131071 slot=129
+  M refreshBoneItems decl=18132 ret=73094 params=65535 slot=129
+  M clearBoneScale decl=18132 ret=73094 params=65535 slot=129
+  M applyPetBoneScale decl=18132 ret=73094 params=65535 slot=129
+  M applyPlayerBoneScale decl=18132 ret=73094 params=65535 slot=129
+  M applyBoneScale decl=18132 ret=73094 params=131071 slot=129
+
+### T22917 COW.PreviewTeamFlightView  (fields=28 methods=45)
+  F MULTI_FLIGHT_MOVE_PREVIEW_DEFAULT_PARENT_BONE_NAME typeIdx=51829
+  F MultiFlightMovePreviewParentBoneName typeIdx=51811
+  M GetMultiFlightMovePreviewParentBoneName decl=22917 ret=51806 params=65535 slot=134
+  M ResolveTargetBone decl=22917 ret=53029 params=196607 slot=129
+  M ResolveTargetBone decl=22917 ret=53029 params=196607 slot=129
+
+### T25724 .EAvatarFirstTab  (fields=21 methods=0)
+  F enBone typeIdx=90170
+
+### T31016 COW.Gameplay.UGC.UGCSkeletonControlImpl  (fields=2 methods=5)
+  M findBone decl=31016 ret=53029 params=262143 slot=129
+  M FindBone decl=31016 ret=53029 params=196607 slot=134
+
+### T31018 COW.Gameplay.UGC.UGCSkeletonBone  (fields=20 methods=29)
+  F m_isBoneMissed typeIdx=25732
+  F BoneName typeIdx=51811
+  F BoneTransform typeIdx=53032
+  F BoneDepth typeIdx=40249
+  M ValidateBoneGameObject decl=31018 ret=73094 params=65535 slot=134
+
+### T31020 COW.Gameplay.UGC.UGCSkeletonBoneOwner  (fields=8 methods=19)
+  F BoneList typeIdx=14644
+  F BoneUpdateList typeIdx=14644
+  F m_isRebindBoneTransform typeIdx=25732
+  M GetOrAddBone decl=31020 ret=54588 params=131071 slot=134
+  M AddBoneController decl=31020 ret=73094 params=131071 slot=134
+  M GetSkeletonBone decl=31020 ret=54588 params=131071 slot=134
+  M ClearAllPriorityBoneLocalScale decl=31020 ret=73094 params=131071 slot=134
+  M EasySetBoneLocalScale decl=31020 ret=73094 params=262143 slot=134
+  M RebindBoneTransform decl=31020 ret=73094 params=131071 slot=134
+  M rebindAllBoneTransform decl=31020 ret=73094 params=65535 slot=132
+
+### T31022 COW.Gameplay.UGC.SkeletonPartLookAtController  (fields=7 methods=12)
+  F m_controlBone typeIdx=54589
+  F m_controlBoneIndex typeIdx=34617
+  M get_ControlBone decl=31022 ret=54588 params=65535 slot=2182
+  M set_ControlBone decl=31022 ret=73094 params=131071 slot=2182
+
+### T31072 COW.Gameplay.UGC.UGCFFPlayerAvatarCache  (fields=1 methods=7)
+  M RestoreBoneTree decl=31072 ret=83610 params=196607 slot=129
+  M BackupBoneTree decl=31072 ret=73094 params=196607 slot=129
+
+### T31073 .CorrectBoneScale  (fields=1 methods=2)
+  F bone typeIdx=53032
+
+### T31075 COW.Gameplay.UGC.UGCCustomPlayerAvatar  (fields=7 methods=19)
+  F m_codeNeedBones typeIdx=5262
+  M BuildAllCodeNeedBone decl=31075 ret=73094 params=131071 slot=129
+  M SetStandardBoneToIdentity decl=31075 ret=73094 params=131071 slot=129
+  M AddCodeNeedBoneObj decl=31075 ret=73094 params=196607 slot=129
+  M tryCorrectBone decl=31075 ret=73094 params=131071 slot=129
+
+### T31221 COW.Gameplay.UGC.UGCSkeletonAvatarSystem  (fields=66 methods=79)
+  F m_boneOwnerObject typeIdx=37075
+  F m_boneNameMap typeIdx=5262
+  F m_forceNeedBones typeIdx=5262
+  F m_skeletonBoneOwner typeIdx=54591
+  F m_usedBonesDictionary typeIdx=4447
+  M rebuildBoneMapFromTransform decl=31221 ret=73094 params=131071 slot=129
+  M applyBonesScale decl=31221 ret=73094 params=65535 slot=129
+
+### T31395 COW.Gameplay.UGC.UGCGameObject  (fields=9 methods=22)
+  F m_skinnedMeshBones typeIdx=21448
+  M MakeSkinnedBones decl=31395 ret=73094 params=196607 slot=129
+
+### T31403 COW.Gameplay.UGC.UGCMesh  (fields=7 methods=17)
+  F m_skinnedMeshBones typeIdx=21448
+  M GetBones decl=31403 ret=21447 params=65535 slot=134
+
+### T31504 COW.Gameplay.UGC.UGCResSkeleton  (fields=2 methods=8)
+  M MakeBoneGameObject decl=31504 ret=73094 params=327679 slot=129
+
+### T31952 .GAKHGCAGIIP  (fields=3 methods=5)
+  F IAJIPBONEDG typeIdx=24547
+
+### T32090 .MNILJAAIKCD  (fields=1 methods=2)
+  F IAJIPBONEDG typeIdx=24549
+
+### T32128 COW.GamePlay.Player  (fields=1692 methods=4143)
+  M IsBoneNode decl=32128 ret=25731 params=131071 slot=150
+  M get_SpineBoneTransform decl=32128 ret=53029 params=65535 slot=2182
+  M get_BoneRootTransform decl=32128 ret=53029 params=142 slot=2534
+  M get_ShoulderBoneTransform decl=32128 ret=53029 params=65535 slot=2182
+  M get_RightLegBoneTransform decl=32128 ret=53029 params=65535 slot=2182
+  M get_HipsBoneTransform decl=32128 ret=53029 params=65535 slot=2182
+  M get_BipBoneTransform decl=32128 ret=53029 params=65535 slot=2182
+  M get_HeadBoneTransform decl=32128 ret=53029 params=65535 slot=2182
+  M get_BoneLeftWeapon decl=32128 ret=53029 params=65535 slot=2182
+  M HasBoneNodeAdapter decl=32128 ret=25731 params=65535 slot=134
+  M get_LegBoneLeft decl=32128 ret=53029 params=65535 slot=2182
+  M get_LegBoneRight decl=32128 ret=53029 params=65535 slot=2182
+  M get_ArmBoneLeft decl=32128 ret=53029 params=65535 slot=2182
+  M get_ArmBoneRight decl=32128 ret=53029 params=65535 slot=2182
+  M get_FootBoneLeft decl=32128 ret=53029 params=65535 slot=2182
+  M get_FootBoneRight decl=32128 ret=53029 params=65535 slot=2182
+  M get_HandBoneLeft decl=32128 ret=53029 params=65535 slot=2182
+  M get_HandBoneRight decl=32128 ret=53029 params=65535 slot=2182
+  M get_NeckBone decl=32128 ret=53029 params=65535 slot=2182
+
+### T32154 COW.GamePlay.NetworkAIPawnAnimComponent_BossDragon  (fields=24 methods=31)
+  F LeftHeadDynamicBone typeIdx=31877
+  F RightHeadDynamicBone typeIdx=31877
+
+### T32187 COW.GamePlay.DOBLPNDBGLA  (fields=22 methods=47)
+  M BOHCDOBONEB decl=32187 ret=73094 params=65535 slot=134
+
+### T32353 COW.GamePlay.UGCFirstPersonCamera  (fields=28 methods=23)
+  F swingBindBoneName typeIdx=51811
+  F forwardBindBoneName typeIdx=51811
+
+### T32354 COW.GamePlay.UGCFirstPersonModelCamera  (fields=32 methods=25)
+  F swingBindBoneName typeIdx=51811
+  F forwardBindBoneName typeIdx=51811
+
+### T32419 .LGFKKODJBFM  (fields=2 methods=2)
+  F IAJIPBONEDG typeIdx=24549
+
+### T32434 .AKCACPOFLNG  (fields=4 methods=3)
+  F IAJIPBONEDG typeIdx=72039
+
+### T32654 COW.GamePlay.GBGPFootballAnimatorController  (fields=9 methods=7)
+  F BoneRoot typeIdx=53032
+
+### T33286 COW.GamePlay.MountableAnimalAnimator  (fields=43 methods=41)
+  M GetBoneTransform decl=33286 ret=81413 params=131071 slot=134
+
+### T33317 .IEIDPALDEDB  (fields=2 methods=2)
+  F IAJIPBONEDG typeIdx=24549
+
+### T33404 .PCPIOCPALBN  (fields=3 methods=2)
+  F IAJIPBONEDG typeIdx=72039
+
+### T33426 .BPJCJDNMOJD  (fields=1 methods=2)
+  F IAJIPBONEDG typeIdx=24549
+
+### T33657 .JPMDCENNPDF  (fields=2 methods=2)
+  F IAJIPBONEDG typeIdx=72039
+
+### T33834 COW.GamePlay.LIOOBNIKKEC  (fields=375 methods=6)
+  F AENBONELILA typeIdx=51832
+
+### T33894 .LBEEBNLEGCN  (fields=3 methods=2)
+  F IAJIPBONEDG typeIdx=24549
+
+### T34043 COW.GamePlay.UGCLevelMorphObject  (fields=10 methods=32)
+  M GetBoneByName decl=34043 ret=53029 params=65629 slot=486
+
+### T34195 COW.GamePlay.HEPBMECOFDI  (fields=36 methods=66)
+  M JBONEHHKGDF decl=34195 ret=73094 params=131071 slot=129
+
+### T34205 .JBGHNAMMKBB  (fields=3 methods=2)
+  F IAJIPBONEDG typeIdx=72039
+
+### T34264 COW.GamePlay.BoneNameRef  (fields=12 methods=3)
+  F BoneName typeIdx=51811
+
+### T34265 COW.GamePlay.BoneNameRefManager  (fields=3 methods=11)
+  F ManagerBoneRefsActiveState typeIdx=25735
+
+### T34269 COW.GamePlay.FBFFFBKLDIO  (fields=99 methods=0)
+  F Cheating_HipsBoneNotRight typeIdx=35081
+
+### T34490 COW.GamePlay.KPBCNDFCDJB  (fields=8 methods=34)
+  M PHKJNBONEIH decl=34490 ret=25731 params=65535 slot=2182
+
+### T34531 COW.GamePlay.NetworkPet  (fields=48 methods=65)
+  F ParachuteBindBoneName typeIdx=51811
+
+### T34816 COW.GamePlay.ActSkillPhaseConfig  (fields=17 methods=1)
+  F m_ComboNextPhaseIndex typeIdx=40249
+
+### T34939 COW.GamePlay.PlayerWereWolves  (fields=22 methods=48)
+  M get_BipBoneTransform decl=34939 ret=53029 params=65535 slot=2182
+
+### T35157 COW.GamePlay.ActionSkillPawn  (fields=7 methods=30)
+  M GetBoneByName decl=35157 ret=53029 params=65546 slot=486
+
+### T35158 COW.GamePlay.DCHDNPLOILD  (fields=0 methods=7)
+  M GetBoneByName decl=35158 ret=53029 params=65540 slot=1478
+
+### T35471 .CHDOCGCEADA  (fields=2 methods=4)
+  F IAJIPBONEDG typeIdx=24549
+
+### T35739 COW.GamePlay.KEMOJCGIOOM  (fields=12 methods=20)
+  M IOLBONEAAOD decl=35739 ret=73094 params=196607 slot=129
+
+### T35907 COW.GamePlay.WereWolvesRolePawn  (fields=6 methods=12)
+  F BipBoneTransform typeIdx=53032
+  M GetBoneByName decl=35907 ret=53029 params=65546 slot=486
+
+### T36034 .ONGLJHBCANL  (fields=1 methods=2)
+  F IAJIPBONEDG typeIdx=72039
+
+### T36255 COW.GamePlay.UGCRuntime.IUGCMatchHumanPlayer  (fields=0 methods=98)
+  M SetPlayerBonesScale decl=36255 ret=73094 params=131148 slot=1478
+
+### T36265 COW.GamePlay.UGCRuntime.IUGCPlayer  (fields=0 methods=8)
+  M get_BoneRootTransform decl=36265 ret=53029 params=1 slot=3526
+
+### T36365 COW.GamePlay.UGCRuntime.UGCPlayerBridge  (fields=69 methods=136)
+  F ms_partType2BoneNameMap typeIdx=4576
+  F m_skeletonBoneOwner typeIdx=54592
+  M OnBonesChangeEvent decl=36365 ret=73094 params=131071 slot=129
+  M SkeletonPartType2BoneName decl=36365 ret=51806 params=131071 slot=145
+
+### T36439 COW.GamePlay.UGCRuntime.Generate.UGCCalculateProperty  (fields=0 methods=271)
+  M GetRepItemBonePositionOverrideSkeletonPart decl=36439 ret=72633 params=196607 slot=150
+  M GetRepItemBoneRotationOverrideSkeletonPart decl=36439 ret=72633 params=196607 slot=150
+  M GetSkeletonPartRepItemBonePosition decl=36439 ret=72633 params=196607 slot=150
+  M GetSkeletonPartRepItemBoneRotation decl=36439 ret=72633 params=196607 slot=150
+
+### T37069 GCommon.ResUpdateDownloadEngine  (fields=80 methods=107)
+  F UsedAstcAbOnEtc typeIdx=51815
+
+### T37665 IFix.IDMAP0  (fields=32760 methods=0)
+  F COW-AvatarDynamicEffectManager-SetUpChestDynamicBone0 typeIdx=38884
+  F COW-AvatarDynamicEffectManager-SetupDynamicBoneForIngameMode0 typeIdx=38884
+  F COW-AvatarEffect-ProcessBoneNameRefsWithNoSave0 typeIdx=38884
+  F COW-AvatarEffect-BoneNameRefOriginalInfo-RecoverToOriginal0 typeIdx=38884
+  F COW-GamePlay-Player-IsBoneNode0 typeIdx=38884
+  F COW-IngameAvatarClothEffectComponent-RecoverBoneNameRefsIngame0 typeIdx=38884
+  F COW-IngameAvatarClothEffectComponent-ProcessBoneNameRefsIngame0 typeIdx=38884
+  F COW-GamePlay-Player-get_BoneRootTransform0 typeIdx=38884
+  F COW-GamePlay-Player-get_HeadBoneTransform0 typeIdx=38884
+  F COW-GamePlay-Player-get_HandBoneLeft0 typeIdx=38884
+  F COW-GamePlay-Player-get_HandBoneRight0 typeIdx=38884
+  F COW-GamePlay-Player-get_FootBoneLeft0 typeIdx=38884
+  F COW-GamePlay-Player-get_FootBoneRight0 typeIdx=38884
+  F COW-GamePlay-Player-get_ArmBoneLeft0 typeIdx=38884
+  F COW-GamePlay-Player-get_ArmBoneRight0 typeIdx=38884
+  F COW-GamePlay-Player-get_LegBoneLeft0 typeIdx=38884
+  F COW-GamePlay-Player-get_LegBoneRight0 typeIdx=38884
+  F COW-GamePlay-Player-get_NeckBone0 typeIdx=38884
+  F COW-GamePlay-UGCRuntime-Generate-UGCCalculateProperty-GetSkeletonPartRepItemBonePosition0 typeIdx=38884
+  F COW-GamePlay-UGCRuntime-Generate-UGCCalculateProperty-GetRepItemBonePositionOverrideSkeletonPart0 typeIdx=38884
+  F COW-GamePlay-UGCRuntime-Generate-UGCCalculateProperty-GetSkeletonPartRepItemBoneRotation0 typeIdx=38884
+  F COW-GamePlay-UGCRuntime-Generate-UGCCalculateProperty-GetRepItemBoneRotationOverrideSkeletonPart0 typeIdx=38884
+  F COW-LobbyAvatarClothEffectComponent-ResolveBoneNameRefTransform0 typeIdx=38884
+  F COW-LobbyAvatarClothEffectComponent-ProcessBoneNameRefsOnly0 typeIdx=38884
+  F COW-LobbyAvatarClothEffectComponent-ProcessBoneNameRefs0 typeIdx=38884
+  F COW-UIAvatarBoneNodeAdapter-Clear0 typeIdx=38884
+  F COW-AvatarEffect-ProcessOneBoneNameRefInternal0 typeIdx=38884
+  F COW-AvatarEffect-ProcessBoneNameRefs0 typeIdx=38884
+  F COW-LobbyAvatarClothEffectComponent-ProcessWeaponBoneNameRefs0 typeIdx=38884
+  F COW-UIPetAvatar-ProcessBoneNameRefs0 typeIdx=38884
+  F COW-GamePlay-Player-get_ShoulderBoneTransform0 typeIdx=38884
+  F COW-IngameAvatarClothEffectComponent-ProcessBoneNameRefsIngameWithGos0 typeIdx=38884
+  F COW-GamePlay-BoneNameRef-set_IsDirty0 typeIdx=38884
+  F COW-GamePlay-BoneNameRefManager-LKOFHAKELLD0 typeIdx=38884
+  F COW-GamePlay-BoneNameRefManager-Release0 typeIdx=38884
+  F COW-GamePlay-BoneNameRef-get_IsDirty0 typeIdx=38884
+  F COW-IngameAvatarWeaponEffectComponent-RestoreBoneNameRefsBeforeRecycle0 typeIdx=38884
+  F COW-GamePlay-Player-get_SpineBoneTransform0 typeIdx=38884
+  F COW-AvatarEffect-BoneNameRefOriginalInfo-Create0 typeIdx=38884
+  F COW-PreviewTeamFlightView-GetMultiFlightMovePreviewParentBoneName0 typeIdx=38884
+  F COW-PreviewTeamFlightView-ResolveTargetBone0 typeIdx=38884
+  F COW-AvatarEffect-ProcessBoneNameRefsWhenPoolGet0 typeIdx=38884
+  F COW-BodyPartUtilByName-GetOrAddBoneControl0 typeIdx=38884
+  F COW-BodyPartUtilByName-ControlBoneWorldRotation0 typeIdx=38884
+  F COW-BodyPartUtilByName-TryGetBone0 typeIdx=38884
+  F COW-BodyPartUtilByName-SetBoneDynamicScale0 typeIdx=38884
+  F COW-BodyPartUtilByName-ReFindBoneTransform0 typeIdx=38884
+  F COW-BodyPartUtilByName-AddOrUpdateBoneScale0 typeIdx=38884
+  F COW-BodyPartUtilByName-searchAllBoneTransform0 typeIdx=38884
+  F COW-BodyPartUtilByName-setAllBoneScale0 typeIdx=38884
+  F COW-UISparkPetAvatar-ReleaseDyeVFXBoneNameRefManager0 typeIdx=38884
+  F COW-GamePlay-BoneNameRefManager-ScaleInLocalSpace0 typeIdx=38884
+  F COW-GamePlay-BoneNameRefManager-ActiveWithTransformNode0 typeIdx=38884
+  F COW-UISparkPetAvatar-ApplyDyeVFXBoneRef0 typeIdx=38884
+  F COW-Gameplay-UGC-UGCGameObject-MakeSkinnedBones0 typeIdx=38884
+  F COW-Gameplay-UGC-UGCMesh-GetBones0 typeIdx=38884
+  F COW-PreviewTeamFlightView-ResolveTargetBone1 typeIdx=38884
+  F COW-GamePlay-BoneNameRefManager-ActiveWithAvatar0 typeIdx=38884
+  F COW-GamePlay-Player-get_BipBoneTransform0 typeIdx=38884
+  F COW-GamePlay-Player-get_HipsBoneTransform0 typeIdx=38884
+  F COW-GamePlay-Player-HasBoneNodeAdapter0 typeIdx=38884
+  F COW-GamePlay-Player-get_RightLegBoneTransform0 typeIdx=38884
+  F COW-LobbyAvatarClothEffectComponent-RecoverMultiStateBoneNameRefs0 typeIdx=38884
+  F COW-LobbyAvatarClothEffectComponent-ReProcessMultiStateBoneNameRefsWhenVisibleChange0 typeIdx=38884
+  F COW-UIStatedAvatar-ReProcessMultiStateBoneNameRefsWhenVisibleChange0 typeIdx=38884
+  F COW-SparkPetCosmeticManager-RestoreBoneNameRefs0 typeIdx=38884
+  F COW-SparkPetCosmeticManager-ProcessChildBoneNameRefs0 typeIdx=38884
+
+### T37666 IFix.IDMAP1  (fields=32760 methods=0)
+  F COW-GamePlay-HEPBMECOFDI-JBONEHHKGDF0 typeIdx=38886
+  F COW-IngameAvatarWeaponEffectComponent-ProcessSingleBoneNameRef0 typeIdx=38886
+  F COW-IngameAvatarWeaponEffectComponent-ProcessBoneNameRefs0 typeIdx=38886
+  F COW-TransformAvatarEffect-ProcessBoneNameRefs0 typeIdx=38886
+  F COW-UIAvatarBoneNodeAdapter-Init0 typeIdx=38886
+  F COW-UIAvatarBoneNodeAdapter-TransformNode-CacheRawChild0 typeIdx=38886
+  F COW-UIAvatarBoneNodeAdapter-GetBoneNode0 typeIdx=38886
+  F COW-UIAvatarBoneNodeAdapter-TransformNode-SwapChildren0 typeIdx=38886
+  F COW-UIAvatarBoneNodeAdapter-SwapBoneNodes0 typeIdx=38886
+  F COW-UIAvatarBoneNodeAdapter-OnModelUpdated0 typeIdx=38886
+  F COW-UIAnimedAvatar-get_dynamicBones0 typeIdx=38886
+  F COW-UIAnimedAvatar-OnDisableDynamicBones0 typeIdx=38886
+  F COW-UIAnimedAvatar-OnEnableDynamicBones0 typeIdx=38886
+
+### T37667 IFix.IDMAP2  (fields=32760 methods=0)
+  F COW-UIUGCAvatarEditorBoneItemController-GetResourceID0 typeIdx=38888
+  F COW-UIUGCAvatarEditorBoneItemController-OnUIInit0 typeIdx=38888
+  F COW-UIUGCAvatarEditorBoneItemController-OnUIDestroy0 typeIdx=38888
+  F COW-UIUGCAvatarEditorBoneItemController-SetViewData0 typeIdx=38888
+  F COW-UIUGCAvatarEditorController-refreshBoneItems0 typeIdx=38888
+  F COW-UIUGCAvatarEditorController-applyPlayerBoneScale0 typeIdx=38888
+  F COW-UIUGCAvatarEditorController-applyBoneScale0 typeIdx=38888
+  F COW-UIUGCAvatarEditorController-applyPetBoneScale0 typeIdx=38888
+  F COW-UIUGCAvatarEditorController-clearBoneScale0 typeIdx=38888
+  F COW-UIUGCAvatarEditorController-event_OnBoneScaleChanged0 typeIdx=38888
+
+### T37668 IFix.IDMAP3  (fields=32760 methods=0)
+  F COW-GamePlay-PlayerWereWolves-get_BipBoneTransform0 typeIdx=38890
+  F COW-GamePlay-KPBCNDFCDJB-PHKJNBONEIH0 typeIdx=38890
+
+### T37669 IFix.IDMAP4  (fields=30448 methods=0)
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-RebindBoneTransform0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-GetOrCreateFromGameObject0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-IsNeedLateUpdate0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-RemoveFromUpdateList0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-AddToUpdateList0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-removeFlagAndPriority0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-RemoveLocalScale0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-ClearAllPriorityBoneLocalScale0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-GetSkeletonBone0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-Create0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonControlImpl-findBone0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonControlImpl-FindBone0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-ValidateBoneGameObject0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-GetOrAddBone0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-addFlagAndPriority0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-AddLocalScale0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-SetLocalScale0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-EasySetBoneLocalScale0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonAvatarSystem-applyBonesScale0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonAvatarSystem-rebuildBoneMapFromTransform0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-GetFromGameObject0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCResSkeleton-MakeBoneGameObject0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-RebindTransform0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-sortControllerList0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-rebindAllBoneTransform0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-ApplyTransformOnLateUpdate0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-LateUpdate0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-OnRepChange0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-Destroy0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-OnDestroy0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-get_Owner0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-DisableAll0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-RemoveWorldPosition0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-RemoveLocalPositionOffset0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-RemoveWorldRotation0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-AddWorldPosition0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-AddLocalPositionOffset0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-AddWorldRotation0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-SetWorldPosition0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-SetLocalPositionOffset0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-SetWorldRotation0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-fetchUGCEntityProperty0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-AttachGSUGCEntity0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-ReAttachUGCEntity0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-AttachUGCEntity0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBone-GetEntity0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-InitWithGameObject0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-UpdateSkeletonControlExtTransform0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-AddBoneController0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-TryFindFromUGCEntity0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCSkeletonBoneOwner-AttachUGCEntity0 typeIdx=38892
+  F COW-Gameplay-UGC-SkeletonPartLookAtController-get_ControlBone0 typeIdx=38892
+  F COW-Gameplay-UGC-SkeletonPartLookAtController-set_ControlBone0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCFFPlayerAvatarCache-RestoreBoneTree0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCFFPlayerAvatarCache-BackupBoneTree0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCCustomPlayerAvatar-AddCodeNeedBoneObj0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCCustomPlayerAvatar-BuildAllCodeNeedBone0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCCustomPlayerAvatar-SetStandardBoneToIdentity0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCCustomPlayerAvatar-tryCorrectBone0 typeIdx=38892
+  F COW-Gameplay-UGC-UGCCustomPlayerAvatar-CorrectBoneScale-LateUpdate0 typeIdx=38892
+  F COW-GamePlay-Player-get_BoneLeftWeapon0 typeIdx=38892
+  F COW-GamePlay-DOBLPNDBGLA-BOHCDOBONEB0 typeIdx=38892
+  F COW-GamePlay-MountableAnimalAnimator-GetBoneTransform0 typeIdx=38892
+  F COW-GamePlay-UGCLevelMorphObject-GetBoneByName0 typeIdx=38892
+  F COW-GamePlay-BoneNameRefManager-JPAJACIDNJH0 typeIdx=38892
+  F COW-GamePlay-BoneNameRefManager-Awake0 typeIdx=38892
+  F COW-GamePlay-BoneNameRefManager-DPMHHMKHONL0 typeIdx=38892
+  F COW-GamePlay-BoneNameRefManager-OnEnable0 typeIdx=38892
+  F COW-GamePlay-BoneNameRefManager-OnDisable0 typeIdx=38892
+  F COW-GamePlay-UGCRuntime-UGCPlayerBridge-OnBonesChangeEvent0 typeIdx=38892
+  F COW-GamePlay-ActionSkillPawn-GetBoneByName0 typeIdx=38892
+  F COW-GamePlay-KEMOJCGIOOM-IOLBONEAAOD0 typeIdx=38892
+  F COW-GamePlay-WereWolvesRolePawn-GetBoneByName0 typeIdx=38892
+  F COW-GamePlay-UGCRuntime-UGCPlayerBridge-SkeletonPartType2BoneName0 typeIdx=38892
+
+### T39889 UnityEngine.UIElements.RenderHints  (fields=14 methods=0)
+  F BoneTransform typeIdx=49470
+  F DirtyBoneTransform typeIdx=49470
+
+### T40283 UnityEngine.UIElements.UIR.ChainBuilderStats  (fields=24 methods=0)
+  F boneTransformed typeIdx=72039
+
+### T40292 UnityEngine.UIElements.UIR.RenderChainVEData  (fields=43 methods=4)
+  F boneTransformAncestor typeIdx=73021
+
+### T40759 Spine.IBoneTimeline  (fields=0 methods=1)
+  M get_BoneIndex decl=40759 ret=40244 params=0 slot=3526
+
+### T40762 Spine.RotateTimeline  (fields=6 methods=8)
+  F boneIndex typeIdx=40246
+  M set_BoneIndex decl=40762 ret=73094 params=131071 slot=2182
+  M get_BoneIndex decl=40762 ret=40244 params=8 slot=2534
+
+### T40763 Spine.TranslateTimeline  (fields=8 methods=8)
+  F boneIndex typeIdx=40246
+  M set_BoneIndex decl=40763 ret=73094 params=131071 slot=2182
+  M get_BoneIndex decl=40763 ret=40244 params=8 slot=2534
+
+### T40807 Spine.VertexAttachment  (fields=7 methods=14)
+  F bones typeIdx=21155
+  M get_Bones decl=40807 ret=21152 params=65535 slot=2182
+  M set_Bones decl=40807 ret=73094 params=131071 slot=2182
+
+### T40817 Spine.IkConstraint  (fields=9 methods=21)
+  F bones typeIdx=7418
+  M get_Bones decl=40817 ret=7417 params=65535 slot=2182
+
+### T40818 Spine.IkConstraintData  (fields=8 methods=16)
+  F bones typeIdx=7420
+  M get_Bones decl=40818 ret=7419 params=65535 slot=2182
+
+### T40822 Spine.PathConstraint  (fields=18 methods=20)
+  F bones typeIdx=7418
+  M get_Bones decl=40822 ret=7417 params=65535 slot=2182
+
+### T40823 Spine.PathConstraintData  (fields=10 methods=20)
+  F bones typeIdx=7420
+  M get_Bones decl=40823 ret=7419 params=65535 slot=2182
+
+### T40827 Spine.Skeleton  (fields=21 methods=58)
+  F bones typeIdx=7418
+  M get_Bones decl=40827 ret=7417 params=65535 slot=2182
+  M get_RootBone decl=40827 ret=25709 params=65535 slot=2182
+  M SortBone decl=40827 ret=73094 params=131071 slot=129
+  M SetBonesToSetupPose decl=40827 ret=73094 params=65535 slot=134
+  M FindBone decl=40827 ret=25709 params=131071 slot=134
+  M FindBoneIndex decl=40827 ret=40244 params=131071 slot=134
+
+### T40828 .Vertices  (fields=2 methods=1)
+  F bones typeIdx=21158
+
+### T40830 Spine.SkeletonBinary  (fields=17 methods=15)
+  F BONE_ROTATE typeIdx=40273
+  F BONE_TRANSLATE typeIdx=40273
+  F BONE_SCALE typeIdx=40273
+  F BONE_SHEAR typeIdx=40273
+
+### T40832 Spine.SkeletonData  (fields=19 methods=49)
+  F bones typeIdx=7420
+  M get_Bones decl=40832 ret=7419 params=65535 slot=2182
+  M FindBone decl=40832 ret=25714 params=131071 slot=134
+  M FindBoneIndex decl=40832 ret=40244 params=131071 slot=134
+
+### T40837 Spine.Skin  (fields=4 methods=15)
+  F bones typeIdx=7421
+  M get_Bones decl=40837 ret=7419 params=65535 slot=2182
+
+### T40838 Spine.Slot  (fields=14 methods=31)
+  F bone typeIdx=25711
+  M get_Bone decl=40838 ret=25709 params=65535 slot=2182
+
+### T40839 Spine.SlotData  (fields=13 methods=25)
+  F boneData typeIdx=25715
+  M get_BoneData decl=40839 ret=25714 params=65535 slot=2182
+
+### T40840 Spine.TransformConstraint  (fields=8 methods=21)
+  F bones typeIdx=7418
+  M get_Bones decl=40840 ret=7417 params=65535 slot=2182
+
+### T40841 Spine.TransformConstraintData  (fields=14 methods=28)
+  F bones typeIdx=7420
+  M get_Bones decl=40841 ret=7419 params=65535 slot=2182
+
+### T40867 Spine.Unity.BoneFollower  (fields=13 methods=9)
+  F boneName typeIdx=51811
+  F followBoneRotation typeIdx=25735
+  F bone typeIdx=25713
+  M SetBone decl=40867 ret=25731 params=131071 slot=134
+
+### T40869 Spine.Unity.PointFollower  (fields=11 methods=9)
+  F bone typeIdx=25710
+
+### T40872 Spine.Unity.SkeletonRootMotionBase  (fields=16 methods=19)
+  F rootMotionBoneName typeIdx=51809
+  F rootMotionBone typeIdx=25712
+  F rootMotionBoneIndex typeIdx=40247
+  F topLevelBones typeIdx=10933
+  M SetRootMotionBone decl=40872 ret=73094 params=131071 slot=134
+  M GatherTopLevelBones decl=40872 ret=73094 params=65535 slot=129
+  M SetEffectiveBoneOffsetsTo decl=40872 ret=73094 params=196607 slot=129
+  M ClearEffectiveBoneOffsets decl=40872 ret=73094 params=131071 slot=129
+
+### T40896 Spine.Unity.SkeletonUtility  (fields=12 methods=32)
+  F boneRoot typeIdx=53032
+  F boneComponents typeIdx=14186
+  F hasOverrideBones typeIdx=25732
+  F needToReprocessBones typeIdx=25732
+  M AddBoneRigidbody2D decl=40896 ret=49854 params=262143 slot=150
+  M RegisterBone decl=40896 ret=73094 params=131071 slot=134
+  M UnregisterBone decl=40896 ret=73094 params=131071 slot=134
+  M CollectBones decl=40896 ret=73094 params=65535 slot=134
+  M UpdateAllBones decl=40896 ret=73094 params=131071 slot=129
+  M GetBoneRoot decl=40896 ret=53029 params=65535 slot=134
+  M SpawnBoneRecursively decl=40896 ret=37074 params=458751 slot=134
+  M SpawnBone decl=40896 ret=37074 params=458751 slot=134
+
+### T40899 Spine.Unity.SkeletonUtilityBone  (fields=17 methods=11)
+  F boneName typeIdx=51811
+  F bone typeIdx=25713
+  M BoneTransformModeIncompatible decl=40899 ret=25731 params=131071 slot=150
+
+### T40900 Spine.Unity.SkeletonUtilityConstraint  (fields=2 methods=4)
+  F bone typeIdx=51147
+
+### T40937 Spine.Unity.AnimationTools.TimelineExtensions  (fields=0 methods=2)
+  M FindTranslateTimelineForBone decl=40937 ret=53104 params=196607 slot=150
+
+### T40954 .LimbOrientation  (fields=3 methods=1)
+  F upperBoneForwardAxis typeIdx=72637
+  F lowerBoneForwardAxis typeIdx=72637
+  F lastBoneLeftAxis typeIdx=72637
+
+### T40978 RootMotion.FinalIK.IKSolver  (fields=10 methods=18)
+  M ContainsDuplicateBone decl=40978 ret=53029 params=131071 slot=150
+  M PreSolveBones decl=40978 ret=51049 params=131071 slot=148
+
+### T40981 RootMotion.FinalIK.IKSolverLimb  (fields=16 methods=10)
+  F bone3RotationBeforeSolve typeIdx=48850
+  F bone3DefaultRotation typeIdx=48850
+
+### T40983 RootMotion.FinalIK.IKSolverTrigonometric  (fields=9 methods=23)
+  F bone1 typeIdx=79438
+  F bone2 typeIdx=79438
+  F bone3 typeIdx=79438
+  M InitiateBones decl=40983 ret=73094 params=65535 slot=134
+
+### T40986 .Map  (fields=4 methods=4)
+  F bone typeIdx=53032
+
+### T40990 RootMotion.FinalIK.UniversalPoser  (fields=5 methods=8)
+  F bones typeIdx=21923
+
+### T40994 RootMotion.FinalIK.RagdollUtility  (fields=17 methods=18)
+  F rigidbones typeIdx=21829
+
+### T41004 RootMotion.FinalIK.EditorIK  (fields=4 methods=9)
+  F bones typeIdx=21525
+
+### T41245 UnityEngine.SkinWeights  (fields=6 methods=0)
+  F OneBone typeIdx=51182
+  F TwoBones typeIdx=51182
+  F FourBones typeIdx=51182
+
+### T41247 UnityEngine.SkinQuality  (fields=5 methods=0)
+  F Bone1 typeIdx=51179
+  F Bone2 typeIdx=51179
+  F Bone4 typeIdx=51179
+
+### T41264 UnityEngine.SkinnedMeshRenderer  (fields=0 methods=26)
+  M get_rootBone decl=41264 ret=53029 params=65535 slot=268437638
+  M set_rootBone decl=41264 ret=73094 params=131071 slot=268437638
+  M get_bones decl=41264 ret=21522 params=65535 slot=268437638
+  M set_bones decl=41264 ret=73094 params=131071 slot=268437638
+
+### T41272 UnityEngine.Mesh  (fields=0 methods=333)
+  M GetBoneWeightBufferImpl decl=41272 ret=37398 params=131071 slot=268435585
+  M HasBoneWeights decl=41272 ret=25731 params=65535 slot=268435585
+  M GetBoneWeightsImpl decl=41272 ret=20906 params=65535 slot=268435585
+  M SetBoneWeightsImpl decl=41272 ret=73094 params=131071 slot=268435585
+  M SetBoneWeights decl=41272 ret=73094 params=196607 slot=134
+  M SetBoneWeights decl=41272 ret=73094 params=196607 slot=268435590
+  M SetBoneWeights2 decl=41272 ret=73094 params=196607 slot=268435590
+  M InternalSetBoneWeights decl=41272 ret=73094 params=327679 slot=268435585
+  M GetAllBoneWeights decl=41272 ret=16901 params=65535 slot=134
+  M GetBonesPerVertex decl=41272 ret=16904 params=65535 slot=134
+  M GetAllBoneWeightsArraySize decl=41272 ret=40244 params=65535 slot=268435585
+  M GetBoneWeightBufferLayoutInternal decl=41272 ret=40244 params=65535 slot=268435585
+  M GetAllBoneWeightsArray decl=41272 ret=40306 params=65535 slot=268435585
+  M GetBonesPerVertexArray decl=41272 ret=40306 params=65535 slot=268435585
+  M GetBoneWeightsNonAllocImpl decl=41272 ret=73094 params=131071 slot=268435585
+  M GetBoneWeightBuffer decl=41272 ret=37398 params=131071 slot=134
+  M GetBoneWeights decl=41272 ret=73094 params=131071 slot=134
+  M get_boneWeights decl=41272 ret=20906 params=65535 slot=2182
+  M set_boneWeights decl=41272 ret=73094 params=131071 slot=2182
+
+### T41275 UnityEngine.BoneWeight2  (fields=4 methods=11)
+  F m_BoneIndex0 typeIdx=40245
+  F m_BoneIndex1 typeIdx=40245
+  M get_boneIndex0 decl=41275 ret=40244 params=65535 slot=2182
+  M set_boneIndex0 decl=41275 ret=73094 params=131071 slot=2182
+  M get_boneIndex1 decl=41275 ret=40244 params=65535 slot=2182
+  M set_boneIndex1 decl=41275 ret=73094 params=131071 slot=2182
+
+### T41276 UnityEngine.BoneWeight  (fields=8 methods=19)
+  F m_BoneIndex0 typeIdx=40245
+  F m_BoneIndex1 typeIdx=40245
+  F m_BoneIndex2 typeIdx=40245
+  F m_BoneIndex3 typeIdx=40245
+  M get_boneIndex0 decl=41276 ret=40244 params=65535 slot=2182
+  M set_boneIndex0 decl=41276 ret=73094 params=131071 slot=2182
+  M get_boneIndex1 decl=41276 ret=40244 params=65535 slot=2182
+  M set_boneIndex1 decl=41276 ret=73094 params=131071 slot=2182
+  M get_boneIndex2 decl=41276 ret=40244 params=65535 slot=2182
+  M set_boneIndex2 decl=41276 ret=73094 params=131071 slot=2182
+  M get_boneIndex3 decl=41276 ret=40244 params=65535 slot=2182
+  M set_boneIndex3 decl=41276 ret=73094 params=131071 slot=2182
+
+### T41277 UnityEngine.BoneWeight1  (fields=2 methods=5)
+  F m_BoneIndex typeIdx=40245
+  M get_boneIndex decl=41277 ret=40244 params=65535 slot=2182
+
+### T41668 UnityEngine.Rendering.MeshUpdateFlags  (fields=6 methods=0)
+  F DontResetBoneBounds typeIdx=44566
+
+### T43192 UnityEngine.Animator  (fields=0 methods=285)
+  M SetBoneLocalRotation decl=43192 ret=73094 params=196607 slot=134
+  M SetBoneLocalRotationInternal decl=43192 ret=73094 params=196607 slot=129
+  M IsBoneTransform decl=43192 ret=25731 params=131071 slot=268435587
+  M GetBoneTransform decl=43192 ret=53029 params=131071 slot=134
+  M GetBoneTransformInternal decl=43192 ret=53029 params=131071 slot=268435587
+  M SetBoneLocalRotationInternal_Injected decl=43192 ret=73094 params=196607 slot=268435585
+
+### T43197 UnityEngine.HumanBodyBones  (fields=57 methods=0)
+  F LastBone typeIdx=38544
+
+### T43201 UnityEngine.HumanBone  (fields=3 methods=2)
+  F m_BoneName typeIdx=51807
+  M set_boneName decl=43201 ret=73094 params=131071 slot=2182
+
+### T43202 UnityEngine.HumanDescription  (fields=14 methods=0)
+  F m_RootMotionBoneName typeIdx=51808
+
+### T43206 UnityEngine.HumanTrait  (fields=0 methods=1)
+  M GetBoneIndexFromMono decl=43206 ret=40244 params=131071 slot=268435603

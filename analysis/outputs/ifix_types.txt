@@ -1,0 +1,111 @@
+
+### T36645 GCommon.InjectFixManager  fields=3 methods=6
+  F instance                                      GCommon.InjectFixManager
+  F LoadPatchFailed                               bool
+  F m_CodePathAB                                  UnityEngine.AssetBundle
+  M get_Instance                                  ret=GCommon.InjectFixManager params=0
+  M Support                                       ret=bool params=0
+  M LoadPatch                                     ret=void params=1
+  M LoadPatch                                     ret=void params=1
+  M LoadTestPatch                                 ret=void params=0
+  M .ctor                                         ret=void params=0
+
+### T43247 IFix.Core.PatchManager  fields=2 methods=11
+  F removers                                      .<Module><?>
+  F <>f__am$cache1                                .<Module><?>
+  M .cctor                                        ret=void params=0
+  M Load                                          ret=IFix.Core.VirtualMachine params=1
+  M readMethod                                    ret=System.Reflection.MethodBase params=2
+  M getRedirectField                              ret=System.Reflection.FieldInfo params=1
+  M getMapId                                      ret=int params=2
+  M readSlotInfo                                  ret=int[] params=4
+  M Load                                          ret=IFix.Core.VirtualMachine params=2
+  M TestOptimizeLoad                              ret=IFix.Core.VirtualMachine params=4
+  M OptimizeLoad                                  ret=IFix.Core.VirtualMachine params=4
+  M Unload                                        ret=void params=1
+  M <readMethod>m__1                              ret=System.Type params=1
+
+### T43237 IFix.Core.IFixCSVData  fields=8 methods=1
+  F DeclaringType                                 string
+  F MethodName                                    string
+  F ParamCount                                    int
+  F ParamTypes                                    .<Module><?>
+  F PosId                                         int
+  F AttributeID                                   int
+  F FirstVersion                                  int
+  F LastVersion                                   int
+  M .ctor                                         ret=void params=1
+
+### T43238 IFix.Core.IFixCSV  fields=1 methods=5
+  F ifixCSVData                                   .<Module><?>
+  M .ctor                                         ret=void params=0
+  M .cctor                                        ret=void params=0
+  M AddIDMapData                                  ret=void params=1
+  M ContainsMethod                                ret=bool params=1
+  M GetPositionIndex                              ret=int params=1
+
+### T43280 IFix.Core.VirtualMachine  fields=20 methods=44
+  F MAX_EVALUATION_STACK_SIZE                     int
+  F tellUnity4IncludeInstructionFisrt             IFix.Core.Instruction
+  F objectClone                                   IFix.Core.ObjectClone
+  F unmanagedCodes                                IFix.Core.Instruction**
+  F exceptionHandlers                             IFix.Core.ExceptionHandler[][]
+  F onDispose                                     System.Action
+  F externInvokers                                IFix.Core.ExternInvoker[]
+  F externMethods                                 System.Reflection.MethodBase[]
+  F externTypes                                   System.Type[]
+  F internStrings                                 string[]
+  F outputStrings                                 string[]
+  F fieldInfos                                    System.Reflection.FieldInfo[]
+  F newFieldInfos                                 .<Module><?>
+  F anonymousStoreyInfos                          IFix.Core.AnonymousStoreyInfo[]
+  F overrideCache                                 .<Module><?>
+  F staticFieldTypes                              System.Type[]
+  F staticFields                                  object[]
+  F cctors                                        int[]
+  F wrappersManager                               IFix.Core.WrappersManager
+  F Info                                          .<Module><?>
+  M .ctor                                         ret=void params=2
+  M .cctor                                        ret=void params=0
+  M get_ExceptionHandlers                         ret=IFix.Core.ExceptionHandler[][] params=0
+  M set_ExceptionHandlers                         ret=void params=1
+  M get_ExternTypes                               ret=System.Type[] params=0
+  M set_ExternTypes                               ret=void params=1
+  M get_ExternMethods                             ret=System.Reflection.MethodBase[] params=0
+  M set_ExternMethods                             ret=void params=1
+  M get_InternStrings                             ret=string[] params=0
+  M set_InternStrings                             ret=void params=1
+  M get_FieldInfos                                ret=System.Reflection.FieldInfo[] params=0
+  M set_FieldInfos                                ret=void params=1
+  M get_NewFieldInfos                             ret=.<Module><?> params=0
+  M set_NewFieldInfos                             ret=void params=1
+  M get_AnonymousStoreyInfos                      ret=IFix.Core.AnonymousStoreyInfo[] params=0
+  M set_AnonymousStoreyInfos                      ret=void params=1
+  M get_StaticFieldTypes                          ret=System.Type[] params=0
+  M set_StaticFieldTypes                          ret=void params=1
+  M get_Cctors                                    ret=int[] params=0
+  M set_Cctors                                    ret=void params=1
+  M get_WrappersManager                           ret=IFix.Core.WrappersManager params=0
+  M set_WrappersManager                           ret=void params=1
+  M get_OutputString                              ret=string[] params=0
+  M set_OutputString                              ret=void params=1
+  M Finalize                                      ret=void params=0
+  M checkCctorExecute                             ret=void params=4
+  M store                                         ret=void params=4
+  M copy                                          ret=void params=4
+  M Execute                                       ret=void params=4
+  M Execute                                       ret=IFix.Core.Value* params=5
+  M printStack                                    ret=void params=2
+  M throwRuntimeException                         ret=void params=2
+  M getExceptionHandler                           ret=IFix.Core.ExceptionHandler params=3
+  M arrayGet                                      ret=void params=5
+  M arraySet                                      ret=void params=5
+  M _Info                                         ret=void params=1
+  M Execute                                       ret=IFix.Core.Value* params=8
+  M Sweep                                         ret=void params=0
+  M Statistics                                    ret=string params=0
+  M SetGlobal                                     ret=void params=2
+  M InitializeGlobal                              ret=void params=1
+  M ReplaceGlobal                                 ret=void params=1
+  M RemoveGlobal                                  ret=void params=0
+  M GetGlobal                                     ret=IFix.Core.VirtualMachine params=0

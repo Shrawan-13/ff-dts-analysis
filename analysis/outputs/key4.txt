@@ -1,0 +1,433 @@
+
+### T12013 COW.GameVarDef  fields=5664 methods=7
+  F AssistantRaycastFPPOffsetDis                  float
+  F OccupationUpdateWeaponContinueHitDetalTime    uint
+  F EnablePrecreateGameAssistantDuringLogin       bool
+  F EnableStropAimAssist                          bool
+  F EnableBeAimAssistWhenStropDash                bool
+  F FollowEmoteHeadCount                          int
+  F FollowEmoteHeadBtnEffectDuration              float
+  F FollowEmoteFreeCameraInheritAimRotation       bool
+  F StandingColliderHeight                        float
+  F CrouchingColliderHeight                       float
+  F MovingCrouchingColliderHeight                 float
+  F SniperStandingColliderHeight                  float
+  F SniperStandingColliderRadius                  float
+  F SniperCrouchingColliderHeight                 float
+  F SniperCrouchingColliderRadius                 float
+  F SniperCreapingColliderYPos                    float
+  F SniperCreepingColliderHeight                  float
+  F SniperCreepingColliderRadius                  float
+  F InCarColliderHeight                           float
+  F EnableAsyncHeadPicEffect                      bool
+  F LoadExtraSoToABHotUpdate                      bool
+  F ExtraSoHotUpdatePackageNameList               string
+  F ExtraSoHotUpdateClearPackageNameList          string
+  F FixHitFlyLandingCameraPull                    bool
+  F HitDamageRatioHead                            float
+  F HitDamageRatioBody                            float
+  F HitDamageRatioLimb                            float
+  F HitDamageRatioVehicle                         float
+  F HitDamageRatioSniperExtension                 float
+  F VehicleHitSoundMinSpeedSqr                    float
+  F EnableExitCommModeWhenHeadsetPlugin           bool
+  F CarCrashDamageScaleToPlayer                   float
+  F CarCrashDamageScaleToTeamate                  float
+  F CarCrashDamageScaleToVehicle                  float
+  F CarCrashDamageScaleToPlayerInVehicle          float
+  F CarCrashDamageScaleWhenHitWall                float
+  F CarCrashProtectTimeForHitPlayer               float
+  F CarCrashProtectTimeForHitCar                  float
+  F CarCrashProtectTimeForHitWall                 float
+  F AndroidWebview_CaptureScreenshotImpl          int
+  F AndroidWebView_WhiteListDomains_SystemCalendar string
+  F GunTraceHitDistanceThreshold                  float
+  F HeadShotGunTraceColorHex                      uint
+  F CreepColliderHeight                           float
+  F BoardSurfingColliderHeight                    float
+  F SPCSHudShowTeamExtraInfoTime                  float
+  F OildrumExplodeMaxDamage                       int
+  F OildrumExplodeMinDamage                       int
+  F StropFallingDamageMax                         int
+  F TreasureHuntUnderTreasuryStreamerExtraRange   float
+  F VehicleMissileUsingPlayerAimUI                bool
+  F EnableFixRedAimingSpot                        bool
+  F ShowTurtleDecreaseDamageArrow                 bool
+  F DamageResistPerAP                             float
+  F EnableBlackWhite                              bool
+  F EnableWhitelistFromServer                     bool
+  F InResultKDADamageThreshold                    uint
+  F InResultKDAAssistThreshold                    uint
+  F CatapultLaunchLineWithHitDetectionPosCnt1     int
+  F CatapultLaunchLineWithHitDetectionInterval1   float
+  F CatapultLaunchLineWithHitDetectionPosCnt2     int
+  F CatapultLaunchLineWithHitDetectionInterval2   float
+  F CatapultLaunchLineWithHitDetectionAngle       float
+  F SimpleDamageCheckForAI                        bool
+  F FinalShotExtraObserverDelay                   float
+  F EnableFinalShotLastKillCameraDelay            bool
+  F NoHeadshotTimeAfterPoseSwitch                 float
+  F ShowBlackWhiteEffect                          bool
+  F EnableDynamicBoneColliderCacheOpt             bool
+  F PCAutoBattleTypeCheckDamage                   bool
+  F OneShotLimitInOneFrame                        int
+  F AimRotationSensitivityMin                     float
+  F AimRotationSensitivityMax                     float
+  F PlayerAssistantAudioCDTime                    float
+  F PlayerAssistantItemMarkTime                   float
+  F PlayerAssistantItemMarkDistance               float
+  F PlayerAssistantItemMarkCDTime                 float
+  F UseSniperCollider                             bool
+  F UseWeaponExtraHitboxConfig                    bool
+  F OB47AwakenAvatarClaimTimeCD                   ulong
+  F EnableFoliageSupportScreenShot                bool
+  F ArabicExtraString                             string
+  F LudoLocalPlayerHeadInfoScale                  float
+  F DisableWhiteScreenFor32Bit                    bool
+  F HudNameEnemyHeadShotRemoveDelayTime           float
+  F HudNameEnemyHeadShotEnhanceDamageThreshold    int
+  F UMAEnableHeadAdditiveFlow                     bool
+  F CabinWaiting_DestroyCabinColliders            bool
+  F SetFireLayersOnInitCollider                   bool
+  F EnableLocalColliderValidation                 bool
+  F EnableLocalColliderAntiHack                   bool
+  F EnableExtraClothEffectWithNoUMA               bool
+  F EnableAsyncOneShotOnMax                       bool
+  F EnableStoneHitEffectOnNoPlacementTrigger      bool
+  F HitEffectMaxNumForLowMem                      uint
+  F HDTreeHitProbability                          int
+  F HDTreeHitMaxCount                             int
+  F EnableAimAssistChange                         bool
+  F EnableSkillIgnoreAimAssistInVehicle           bool
+  F AppleLoginWhite                               bool
+  F SystemFontsWhiteList                          string
+  F IsPoenHeadShotSound                           bool
+  F SuperEmoteFreeCameraInheritAimRotation        bool
+  F FlightRoamColliderHeight                      float
+  F AimCheckPlayerStreamerVisibility              bool
+  F HitArmorSoundEffect                           bool
+  F HitFeedbackSoundCD                            float
+  F CanEsocrtVehicleBeDamaged                     bool
+  F ScreenShotWithPostEffect                      bool
+  F EnableFrameByFrameShotGunHitEffectLoading     bool
+  F EnableFFAntihackInfoExtra                     bool
+  F MobileReplay_WhiteListForceSaveWhenPlay       bool
+  F AimAssistTeammateScore                        float
+  F VeteranCsHeadshotRate                         float
+  F RecommandedNeedDamage                         uint
+  F EnableCheckUGCURLWhiteList                    bool
+  F GameMission_HitList_RoomSwitch                bool
+  F NeedAimAssistOnChargeFinish                   bool
+  F BigHeadKillUIAsyncLoad                        bool
+  F SingersBBigScreenShotShowTime                 float
+  F BRShopTokenGunTeamHitProgressMax              uint
+  F BRShopTokenGunTeamHitProgressDecayStaleMs     uint
+  F BRShopTokenGunTeamHitProgressDecayPerSecond   uint
+  F BRShopTokenGunTeamHitExplodeEffectDuration    float
+  F SeafoodLittleGirlStartTurnHeadTime            float
+  F DisableCharactorColliderAndAnimatorOnPlane    bool
+  F UGCWeaponDamageRateSuper                      float
+  F UseColliderFilter                             bool
+  F IsHotMapUGCMatchMakingEnabled                 bool
+  F NBOrangeFoxHitInterval_1                      string
+  F NBOrangeFoxHitInterval_2                      string
+  F NBOrangeFoxHitInterval_3                      string
+  F NBOrangeFoxHitTreasuryInterval                string
+  F InGameExtractRenderNodePerJob                 int
+  F DefaultExtractRenderNodePerJob                int
+  F CrossHairNullTargetDefaultAimingRed           bool
+  F FootballGame_MaxHitSoundSpeed                 float
+  F IsMarkShowOnHead                              bool
+  F EnableNewCrossHairTypeAimColor                bool
+  F AndroidStripURIOnTakenScreenshot              bool
+  F ScreenShotMessageWindowTime                   float
+  F ScreenShotMessageWindowInGameRegions          string
+  F ScreenShotMessageWindowFrontEndRegions        string
+  F ItemFinderTagHideForAttackOrBeHitTimeDelay    float
+  F SuperEmoteChangeAimRotation                   bool
+  F AimStartPostionHeightForCreep                 float
+  F DebugWeaponAimAssistMaxScore                  float
+  F DebugWeaponAimAssistMinScore                  float
+  F DebugWeaponAimAssistDampCoefficient           float
+  F DebugWeaponAimAssistDampYSensitivity          float
+  F DebugWeaponReloadProgressAniTime              float
+  F AimAssistDragOutKnockdownMinDis               float
+  F GetRealDamageUseRightWeapon                   bool
+  F HitFeedbackPromotion_ArmorBody_On             bool
+  F HitFeedbackPromotion_ArmorBody_DefaultValue   bool
+  F HitFeedbackPromotion_ArmorBody_HighlightTime  float
+  F HitFeedbackPromotion_ArmorBody_ShowTime       float
+  F HitFeedbackPromotion_ArmorBody_FadeTime       float
+  F HitFeedbackPromotion_ArmorBody_DisappearTime  float
+  F HitFeedbackPromotion_Vest_SoundDelay          float
+  F HitFeedbackPromotion_Helmet_SoundDelay        float
+  F TakeDamageDetail_SavedHistoryCount            int
+  F Reportee_Damager_RecentlyMaxCnt               int
+  F TakeDamageDetail_DamangeMergeFrame            int
+  F HudHurtHint_DamageMin                         int
+  F HudHurtHint_DamageMax                         int
+  F VehicleHitIceWallBackWardForceStopTime        float
+  F VehicleHitFlyRecoverSpeedScale                float
+  F RecoverFromHitFlyInterval                     float
+  F VehicleHitFlySpeedScale                       float
+  F InGameGetBRPlatformHeadpicWaitTime            float
+  F InGameGetCSPlatformHeadpicWaitTime            float
+  F HandIceWallAimLimitCheckTime                  float
+  F HandIceWallAimLimitMax                        float
+  F CameraUpOffectLowerHitDrawBackDist            float
+  F ShieldHitReact3D                              bool
+  F ShieldHitReactSound                           bool
+  F ShieldOtherColliderRatio                      float
+  F ShieldDamageTxtSpecialColor                   bool
+  F IgnoreEnemyInAimingAdjust                     bool
+  F GameAssistantIntroductionMessageMaxNum        int
+  F GameAssistantOpenRegions                      string
+  F GameAssistantIntroductionNewPlayerMinLevel    int
+  F GameAssistantIntroductionNewPlayerMaxLevel    int
+  F GameAssistantIntroductionVeteranLeaveDaysType string
+  F HideGameAssistantHDYardOpen                   bool
+  F PCAimRotationAccuracy                         float
+  F NoBloodCriticalDamageLabelColor               uint
+  F NoBloodNormalDamageLabelColor                 uint
+  F NoBloodAimHasTargetColor                      uint
+  F NobloodAimObjectColor                         uint
+  F TakeDamageStartFireIntervalCheck              float
+  F HeadShotVFXLifeTime                           float
+  F EnableHeadShotHitEffect                       bool
+  F HeadShotHitEffectCooldown                     float
+  F HeadShotHitEffectLifeTime                     float
+  F EnableNewStyleHPDamage                        bool
+  F EnableKnockDownKeepForwardAsAiming            bool
+  F EnableKnockDownAuxAim                         bool
+  F EnableExtendVehicleHudCollider                bool
+  F KillCamFinalShotDelayPlayTime                 float
+  F DamageShieldEffect                            int
+  F DamageShieldColor                             uint
+  F DamageShieldOffset                            uint
+  F BeachBallHitVFXCD                             float
+  F EnableEffectHeadAdditiveEffect                bool
+  F ElectricGirlAimTargetQueueWidth               int
+  F BRUMAHeadSlotsAsyncLoading                    bool
+  F AssistExpiredTeamUpTimeLimit                  int
+  F AssistExpiredTeamUpCountLimit                 int
+  F EnabldeTouchHitInfoPool                       bool
+  F HighPosHitHintDistance                        float
+  F SafeZoneLowDamage                             int
+  F SafeZoneMediumDamage                          int
+  F ShurikenScatterShot                           bool
+  F EnableShurikenSniperCollider                  bool
+  F ShowWeaponDamageInfoIcon                      bool
+  F ShowWeaponPVEDamageInfoIcon                   bool
+  F IsNewDeadCameraUseAimRotation                 bool
+  F ShowHighPosHitHint                            bool
+  F ShowHitTrace                                  bool
+  F HitTraceParams                                string
+  F HitTraceDelayDestoryTime                      float
+  F HitTraceCnt                                   uint
+  F ClanPrivilegeClaimReplyEmojiID                uint
+  F ELECTRICZONE_DAMAGE_AUTO_CLOSE_CAMERA_MODE    bool
+  F CameraModeScreenShotOpt                       bool
+  F ClostNegScaleColliderWarning                  bool
+  F EnableExtraLayer                              bool
+  F EnableNoAllocRaycastExtraLayer                bool
+  F EnableDefaultExtraLayerToOne                  bool
+  F FixPhysicsExtraLayerWord0                     bool
+  F GloowallHitVFX                                string
+  F QRCodeMgr_MLKit_OneShotDecodeTimeoutMs        int
+  F QRCodeMgr_MLKit_JavaMemoryPrecheckMinHeadroomMB_Android int
+  F POIMissionModelStreamerExtraRange             float
+  F EnableTotalDmaggeHitLast                      bool
+  F EnableTotalDamageHitmarker                    bool
+  F AccumulatedDamageDelay                        float
+  F HitmarkerTypeDefaultValue                     int
+  F CheckPenetrateHitTrigger                      bool
+  F NinthFollowCameraExtraBackDistance            float
+  F LobbySocialAreaSelectionAimDuration           float
+  F IsScreenshotNeededInAlbum_Android_34AndAbove  bool
+  F IsScreenshotNeededInAlbum_Android_Below34     bool
+  F IsScreenshotNeededInAlbum_iOS                 bool
+  F IsAlbumScreenShotNeedAntiMod                  bool
+  F AlbumScreenShotFileExpiredDays                int
+  F HeadshotSightFXOpen                           bool
+  F CrosshairCenterAimTraceCloseMark              bool
+  F CSPeakIconicWeaponHeadshotRateThreshold       float
+  F CSPeakIconicWeaponAvgDamageThreshold          uint
+  F EnablePCFinalShot                             bool
+  F FluxColliderUseCache                          bool
+  F EnableHorseColliderOptShow                    bool
+  F HorseAimAngleRightLeft                        float
+  F HorseAimAngleUp                               float
+  F HorseAimAngleDown                             float
+  F EnableHorseAimForwardDeflect                  bool
+  F HorseAimForwardKeepAngle                      float
+  F DriverSupportFireLerpAimSpeed                 float
+  F GB_GPFootballHitFlyPlayerVelocityThreshold    float
+  F GB_GPFootballHitIceWallVelocityThreshold      float
+  F GB_GPFootballAimAssistLockHeight              float
+  F JSVengefulSoulHeadHeight                      float
+  F WaterGunResetAimSwitch                        bool
+  F WaterGunHitSoundIceWallOrVehicleSpan          float
+  F EnableGBFootballKickHitflyEnterMoveplatform   bool
+  F EnableAimInputSample                          bool
+  F AimInputSampleCount                           int
+  F AimInputSampleIntervalTick                    int
+  F SubgameLobbyLW_AVATAR_HEAD_HEIGHT             float
+  F SocialLobbyPrivilegeDeformHeadMultiplier      float
+  F SocialLobbyPrivilegeDeformHeadDownMultiplier  float
+  F SocialLobbyPrivilegeHudNameOffsetOnHeadDeform float
+  F SocialLobbyPrivilegeHudNameOffsetOnHeadDownDeform float
+  F EnableBigHeadResetHangmanager                 bool
+  F EnableDamageLabelNextFrame                    bool
+
+### T34846 COW.GamePlay.PlayerAttributes  fields=180 methods=269
+  F CanAimassistOnStrop                           bool
+  F BuffArmorMinDurability                        float
+  F BuffWeaponScatterScale                        COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponScatterScale                     COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaScatterNumScale                        COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaScatterMaxScale                        COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponRangeScale                       COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaJumpHeightScale                        COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaHpLossScale                            COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponReloadNoConsumeAmmoclip          .<Module><?>
+  F DamageAdditionScale                           float
+  F ExecuteDamageScale                            float
+  F ExecuteDamageExclueType                       .<Module><?>
+  F BuffWeaponDamageScale                         float
+  F BuffWeaponReloadScale                         float
+  F BuffWeaponMoveSpeedScale                      float
+  F BuffWeaponAmmoClip                            int
+  F CIBLLAIMAEA                                   float
+  F FireIntervalScaleBuffECA_AccumulateWithBounds COW.GamePlay.AFBFPNPLNGC
+  F SubGrenadeDamageScale                         float
+  F MainGrenadeDamageScale                        float
+  F BuffEcaForbidChangeWeapon                     .<Module><?>
+  F BuffEcaIgnoreWeaponFireSpeedScale             .<Module><?>
+  F BuffEcaIgnoreWeaponAimDecay                   .<Module><?>
+  F BuffEcaIgnoreWeaponScatter                    .<Module><?>
+  F BuffEcaKeepDashInFalling                      .<Module><?>
+  F BuffEcaBlockUserMoveControl                   .<Module><?>
+  F BuffEcaForbidActiveSkill                      .<Module><?>
+  F BuffEcaForbidPassiveSkill                     .<Module><?>
+  F BuffEcaWeaponAimAssist                        .<Module><?>
+  F BuffEcaWeaponSprintAttackSpeedScale           COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponSprintAttackExtendRangeScale     COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponAimAssistDecayTimeScale          COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponAimAssistScreenRangeScale        COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponAimAssistLockDecreaseTimeScale   COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaWeaponAimAssistLockDecreaseTimeSightScale COW.GamePlay.OLLPOLAHFAI
+  F BuffEcaForbidActiveSkillTips                  .<Module><?>
+  F BuffEcaForbidControlBtn                       .<Module><?>
+  F ReviveCardDiscount                            int
+  M GetBuffBehaviorSpeedType                      ret=.KGCCMFBFCAC params=2
+  M GetBuffECASpeedType                           ret=.KGCCMFBFCAC params=2
+  M GetBECASpecialSpeedTypeBySpeedType            ret=.KGCCMFBFCAC params=2
+  M get_BuffECADriveSpeedScale                    ret=float params=0
+  M set_BuffECADriveSpeedScale                    ret=void params=1
+  M get_DamageBountyRate                          ret=float params=0
+  M set_DamageBountyRate                          ret=void params=1
+  M get_DamageAdditionScaleForAIType              ret=.<Module><?> params=0
+  M UpdateDamageAdditionScaleForAIType            ret=void params=3
+  M get_FrontDamageReductionAngleMax              ret=float params=0
+  M set_FrontDamageReductionAngleMax              ret=void params=1
+  M get_IsIsUnkillableBuffTriggered               ret=bool params=0
+  M set_IsIsUnkillableBuffTriggered               ret=void params=1
+  M UpdatemWeaponDamageReviseDict                 ret=void params=1
+  M GetWeaponDamageReviseByWeaponType             ret=int params=1
+  M get_GrenadeDamageScale                        ret=float params=0
+  M set_GrenadeDamageScale                        ret=void params=1
+  M UpdateExtraLimitedTimeDamageRate              ret=void params=1
+  M GetExtraLimitedTimesDamageRate                ret=float params=0
+  M UpdateExtraDamageLimitedTimes                 ret=void params=1
+  M GetDamageLimitedTimes                         ret=int params=0
+  M UpdateDamageEffectTimes                       ret=void params=1
+  M GetDamageEffectTimes                          ret=int params=0
+  M HasUnusedLimitedTimesDamage                   ret=bool params=0
+  M IsLimitedTimesDamageValidWeapon               ret=bool params=1
+  M GetBuffAdditionalHealingEffectScales          ret=COW.GamePlay.DMKAJAAJFKM params=0
+  M get_HeadShotDamageDecreaseScale               ret=float params=0
+  M set_HeadShotDamageDecreaseScale               ret=void params=1
+  M get_HeadDamageIncreaseScale                   ret=float params=0
+  M set_HeadDamageIncreaseScale                   ret=void params=1
+  M get_CostHPAddDamageScale                      ret=float params=0
+  M set_CostHPAddDamageScale                      ret=void params=1
+  M IsSkillDamageLimitedScaleEffecting            ret=bool params=1
+  M IsSkillDamageLimitedScaleEffecting            ret=bool params=1
+  M GetSkillDamageScale                           ret=float params=2
+  M get_DamageReviseScaleLimitCountWeaponType     ret=int params=0
+  M set_DamageReviseScaleLimitCountWeaponType     ret=void params=1
+  M get_DamageReviseScaleLimitCount               ret=int params=0
+  M set_DamageReviseScaleLimitCount               ret=void params=1
+  M get_DecreaseDamageList                        ret=.<Module><?> params=0
+  M get_DamageReductionRateByBeHurtExpendEPValue  ret=float params=0
+  M GetDamageReductionRateByBeHurtExpendEPEnable  ret=bool params=0
+  M get_CSBuffIgnoreStiffness                     ret=bool params=0
+  M set_CSBuffIgnoreStiffness                     ret=void params=1
+  M get_DamageContextData                         ret=COW.GamePlay.GDBBMKEIFGA params=0
+  M initDamageCalc                                ret=void params=0
+  M GetDamageScale                                ret=float params=2
+  M GetDamageScale                                ret=float params=3
+  M GetDamageCalcValue                            ret=float params=1
+  M GetWeaponTypeDamageCalcValue                  ret=float params=2
+  M UpdateDynamicDamage                           ret=void params=1
+  M ClearAllDynamicDamage                         ret=void params=0
+  M CheckDamageScale                              ret=bool params=2
+  M CheckDamageScale                              ret=bool params=3
+  M AddDamageScale                                ret=void params=4
+  M AddDamageScale                                ret=void params=5
+  M ResetDamageScale                              ret=void params=2
+  M ResetDamageScale                              ret=void params=3
+  M AddDynamicDamageScale                         ret=void params=2
+  M AddDynamicDamageScale                         ret=void params=3
+  M AddWeaponTypeDamageScale                      ret=void params=6
+  M ResetWeaponTypeDamageScale                    ret=void params=4
+  M RefreshDynamicDamage                          ret=void params=7
+  M UpdateBlockDamage                             ret=void params=3
+  M ClearBlockDamage                              ret=void params=0
+  M GetDamageAfterBlockDamageBuff                 ret=float params=2
+  M get_BuffEcaForbidControlBtnDict               ret=.<Module><?> params=0
+  M AddBuffEcaSpeedScaleValueByTime               ret=void params=2
+  M RemoveBuffEcaSpeedScaleValueByTime            ret=void params=1
+  M OverwriteBuffEcaForceSetRunAndDashSpeedValueByTime ret=void params=1
+  M TryClearBuffEcaForceSetRunAndDashSpeedValueByTime ret=bool params=1
+  M UpdateBuffEcaSpeedScaleValueByTime            ret=void params=0
+  M GiveIceWallMakerDeltaBuffSpeedScaleByKeyAndValue ret=void params=2
+  M GetIceWallMakerBuffSpeedScale                 ret=float params=0
+
+### T35663 COW.GamePlay.UGCAimAssistEntity  fields=4 methods=32
+  F FPFENJPGCAB                                   COW.UGCAimAssistEntityRepItem
+  F ADMJJOINCAD                                   UnityEngine.Transform
+  F CGJLEBOGBNP                                   bool
+  F <AONPKGBGHHI>k__BackingField                  UnityEngine.Collider
+  M get_Position                                  ret=UnityEngine.Vector3 params=0
+  M set_Position                                  ret=void params=1
+  M get_Rotation                                  ret=UnityEngine.Quaternion params=0
+  M set_Rotation                                  ret=void params=1
+  M get_IsDead                                    ret=bool params=0
+  M set_IsDead                                    ret=void params=1
+  M GetAttackableCenterWS                         ret=UnityEngine.Vector3 params=0
+  M GetAttackableRadius                           ret=float params=0
+  M GetHitDamagePos                               ret=UnityEngine.Vector3 params=0
+  M NeedAssit                                     ret=bool params=0
+  M CanAssitByWeapon                              ret=bool params=2
+  M IsSameTeamWithPlayerID                        ret=bool params=1
+  M get_LockedAimingCollider                      ret=UnityEngine.Collider params=0
+  M set_LockedAimingCollider                      ret=void params=1
+  M IsVisible                                     ret=bool params=0
+  M IsStreamerVisible                             ret=bool params=0
+  M AddExtraScript                                ret=void params=0
+  M CreateUGC                                     ret=void params=1
+  M CreateUGC                                     ret=void params=1
+  M Awake                                         ret=void params=0
+  M OnDestroy                                     ret=void params=0
+  M BFCHGFKDDCK                                   ret=void params=0
+  M get_CanBeLockedByAimAssist                    ret=bool params=0
+  M get_IsMovableEntity                           ret=bool params=0
+  M CanAssistByUGC                                ret=bool params=1
+  M GetUGCEntityID                                ret=string params=0
+  M TakeDamage                                    ret=void params=4
+  M TakeHealing                                   ret=void params=2
+  M GetAttackableID                               ret=uint params=0
+  M GetAttackableType                             ret=message.NAKCPFCOHMH params=0
+  M .ctor                                         ret=void params=0
+  M COW.GamePlay.IAttackableEntity.get_gameObject ret=UnityEngine.GameObject params=0

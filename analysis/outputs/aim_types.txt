@@ -1,0 +1,156 @@
+
+### T34606 COW.GamePlay.NLIMDENAFNN  fields=0 methods=9
+  M JGEGPDDGMFC                                   ret=bool raw=(6430975, 34606, 25731, 134217728, 4294967295, 4294967295, 4294967295, 100910802, 1478, 0)
+  M CKCKEGFBHIG                                   ret=COW.GamePlay.OGKFEMJNCGM raw=(6430987, 34606, 46258, 134217728, 4294967295, 4294967295, 4294967295, 100910803, 1478, 1)
+  M OCCNLKGCLDI                                   ret=void raw=(6431011, 34606, 73094, 134217728, 157208, 4294967295, 4294967295, 100910804, 1478, 131074)
+  M KAAKGONEKKH                                   ret=void raw=(6431035, 34606, 73094, 134217728, 157210, 4294967295, 4294967295, 100910805, 1478, 131075)
+  M PMPNKCIAPBC                                   ret=UnityEngine.Quaternion raw=(6431047, 34606, 48849, 134217728, 157212, 4294967295, 4294967295, 100910806, 1478, 262148)
+  M ANMICDPLJKI                                   ret=void raw=(6431059, 34606, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100910807, 1478, 5)
+  M GIKMLNMHPKM                                   ret=bool raw=(6431071, 34606, 25731, 134217728, 4294967295, 4294967295, 4294967295, 100910808, 1478, 6)
+  M LLADMDAJAKB                                   ret=bool raw=(6431083, 34606, 25731, 134217728, 157216, 4294967295, 4294967295, 100910809, 1478, 65543)
+  M MDFGEKCFFDM                                   ret=float raw=(6431095, 34606, 51049, 134217728, 4294967295, 4294967295, 4294967295, 100910810, 1478, 8)
+
+### T34612 COW.GamePlay.DCIDAEHLHPI  fields=4 methods=11
+  F MEECKNNDOFN                                   bool
+  F PPHOMMMOIEC                                   float
+  F PFLJGDHDBHH                                   float
+  F ENIMMFEDHKO                                   bool
+  M .ctor                                         ret=void raw=(103, 34612, 73094, 134217728, 157254, 4294967295, 4294967295, 100910854, 6278, 131071)
+  M FMOOHOGGPOO                                   ret=bool raw=(6431995, 34612, 25731, 134217728, 4294967295, 4294967295, 153584, 100910855, 2182, 65535)
+  M IHMEOFIDAJI                                   ret=void raw=(6060881, 34612, 73094, 134217728, 157255, 4294967295, 138744, 100910856, 134, 131071)
+  M JDNAHENCAGL                                   ret=void raw=(6060845, 34612, 73094, 134217728, 4294967295, 4294967295, 138749, 100910857, 134, 65535)
+  M KANEBMDJPEL                                   ret=void raw=(6432007, 34612, 73094, 134217728, 4294967295, 4294967295, 153585, 100910858, 134, 65535)
+  M OCCNLKGCLDI                                   ret=void raw=(6431011, 34612, 73094, 134217728, 157256, 4294967295, 18921, 100910859, 129, 262143)
+  M GJHMMKFHBEG                                   ret=bool raw=(6431155, 34612, 25731, 134217728, 157259, 4294967295, 18907, 100910860, 129, 720895)
+  M KOELDDMPGGK                                   ret=float raw=(6431191, 34612, 51049, 134217728, 157269, 4294967295, 153586, 100910861, 196, 131086)
+  M GGCPHDHAIMH                                   ret=UnityEngine.Quaternion raw=(6432091, 34612, 48849, 134217728, 157271, 4294967295, 18977, 100910862, 134, 393215)
+  M GGCPHDHAIMH                                   ret=UnityEngine.Quaternion raw=(6432091, 34612, 48849, 134217728, 157276, 4294967295, 18976, 100910863, 134, 458751)
+  M <>iFixBaseProxy_KOELDDMPGGK                   ret=float raw=(6432115, 34612, 51049, 134217728, 157282, 4294967295, 4294967295, 100910864, 6, 196607)
+
+### T34614 COW.GamePlay.PLOAJDMCLGB  fields=3 methods=9
+  F AHMFKEMJLGB                                   float
+  F HCDFCPLBBFK                                   float
+  F NFLGOEKACDJ                                   .APJGFLEBBFC
+  M .ctor                                         ret=void raw=(103, 34614, 73094, 134217728, 157284, 4294967295, 4294967295, 100910865, 6278, 131071)
+  M OCCNLKGCLDI                                   ret=void raw=(6431011, 34614, 73094, 134217728, 157285, 4294967295, 18986, 100910866, 134, 131071)
+  M GJHMMKFHBEG                                   ret=bool raw=(6431155, 34614, 25731, 134217728, 157286, 4294967295, 18985, 100910867, 129, 393215)
+  M KOELDDMPGGK                                   ret=float raw=(6431191, 34614, 51049, 134217728, 157291, 4294967295, 153587, 100910868, 196, 131086)
+  M PMPNKCIAPBC                                   ret=UnityEngine.Quaternion raw=(6431047, 34614, 48849, 134217728, 157293, 4294967295, 18991, 100910869, 134, 196607)
+  M PPGGKLPKHOJ                                   ret=bool raw=(6431215, 34614, 25731, 134217728, 157295, 4294967295, 18987, 100910870, 132, 262143)
+  M NADFAIJOJNL                                   ret=void raw=(6431239, 34614, 73094, 134217728, 4294967295, 4294967295, 18988, 100910871, 132, 65535)
+  M KAAKGONEKKH                                   ret=void raw=(6431035, 34614, 73094, 134217728, 157298, 4294967295, 18989, 100910872, 134, 131071)
+  M <>iFixBaseProxy_KOELDDMPGGK                   ret=float raw=(6432115, 34614, 51049, 134217728, 157299, 4294967295, 4294967295, 100910873, 6, 196607)
+
+### T35663 COW.GamePlay.UGCAimAssistEntity  fields=4 methods=32
+  F FPFENJPGCAB                                   COW.UGCAimAssistEntityRepItem
+  F ADMJJOINCAD                                   UnityEngine.Transform
+  F CGJLEBOGBNP                                   bool
+  F <AONPKGBGHHI>k__BackingField                  UnityEngine.Collider
+  M get_Position                                  ret=UnityEngine.Vector3 raw=(19714, 35663, 72633, 134217728, 4294967295, 4294967295, 158302, 100922090, 2534, 4)
+  M set_Position                                  ret=void raw=(19727, 35663, 73094, 134217728, 165108, 4294967295, 158303, 100922091, 2182, 131071)
+  M get_Rotation                                  ret=UnityEngine.Quaternion raw=(19740, 35663, 48849, 134217728, 4294967295, 4294967295, 158304, 100922092, 2534, 5)
+  M set_Rotation                                  ret=void raw=(19753, 35663, 73094, 134217728, 165109, 4294967295, 158305, 100922093, 2182, 131071)
+  M get_IsDead                                    ret=bool raw=(6040528, 35663, 25731, 134217728, 4294967295, 4294967295, 158306, 100922094, 2534, 9)
+  M set_IsDead                                    ret=void raw=(6040539, 35663, 73094, 134217728, 165110, 4294967295, 158308, 100922095, 2182, 131071)
+  M GetAttackableCenterWS                         ret=UnityEngine.Vector3 raw=(5891812, 35663, 72633, 134217728, 4294967295, 4294967295, 158309, 100922096, 454, 26)
+  M GetAttackableRadius                           ret=float raw=(5891834, 35663, 51049, 134217728, 4294967295, 4294967295, 158310, 100922097, 454, 27)
+  M GetHitDamagePos                               ret=UnityEngine.Vector3 raw=(6040550, 35663, 72633, 134217728, 4294967295, 4294967295, 158311, 100922098, 454, 28)
+  M NeedAssit                                     ret=bool raw=(6040566, 35663, 25731, 134217728, 4294967295, 4294967295, 158312, 100922099, 454, 29)
+  M CanAssitByWeapon                              ret=bool raw=(5919384, 35663, 25731, 134217728, 165111, 4294967295, 158313, 100922100, 454, 131102)
+  M IsSameTeamWithPlayerID                        ret=bool raw=(6040603, 35663, 25731, 134217728, 165113, 4294967295, 158314, 100922101, 454, 65567)
+  M get_LockedAimingCollider                      ret=UnityEngine.Collider raw=(6040626, 35663, 29894, 134217728, 4294967295, 4294967295, 4294967295, 100922102, 2534, 13)
+  M set_LockedAimingCollider                      ret=void raw=(6040651, 35663, 73094, 134217728, 165114, 4294967295, 4294967295, 100922103, 2534, 65550)
+  M IsVisible                                     ret=bool raw=(249543, 35663, 25731, 134217728, 4294967295, 4294967295, 158315, 100922104, 454, 32)
+  M IsStreamerVisible                             ret=bool raw=(5898468, 35663, 25731, 134217728, 4294967295, 4294967295, 158316, 100922105, 454, 33)
+  M AddExtraScript                                ret=void raw=(5820435, 35663, 73094, 134217728, 4294967295, 4294967295, 134970, 100922106, 134, 65535)
+  M CreateUGC                                     ret=void raw=(6322404, 35663, 73094, 134217728, 165115, 4294967295, 16246, 100922107, 134, 131071)
+  M CreateUGC                                     ret=void raw=(6322404, 35663, 73094, 134217728, 165116, 4294967295, 150483, 100922108, 134, 131071)
+  M Awake                                         ret=void raw=(328, 35663, 73094, 134217728, 4294967295, 4294967295, 158317, 100922109, 129, 65535)
+  M OnDestroy                                     ret=void raw=(353, 35663, 73094, 134217728, 4294967295, 4294967295, 158318, 100922110, 129, 65535)
+  M BFCHGFKDDCK                                   ret=void raw=(6040676, 35663, 73094, 134217728, 4294967295, 4294967295, 158307, 100922111, 452, 34)
+  M get_CanBeLockedByAimAssist                    ret=bool raw=(2241747, 35663, 25731, 134217728, 4294967295, 4294967295, 158319, 100922112, 2502, 35)
+  M get_IsMovableEntity                           ret=bool raw=(5920839, 35663, 25731, 134217728, 4294967295, 4294967295, 158320, 100922113, 2502, 36)
+  M CanAssistByUGC                                ret=bool raw=(6040718, 35663, 25731, 134217728, 165117, 4294967295, 158321, 100922114, 454, 65573)
+  M GetUGCEntityID                                ret=string raw=(6040576, 35663, 51806, 134217728, 4294967295, 4294967295, 158322, 100922115, 454, 38)
+  M TakeDamage                                    ret=void raw=(13213, 35663, 73094, 134217728, 165118, 4294967295, 158323, 100922116, 454, 262183)
+  M TakeHealing                                   ret=void raw=(5905343, 35663, 73094, 134217728, 165122, 4294967295, 158324, 100922117, 454, 131112)
+  M GetAttackableID                               ret=uint raw=(6015227, 35663, 72035, 134217728, 4294967295, 4294967295, 158325, 100922118, 454, 41)
+  M GetAttackableType                             ret=message.NAKCPFCOHMH raw=(6040688, 35663, 45085, 134217728, 4294967295, 4294967295, 158326, 100922119, 454, 42)
+  M .ctor                                         ret=void raw=(103, 35663, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100922120, 6278, 65535)
+  M COW.GamePlay.IAttackableEntity.get_gameObject ret=UnityEngine.GameObject raw=(6040733, 35663, 37074, 134217728, 4294967295, 4294967295, 158327, 100922121, 481, 6)
+
+### T13085 COW.UGCAimAssistEntityRepItem  fields=8 methods=9
+  F PROP_ID_AIMASSISTDISTANCE                     int
+  F PROP_ID_AIMASSISTCENTEROFFSET                 int
+  F _repDataMgr                                   COW.UGCEntityDataStore
+  F OnAimAssistDistanceChangeEvent                .<Module><?>
+  F OnAimAssistCenterOffsetChangeEvent            .<Module><?>
+  F <AimAssistDistance>k__BackingField            float
+  F <AimAssistCenterOffset>k__BackingField        UnityEngine.Vector3
+  F <UGCEntityID>k__BackingField                  string
+  M get_AimAssistDistance                         ret=float raw=(2145862, 13085, 51049, 134217728, 4294967295, 4294967295, 4294967295, 100706179, 2182, 65535)
+  M set_AimAssistDistance                         ret=void raw=(2145884, 13085, 73094, 134217728, 28011, 4294967295, 4294967295, 100706180, 2177, 131071)
+  M get_AimAssistCenterOffset                     ret=UnityEngine.Vector3 raw=(2145906, 13085, 72633, 134217728, 4294967295, 4294967295, 4294967295, 100706181, 2182, 65535)
+  M set_AimAssistCenterOffset                     ret=void raw=(2145932, 13085, 73094, 134217728, 28012, 4294967295, 4294967295, 100706182, 2177, 131071)
+  M get_UGCEntityID                               ret=string raw=(2145371, 13085, 51806, 134217728, 4294967295, 4294967295, 4294967295, 100706183, 2182, 65535)
+  M set_UGCEntityID                               ret=void raw=(2145387, 13085, 73094, 134217728, 28013, 4294967295, 4294967295, 100706184, 2177, 131071)
+  M .ctor                                         ret=void raw=(103, 13085, 73094, 134217728, 28014, 4294967295, 4294967295, 100706185, 6278, 131071)
+  M OnDestroy                                     ret=void raw=(353, 13085, 73094, 134217728, 4294967295, 4294967295, 37647, 100706186, 134, 65535)
+  M OnRepItemChanged                              ret=void raw=(2145430, 13085, 73094, 134217728, 28015, 4294967295, 37646, 100706187, 129, 196607)
+
+### T11875 COW.WeaponAimAssistAutoAbsorbData  fields=10 methods=8
+  F auto_type                                     uint[]
+  F max_range                                     float[]
+  F scale_end_distance                            uint
+  F scale_start_distance                          uint
+  F obj_type                                      uint
+  F max_count                                     uint
+  F scale_param                                   float
+  F max_distance                                  float
+  F priority_algorithm_space                      uint
+  F weapon_id                                     uint
+  M GetId                                         ret=uint raw=(1701, 11875, 72035, 134217728, 4294967295, 4294967295, 12862, 100698921, 486, 14)
+  M GetUIntKey                                    ret=uint raw=(413274, 11875, 72035, 134217728, 4294967295, 4294967295, 12863, 100698922, 198, 7)
+  M GetIntKey                                     ret=int raw=(413285, 11875, 40244, 134217728, 4294967295, 4294967295, 12864, 100698923, 198, 6)
+  M DeserializeData                               ret=void raw=(787102, 11875, 73094, 134217728, 22858, 4294967295, 12865, 100698924, 198, 65548)
+  M .ctor                                         ret=void raw=(103, 11875, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100698925, 6278, 65535)
+  M <>iFixBaseProxy_GetUIntKey                    ret=uint raw=(1159915, 11875, 72035, 134217728, 4294967295, 4294967295, 4294967295, 100698926, 6, 65535)
+  M <>iFixBaseProxy_GetIntKey                     ret=int raw=(1159942, 11875, 40244, 134217728, 4294967295, 4294967295, 4294967295, 100698927, 6, 65535)
+  M <>iFixBaseProxy_DeserializeData               ret=void raw=(1159971, 11875, 73094, 134217728, 22859, 4294967295, 4294967295, 100698928, 6, 131071)
+
+### T19775 COW.UIHudAuxAimController  fields=8 methods=27
+  F m_View                                        COW.UIHudAuxAimView
+  F m_HasRegistedButton                           bool
+  F m_BGRangeRadius                               float
+  F m_DirectionVal                                float
+  F m_strButtonAction                             string
+  F m_ShowByConfig                                bool
+  F m_ShowByPlayerState                           bool
+  F m_StartPos                                    UnityEngine.Vector3
+  M GetResourceID                                 ret=GCommon.ResourceID raw=(2040669, 19775, 49732, 134217728, 4294967295, 4294967295, 99789, 100785578, 150, 65535)
+  M OnUIInit                                      ret=void raw=(2040683, 19775, 73094, 134217728, 4294967295, 4294967295, 99800, 100785579, 196, 26)
+  M OnUIDestory                                   ret=void raw=(2040692, 19775, 73094, 134217728, 4294967295, 4294967295, 99801, 100785580, 196, 32)
+  M OnUIOpen                                      ret=void raw=(2097745, 19775, 73094, 134217728, 4294967295, 4294967295, 99802, 100785581, 196, 28)
+  M OnSightingStateChanged                        ret=void raw=(15275, 19775, 73094, 134217728, 67736, 4294967295, 99798, 100785582, 129, 131071)
+  M OnVisibilityChanged                           ret=void raw=(2043537, 19775, 73094, 134217728, 4294967295, 4294967295, 99803, 100785583, 196, 36)
+  M UpdateAxisTouchingThroughArea                 ret=void raw=(2881930, 19775, 73094, 134217728, 4294967295, 4294967295, 99790, 100785584, 129, 65535)
+  M OnLocalPlayerAdd                              ret=void raw=(2131992, 19775, 73094, 134217728, 67737, 4294967295, 99794, 100785585, 129, 131071)
+  M Update                                        ret=void raw=(1224, 19775, 73094, 134217728, 4294967295, 4294967295, 99805, 100785586, 129, 65535)
+  M OnBtnDown                                     ret=void raw=(3569827, 19775, 73094, 134217728, 4294967295, 4294967295, 99806, 100785587, 196, 56)
+  M OnBtnUp                                       ret=void raw=(3573396, 19775, 73094, 134217728, 4294967295, 4294967295, 99807, 100785588, 196, 57)
+  M GetMappingName                                ret=string raw=(2297964, 19775, 51806, 134217728, 4294967295, 4294967295, 99808, 100785589, 196, 59)
+  M UpdateBtnPushStatus                           ret=void raw=(3582907, 19775, 73094, 134217728, 67738, 4294967295, 99804, 100785590, 129, 131071)
+  M OnHudSettingChanged                           ret=void raw=(2056260, 19775, 73094, 134217728, 67739, 4294967295, 99791, 100785591, 129, 131071)
+  M OnPlayerFPPModeChange                         ret=void raw=(3582927, 19775, 73094, 134217728, 4294967295, 4294967295, 99799, 100785592, 129, 65535)
+  M OnHudSettingChange                            ret=void raw=(3582949, 19775, 73094, 134217728, 67740, 4294967295, 99797, 100785593, 129, 131071)
+  M UpdateShowConfig                              ret=void raw=(3582968, 19775, 73094, 134217728, 4294967295, 4294967295, 99796, 100785594, 129, 65535)
+  M UpdateVisibility                              ret=void raw=(3582985, 19775, 73094, 134217728, 4294967295, 4294967295, 99792, 100785595, 129, 65535)
+  M OnShowSelf                                    ret=void raw=(3583002, 19775, 73094, 134217728, 67741, 4294967295, 99793, 100785596, 129, 131071)
+  M OnAimingEnemy                                 ret=void raw=(3583013, 19775, 73094, 134217728, 67742, 4294967295, 99795, 100785597, 129, 131071)
+  M .ctor                                         ret=void raw=(103, 19775, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100785598, 6278, 65535)
+  M <>iFixBaseProxy_OnUIInit                      ret=void raw=(2041123, 19775, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100785599, 6, 65535)
+  M <>iFixBaseProxy_OnUIDestory                   ret=void raw=(2041148, 19775, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100785600, 6, 65535)
+  M <>iFixBaseProxy_OnUIOpen                      ret=void raw=(2098000, 19775, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100785601, 6, 65535)
+  M <>iFixBaseProxy_OnVisibilityChanged           ret=void raw=(2043651, 19775, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100785602, 6, 65535)
+  M <>iFixBaseProxy_OnBtnDown                     ret=void raw=(3570257, 19775, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100785603, 6, 65535)
+  M <>iFixBaseProxy_OnBtnUp                       ret=void raw=(3574429, 19775, 73094, 134217728, 4294967295, 4294967295, 4294967295, 100785604, 6, 65535)

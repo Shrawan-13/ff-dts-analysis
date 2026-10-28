@@ -1,0 +1,173 @@
+
+### T32214 COW.GamePlay.OGKFEMJNCGM  fields=0 methods=22
+  M get_Position                                  ret=UnityEngine.Vector3 params=0
+  M get_Rotation                                  ret=UnityEngine.Quaternion params=0
+  M get_gameObject                                ret=UnityEngine.GameObject params=0
+  M IsVisible                                     ret=bool params=0
+  M IsStreamerVisible                             ret=bool params=0
+  M get_IsDead                                    ret=bool params=0
+  M GetAttackableRadius                           ret=float params=0
+  M GetAttackableCenterWS                         ret=UnityEngine.Vector3 params=0
+  M GetHitDamagePos                               ret=UnityEngine.Vector3 params=0
+  M get_LockedAimingCollider                      ret=UnityEngine.Collider params=0
+  M set_LockedAimingCollider                      ret=void params=1
+  M NeedAssit                                     ret=bool params=0
+  M CanAssitByWeapon                              ret=bool params=2
+  M IsSameTeamWithPlayerID                        ret=bool params=1
+  M get_CanBeLockedByAimAssist                    ret=bool params=0
+  M get_IsMovableEntity                           ret=bool params=0
+  M CanAssistByUGC                                ret=bool params=1
+  M GetUGCEntityID                                ret=string params=0
+  M GetAttackableID                               ret=uint params=0
+  M GetAttackableType                             ret=message.NAKCPFCOHMH params=0
+  M TakeDamage                                    ret=void params=4
+  M TakeHealing                                   ret=void params=2
+
+### T34571 COW.GamePlay.CGKJLKPMGDJ  fields=18 methods=9
+  F NOBLHPEGOIK                                   .<Module><?>
+  F JHAINOBIFMA                                   UnityEngine.GameObject
+  F JINDNOFABKB                                   UnityEngine.Collider
+  F HPCOJHGFEEG                                   UnityEngine.Vector3
+  F DOJDNHCGFGK                                   UnityEngine.Vector3
+  F HLDECMJFKJK                                   UnityEngine.Vector3
+  F EKPLMDDKOGB                                   UnityEngine.Vector3
+  F OLGEMBBDBID                                   int
+  F CFIPDNFBKHK                                   float
+  F GABPHAKNADH                                   int
+  F DKPDBLLJEAA                                   COW.GamePlay.LKOOALMKJND
+  F DIDOKHNBBAD                                   UnityEngine.PhysicMaterial
+  F EFMBNPNFGHM                                   bool
+  F CEOKOILBODN                                   bool
+  F ONMKMEGMHOL                                   UnityEngine.Vector3
+  F CLOLKHNMNEK                                   short
+  F MGBCGEBLKJB                                   .<Module><?>
+  F ANJGNHKHOKO                                   string
+  M JFAMDJDLFHJ                                   ret=COW.GamePlay.CGKJLKPMGDJ params=0
+  M KNHLJENANKE                                   ret=void params=1
+  M OnCollected                                   ret=void params=0
+  M CODHEAGACLF                                   ret=void params=0
+  M KNHLJENANKE                                   ret=void params=0
+  M IAHAOJLMANO                                   ret=COW.GamePlay.CGKJLKPMGDJ params=1
+  M .ctor                                         ret=void params=0
+  M .cctor                                        ret=void params=0
+  M <>iFixBaseProxy_OnCollected                   ret=void params=0
+
+### T32346 COW.GamePlay.MCNHONIOILF  fields=8 methods=11
+  F GFFFODBGHCI                                   bool
+  F LCJMKDJIEPH                                   bool
+  F ICACIAJIJPH                                   UnityEngine.Vector3
+  F PDHFGKCCLFI                                   UnityEngine.Vector3
+  F ADGLHAHEBBI                                   float
+  F HJALBAJNFHA                                   float
+  F LFELOKFLEIO                                   float
+  F MHJCLOPOBAA                                   COW.GamePlay.Player
+  M .ctor                                         ret=void params=1
+  M DDEPKOPFAJA                                   ret=UnityEngine.Vector3 params=0
+  M NAGBBJDKHAE                                   ret=UnityEngine.Camera params=0
+  M JDNAHENCAGL                                   ret=void params=1
+  M FNJGFPMGKEB                                   ret=void params=0
+  M MAIINILBEFG                                   ret=void params=1
+  M IHMEOFIDAJI                                   ret=void params=1
+  M HDKBFKEJMCF                                   ret=void params=2
+  M HMJPDKACPAL                                   ret=void params=1
+  M MAFJCENJDCA                                   ret=UnityEngine.Quaternion params=3
+  M MIHCNMKAMMI                                   ret=UnityEngine.Quaternion params=3
+
+### T34613 .APJGFLEBBFC  fields=4 methods=1
+  F NNMKABCGHDB                                   float
+  F CKONDJIBJJO                                   float
+  F GPOLHIOAMCM                                   UnityEngine.Vector4
+  F LDLOGMGHHAF                                   UnityEngine.Vector4
+  M .ctor                                         ret=void params=0
+
+### T31845 COW.GamePlay.FOEAMCJGKIM  fields=46 methods=23
+  F EGMLJNMHMBF                                   uint
+  F IAOIGKFNLEL                                   message.FAKJMLJLBLF[][]
+  F IAFEHJIHCFO                                   .<Module><?>
+  F AIDBKFPDAJN                                   string
+  F FIMGGBMFKFK                                   uint[]
+  F IFLLNNJGEGJ                                   uint[]
+  F OOHDNGNPMCD                                   string
+  F BCDLDKBCHHB                                   string
+  F ALJJELMCPEL                                   string
+  F HAJHLGDGELH                                   string
+  F FEBHFLGFDBB                                   string
+  F OPKLIHJOOPL                                   GCommon.ResourceID
+  F DKGMIKFNHDF                                   GCommon.ResourceID
+  F DFNDKNJBCOO                                   GCommon.ResourceID
+  F BCCOJDIEMDF                                   GCommon.ResourceID
+  F JAEGFFNNBEJ                                   GCommon.ResourceID
+  F DEJAEFNKDPG                                   GCommon.ResourceID
+  F AGLGBCAAPNB                                   uint
+  F GKDBDCICANH                                   float
+  F LIMEGJIBKON                                   int
+  F OCICDPHOOJB                                   uint
+  F JNJOHAJEMJI                                   float
+  F CPJKELEFLPI                                   float
+  F HOLOEILKGCG                                   GCommon.ResourceID
+  F PGDONMBCAAE                                   float
+  F CGIBIFCGKFB                                   float
+  F GPAAEJNADKK                                   uint
+  F FIKLIMLFKOK                                   float
+  F GCJBAOMBAGK                                   float
+  F KNNHLLFPOKI                                   float
+  F KIDNDKAEGCN                                   float
+  F BIEFDILGHBL                                   uint
+  F OIIPDKKMHOO                                   float
+  F BCBBEAKAINO                                   GCommon.ResourceID
+  F JMOFKBHHMPE                                   int
+  F JLDGNIHNFIM                                   int
+  F PJJCMFMOAIB                                   GCommon.ResourceID
+  F IBPPNOJJAJK                                   bool
+  F ENBFEFBHGKK                                   COW.GamePlay.IJHHJLDNMGH
+  F NLOFGEGEPLC                                   .<Module><?>
+  F CEJAOPEAINP                                   .<Module><?>
+  F DKNJNDOAAAD                                   COW.GamePlay.GOBIFKFIEMI
+  F NFOFLICMCCF                                   COW.GamePlay.LBNIHCJFPGI
+  F GDMOAKHKJBB                                   COW.HippoCrisisAttachmentData
+  F KGKODNEFIMC                                   int
+  F ECJIMFKLIOD                                   COW.GamePlay.JOAKCDNFFIK
+  M JFNOOOPKJPP                                   ret=.<Module><?> params=0
+  M DPLCDGCFICA                                   ret=bool params=2
+  M DBFJKFGDIHE                                   ret=bool params=1
+  M GetPrimaryKey                                 ret=string params=0
+  M GetId                                         ret=uint params=0
+  M GetUIntKey                                    ret=uint params=0
+  M GetIntKey                                     ret=int params=0
+  M DeserializeData                               ret=void params=1
+  M .ctor                                         ret=void params=0
+  M BCCOLJBLDEH                                   ret=COW.GamePlay.FOEAMCJGKIM params=0
+  M MOBOCJEAKBE                                   ret=bool params=2
+  M PBDPJGGGEAH                                   ret=bool params=1
+  M PostDeserializeData                           ret=void params=0
+  M ParseData                                     ret=void params=4
+  M GLNFBFJJLCJ                                   ret=void params=1
+  M KFAHCGAODFO                                   ret=void params=3
+  M .cctor                                        ret=void params=0
+  M <>iFixBaseProxy_GetPrimaryKey                 ret=string params=0
+  M <>iFixBaseProxy_GetUIntKey                    ret=uint params=0
+  M <>iFixBaseProxy_GetIntKey                     ret=int params=0
+  M <>iFixBaseProxy_DeserializeData               ret=void params=1
+  M <>iFixBaseProxy_PostDeserializeData           ret=void params=0
+  M <>iFixBaseProxy_ParseData                     ret=void params=4
+
+### T34975 COW.GamePlay.NIFGKCNILIN  fields=4 methods=15
+  F GANIKEGJMNJ                                   float
+  F JMBJAPKHGII                                   float
+  F ALPECLHIIFL                                   float
+  F DGOIFCHIDJI                                   COW.GamePlay.NJMACCGPNJL
+  M EGGCGHPOOOF                                   ret=bool params=0
+  M GLCPILJKNNF                                   ret=bool params=0
+  M FNJDAPJEKFO                                   ret=float params=0
+  M HGFBHCKDOBN                                   ret=float params=0
+  M POGHIOFBHGF                                   ret=float params=0
+  M CMDMNAAMBND                                   ret=float params=1
+  M CMEFLFPBPDP                                   ret=void params=4
+  M CODHEAGACLF                                   ret=void params=0
+  M EPBAPLABGBK                                   ret=float params=0
+  M ALLNLKNJEDA                                   ret=float params=0
+  M NFFJGAPCCBI                                   ret=float params=0
+  M OHJBBIKDAOC                                   ret=float params=0
+  M JPOEAJMBEPG                                   ret=float params=0
+  M OGGBBPIBEPJ                                   ret=bool params=0
+  M .ctor                                         ret=void params=0

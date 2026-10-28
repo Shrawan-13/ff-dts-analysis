@@ -1,0 +1,257 @@
+
+### T11882 COW.WeaponGunFeelProfileData  fields=123 methods=10
+  F adsRecoilPitchCurve                           float[]
+  F hipSoftAssistStrengthCurve                    float[]
+  F hipSoftAssistRegionWeights                    float[]
+  F adsSoftAssistStrengthCurve                    float[]
+  F adsSoftAssistRegionWeights                    float[]
+  F fireMoveRecoverCurve                          float[]
+  F adsRecoilYawCurve                             float[]
+  F recoilReturnCurve                             float[]
+  F hipShotSpreadCurve                            float[]
+  F hipSpreadRecoverCurve                         float[]
+  F adsShotSpreadCurve                            float[]
+  F hipRecoilPitchCurve                           float[]
+  F adsSpreadRecoverCurve                         float[]
+  F adsSettleCurve                                float[]
+  F hipRecoilYawCurve                             float[]
+  F visualFollowRealRecoil                        float
+  F hipRecoilPitchNoise                           float
+  F adsSoftAssistMaxCancelHorizontalRatio         float
+  F adsSoftAssistMaxCancelVerticalRatio           float
+  F adsSoftAssistBlendRatio                       float
+  F adsSoftAssistMaxYawPerShot                    float
+  F fireMovePenaltyMode                           uint
+  F adsSoftAssistOuterAngle                       float
+  F adsSoftAssistBestAngle                        float
+  F adsSoftAssistInnerAngle                       float
+  F adsSoftAssistSustainStrength                  float
+  F crouchRecoilScale                             float
+  F hipRecoilPitchMax                             float
+  F hipSoftAssistMaxCancelHorizontalRatio         float
+  F hipSoftAssistMaxCancelVerticalRatio           float
+  F hipSoftAssistBlendRatio                       float
+  F hipSoftAssistMaxYawPerShot                    float
+  F hipSoftAssistMaxPitchPerShot                  float
+  F hipSoftAssistOuterAngle                       float
+  F hipSoftAssistBestAngle                        float
+  F hipSoftAssistInnerAngle                       float
+  F sightUIActionRatio                            float
+  F hipRecoilYawScale                             float
+  F softAssistSequentialSmoothingTime             float
+  F softAssistOpposeInputScale                    float
+  F softAssistInputOpposeThreshold                float
+  F hipSoftAssistSustainStrength                  float
+  F softAssistInputThreshold                      float
+  F softAssistInputAttenuation                    float
+  F softAssistLostStrengthScale                   float
+  F softAssistTargetKeepTime                      float
+  F recoilReturnInputThreshold                    float
+  F adsSettleCurveType                            uint
+  F adsSettleTime                                 float
+  F adsSettleSpreadEnd                            float
+  F adsSettleSpreadStart                          float
+  F adsSpreadRecoverTime                          float
+  F adsSpreadRecoverCurveType                     uint
+  F hipRecoilPitchMin                             float
+  F adsSpreadRecoverDelay                         float
+  F adsSpreadClampMax                             float
+  F adsSpreadClampMin                             float
+  F recoilReturnDelay                             float
+  F adsSpreadStepPerSecond                        float
+  F adsSpreadStepPerShot                          float
+  F adsSpreadLimit                                float
+  F adsSpreadStart                                float
+  F recoilReturnTime                              float
+  F hipSpreadRecoverCurveType                     uint
+  F hipSpreadRecoverTime                          float
+  F hipSpreadRecoverDelay                         float
+  F hipSpreadClampMax                             float
+  F hipSpreadClampMin                             float
+  F hipSpreadStepPerSecond                        float
+  F sightUIActionRecoveryRatio                    float
+  F hipSpreadStepPerShot                          float
+  F hipSpreadLimit                                float
+  F hipSpreadStart                                float
+  F adsRecoilStableYawNoise                       float
+  F adsRecoilStablePitchNoise                     float
+  F adsRecoilMaxYawOffset                         float
+  F adsRecoilMaxPitchOffset                       float
+  F adsRecoilTrendChangeChance                    float
+  F adsRecoilTrendYawStep                         float
+  F adsRecoilYawNoise                             float
+  F adsRecoilPitchNoise                           float
+  F hipRecoilYawMin                               float
+  F adsRecoilYawMin                               float
+  F adsRecoilPitchMax                             float
+  F strongAimAssistShot                           uint
+  F adsSoftAssistMaxPitchPerShot                  float
+  F adsRecoilPitchScale                           float
+  F hipRecoilStableYawNoise                       float
+  F hipRecoilYawMax                               float
+  F hipRecoilStablePitchNoise                     float
+  F hipRecoilMaxYawOffset                         float
+  F hipRecoilMaxPitchOffset                       float
+  F hipRecoilTrendChangeChance                    float
+  F hipRecoilYawNoise                             float
+  F hipRecoilTrendYawStep                         float
+  F fireMoveStackLimit                            float
+  F fireMoveStackStep                             float
+  F adsRecoilYawScale                             float
+  F adsRecoilPitchMin                             float
+  F adsRecoilYawMax                               float
+  F recoilShotResetTime                           float
+  F hipRecoilPitchScale                           float
+  F fireMoveHoldTime                              float
+  F recoilReturnCurveType                         uint
+  F fireMoveRecoverTime                           float
+  F fireMoveRecoverCurveType                      uint
+  F recoilReturnRatio                             float
+  F enableRecoil                                  bool
+  F enableVisualRecoil                            bool
+  F enableFireMoveCurve                           bool
+  F softAssistRespectInputDirection               bool
+  F enableSpread                                  bool
+  F enableSoftAssist                              bool
+  F enableAdsSettle                               bool
+
+### T13096 COW.UGCAttachmentRepItem  fields=80 methods=57
+  F PROP_ID_RANGE                                 int
+  F PROP_ID_FULLDAMAGEDISTANCE                    int
+  F PROP_ID_MINDAMAGEDISTANCE                     int
+  F PROP_ID_SCATTERMAX                            int
+  F PROP_ID_PLAYERSPEEDFACTORAIMING               int
+  F PROP_ID_SIGHTAMPLIFYRATIO                     int
+  F PROP_ID_SIGHTFOVAMPLIFYRATIO                  int
+  F PROP_ID_SIGHTUIACTIONRATIO                    int
+  F PROP_ID_SIGHTUIACTIONEXPAND                   int
+  F PROP_ID_SIGHTUIACTIONRECOVERY                 int
+  F PROP_ID_SIGHTSHOOTMINDAMAGE                   int
+  F PROP_ID_SIGHTAIMASSIST                        int
+  F PROP_ID_SIGHTAIMASSISTSNAPRANGE               int
+  F PROP_ID_SIGHTAIMASSISTDISTFALLOFF             int
+  F PROP_ID_SIGHTAIMASSISTDISTPRIORITY            int
+  F PROP_ID_SIGHTAIMASSISTDISTPRIOMIN             int
+  F PROP_ID_SIGHTAIMASSISTDISTPRIOMAX             int
+  F PROP_ID_SIGHTAIMASSISTDISTPRIOCOEF            int
+  F PROP_ID_SIGHTROTSENSITIVENESS                 int
+  F OnRangeChangeEvent                            .<Module><?>
+  F OnFullDamageDistanceChangeEvent               .<Module><?>
+  F OnMinDamageDistanceChangeEvent                .<Module><?>
+  F OnScatterMaxChangeEvent                       .<Module><?>
+  F OnPlayerSpeedFactorAimingChangeEvent          .<Module><?>
+  F OnSightAmplifyRatioChangeEvent                .<Module><?>
+  F OnSightFOVAmplifyRatioChangeEvent             .<Module><?>
+  F OnSightUiActionRatioChangeEvent               .<Module><?>
+  F OnSightUiActionExpandChangeEvent              .<Module><?>
+  F OnSightUiActionRecoveryChangeEvent            .<Module><?>
+  F OnSightShootMinDamageChangeEvent              .<Module><?>
+  F OnSightAimAssistChangeEvent                   .<Module><?>
+  F OnSightAimAssistSnapRangeChangeEvent          .<Module><?>
+  F OnSightAimAssistDistFalloffChangeEvent        .<Module><?>
+  F OnSightAimAssistDistpriorityChangeEvent       .<Module><?>
+  F OnSightAimAssistDistprioMinChangeEvent        .<Module><?>
+  F OnSightAimAssistDistprioMaxChangeEvent        .<Module><?>
+  F OnSightAimAssistDistprioCoefChangeEvent       .<Module><?>
+  F OnSightRotSensitivenessChangeEvent            .<Module><?>
+  F <Range>k__BackingField                        float
+  F <FullDamageDistance>k__BackingField           float
+  F <MinDamageDistance>k__BackingField            float
+  F <ScatterMax>k__BackingField                   float
+  F <PlayerSpeedFactorAiming>k__BackingField      float
+  F <SightAmplifyRatio>k__BackingField            int
+  F <SightFOVAmplifyRatio>k__BackingField         float
+  F <SightUiActionRatio>k__BackingField           float
+  F <SightUiActionExpand>k__BackingField          float
+  F <SightUiActionRecovery>k__BackingField        float
+  F <SightShootMinDamage>k__BackingField          int
+  F <SightAimAssist>k__BackingField               bool
+  F <SightAimAssistSnapRange>k__BackingField      float
+  F <SightAimAssistDistFalloff>k__BackingField    float
+  F <SightAimAssistDistpriority>k__BackingField   bool
+  F <SightAimAssistDistprioMin>k__BackingField    float
+  F <SightAimAssistDistprioMax>k__BackingField    float
+  F <SightAimAssistDistprioCoef>k__BackingField   float
+  F <SightRotSensitiveness>k__BackingField        float
+  M get_Range                                     ret=float params=0
+  M set_Range                                     ret=void params=1
+  M get_FullDamageDistance                        ret=float params=0
+  M set_FullDamageDistance                        ret=void params=1
+  M get_MinDamageDistance                         ret=float params=0
+  M set_MinDamageDistance                         ret=void params=1
+  M get_ScatterMax                                ret=float params=0
+  M set_ScatterMax                                ret=void params=1
+  M get_PlayerSpeedFactorAiming                   ret=float params=0
+  M set_PlayerSpeedFactorAiming                   ret=void params=1
+  M get_SightAmplifyRatio                         ret=int params=0
+  M set_SightAmplifyRatio                         ret=void params=1
+  M get_SightFOVAmplifyRatio                      ret=float params=0
+  M set_SightFOVAmplifyRatio                      ret=void params=1
+  M get_SightUiActionRatio                        ret=float params=0
+  M set_SightUiActionRatio                        ret=void params=1
+  M get_SightUiActionExpand                       ret=float params=0
+  M set_SightUiActionExpand                       ret=void params=1
+  M get_SightUiActionRecovery                     ret=float params=0
+  M set_SightUiActionRecovery                     ret=void params=1
+  M get_SightShootMinDamage                       ret=int params=0
+  M set_SightShootMinDamage                       ret=void params=1
+  M get_SightAimAssist                            ret=bool params=0
+  M set_SightAimAssist                            ret=void params=1
+  M get_SightAimAssistSnapRange                   ret=float params=0
+  M set_SightAimAssistSnapRange                   ret=void params=1
+  M get_SightAimAssistDistFalloff                 ret=float params=0
+  M set_SightAimAssistDistFalloff                 ret=void params=1
+  M get_SightAimAssistDistpriority                ret=bool params=0
+  M set_SightAimAssistDistpriority                ret=void params=1
+  M get_SightAimAssistDistprioMin                 ret=float params=0
+  M set_SightAimAssistDistprioMin                 ret=void params=1
+  M get_SightAimAssistDistprioMax                 ret=float params=0
+  M set_SightAimAssistDistprioMax                 ret=void params=1
+  M get_SightAimAssistDistprioCoef                ret=float params=0
+  M set_SightAimAssistDistprioCoef                ret=void params=1
+  M get_SightRotSensitiveness                     ret=float params=0
+  M set_SightRotSensitiveness                     ret=void params=1
+
+### T13085 COW.UGCAimAssistEntityRepItem  fields=8 methods=9
+  F PROP_ID_AIMASSISTDISTANCE                     int
+  F PROP_ID_AIMASSISTCENTEROFFSET                 int
+  F _repDataMgr                                   COW.UGCEntityDataStore
+  F OnAimAssistDistanceChangeEvent                .<Module><?>
+  F OnAimAssistCenterOffsetChangeEvent            .<Module><?>
+  F <AimAssistDistance>k__BackingField            float
+  F <AimAssistCenterOffset>k__BackingField        UnityEngine.Vector3
+  F <UGCEntityID>k__BackingField                  string
+  M get_AimAssistDistance                         ret=float params=0
+  M set_AimAssistDistance                         ret=void params=1
+  M get_AimAssistCenterOffset                     ret=UnityEngine.Vector3 params=0
+  M set_AimAssistCenterOffset                     ret=void params=1
+  M get_UGCEntityID                               ret=string params=0
+  M set_UGCEntityID                               ret=void params=1
+  M .ctor                                         ret=void params=1
+  M OnDestroy                                     ret=void params=0
+  M OnRepItemChanged                              ret=void params=2
+
+### T31222 COW.Gameplay.UGC.UGCSkeletonCustomHitBox  fields=0 methods=4
+  M ApplyCustomBoxRecursively                     ret=void params=3
+  M GetHitBoxChild                                ret=message.EDFMKCJCCEB params=2
+  M EnableCustomHitBox                            ret=UnityEngine.CapsuleCollider params=3
+  M .ctor                                         ret=void params=0
+
+### T31399 COW.Gameplay.UGC.UGCLocalColliderIntegrityValidator  fields=1 methods=5
+  F COLLIDER_COMMON_NAME                          string
+  M Validate                                      ret=.Result params=2
+  M CollectFilesToValidate                        ret=.<Module><?> params=3
+  M ValidateFiles                                 ret=.Result params=1
+  M CreateSuccessResult                           ret=.Result params=0
+  M CreateFailureResult                           ret=.Result params=4
+
+### T31407 COW.Gameplay.UGC.UGCResBodyPartDef  fields=1 methods=8
+  F m_data                                        message.JDGLHIMBCAF
+  M get_DefData                                   ret=message.JDGLHIMBCAF params=0
+  M LoadFromData                                  ret=bool params=1
+  M OnUnityObjectLoaded                           ret=void params=2
+  M ReleaseUnityResRef                            ret=void params=0
+  M .ctor                                         ret=void params=0
+  M <>iFixBaseProxy_LoadFromData                  ret=bool params=1
+  M <>iFixBaseProxy_OnUnityObjectLoaded           ret=void params=2
+  M <>iFixBaseProxy_ReleaseUnityResRef            ret=void params=0

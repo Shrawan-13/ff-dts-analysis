@@ -1,0 +1,361 @@
+
+### T32128 COW.GamePlay.Player  fields=1692 methods=4143
+  F m_PlayerIncreaseShootAndMoveSpeedSyncEvt      .EJPDKFEOEPP
+  F m_PlayerAimEvt                                .CLEFFCPLDJJ
+  F m_LocalPlayerHitEvt                           .MDKGBAEBPKI
+  F hitArmorEvent                                 .BHFEPOHCNNF
+  F PersonaHitEvt                                 .AGKOKFOMDGC
+  F UseAimForwardAsForward                        bool
+  F m_KnockDownDamagePerSec                       uint
+  F JKACLOCKKPH                                   bool
+  F PartyGameMusicShootingIndex                   uint
+  F ServerGameMusicShootingIndex                  uint
+  F AimCount                                      uint
+  F lockTransformMusicWhenUpdate                  bool
+  F ActiveUISightingWeapon                        COW.GamePlay.HBIBDMMOOOK
+  F NextFireActionFromAuxButton                   bool
+  F m_AimAssist                                   COW.GamePlay.NLIMDENAFNN
+  F m_AimAssistForIceWall                         COW.GamePlay.PLOAJDMCLGB
+  F RECOVER_FROM_HIT_FLY_INTERVAL                 float
+  F HitFlyInfo                                    message.MIFNCMIBGPC
+  F CallSetAimRotationCount                       uint
+  F FMLJAIMHDOE                                   UnityEngine.Vector3
+  F BlockUserControlExceptCancel                  int
+  F isInTrainingShootAreaTrigger                  bool
+  F LastSmartFireTime                             float
+  F IsLastSmartFire                               bool
+  F m_AuxAimResetTime                             float
+  F LastAimingInfoFromWeaponAdjusted              bool
+  F Is3PStopFire_WaitingChangeClipAnim            bool
+  F LastLockFireFinishTime                        float
+  F LockFireFinishContinueShootInterval           float
+  F ReleaseActiveSkillHudToFireIndex              int
+  F TempHideAirdropWeaponMarkOnBeHit              bool
+  F LastFireBtnDownTime                           float
+  F FBEFMMCAIMP                                   uint
+  F JEMGAIMDANE                                   COW.GamePlay.FollowMoveEmoteTrigger
+  F m_FootballHitVelocity                         UnityEngine.Vector3
+  F m_CurrentAimRotation                          UnityEngine.Quaternion
+  F m_GroundHitNormal                             UnityEngine.Vector3
+  F m_GroundHitPos                                UnityEngine.Vector3
+  F m_GroundHitResult                             bool
+  F LastHitEffectTime                             float
+  F LastHealHitEffectTiem                         float
+  F LockInput                                     .EEKFBNLKAMI
+  F LockInput_ExcludeSkillCancel                  .EEKFBNLKAMI
+  F LockInput_ExcludeChangeWeapon                 .EEKFBNLKAMI
+  F LockInput_ExcludeReloadWeapon                 .EEKFBNLKAMI
+  F LockMove                                      .EEKFBNLKAMI
+  F LockMoveSpeedDecayPerFrame                    float
+  F BlockUserMoveControlByReason                  .EEKFBNLKAMI
+  F lockUpdateRotation                            .EEKFBNLKAMI
+  F lockForward                                   .EEKFBNLKAMI
+  F lockFire                                      .DFJELIFKLIA
+  F LockAnim                                      .EEKFBNLKAMI
+  F LockFreeMove                                  .EEKFBNLKAMI
+  F LockFastRun                                   .EEKFBNLKAMI
+  F LockRunSpeed                                  float
+  F BlockUserMoveControl                          bool
+  F BCHINLOCKGG                                   uint
+  F DBAIMJJKHAH                                   bool
+  M ProcessAddPlayerWeaponDamageScaleAction       ret=void params=2
+  M CheckDamageFromWeapon                         ret=bool params=1
+  M get_BuffVFXOnTargetComparer                   ret=.<Module><?> params=0
+  M GetBuffECAKillVFXOnTargetContext              ret=COW.GamePlay.ICGKCEBACFM params=0
+  M GetBuffKingVisualHead                         ret=GCommon.ResourceID params=0
+  M GetDamageLabelIconForBuffECA                  ret=string params=1
+  M GetDamageLabelIconColorForBuffECA             ret=UnityEngine.Color params=1
+  M GetSFXHitResIDForBuffECA                      ret=GCommon.ResourceID params=1
+  M ConsumeDamageLabelIconTimesForBuffECA         ret=void params=1
+  M GetFireBonusUIFXResIDForBuffECA               ret=GCommon.ResourceID params=0
+  M FAMAIMGHMCN                                   ret=void params=3
+  M GBFootballTryHitIceWall                       ret=void params=1
+  M GBFootballTryHitFlyPlayer                     ret=void params=1
+  M get_TargetCanBeKickPlayer                     ret=COW.GamePlay.Player params=0
+  M UpdateKickBallTarget                          ret=void params=1
+  M COW.GamePlay.IPhysicalCharacter.OnControllerColliderHit ret=void params=1
+  M COW.GamePlay.IPhysicalCharacter.OnGroundHit   ret=void params=3
+  M COW.GamePlay.IPhysicalCharacter.OnMovementHit ret=void params=3
+  M get_LastStartFireTime                         ret=float params=0
+  M set_LastStartFireTime                         ret=void params=1
+  M ForceMoveByClientHit                          ret=void params=1
+  M get_LastHitFlyByEighthTrainTime               ret=float params=0
+  M set_LastHitFlyByEighthTrainTime               ret=void params=1
+  M UpdateAutoFLihtDamageEffect                   ret=void params=3
+  M GetInPartyShoot                               ret=bool params=0
+  M SetInPartyShoot                               ret=void params=1
+  M set_IsInPartyMusicShoot                       ret=void params=1
+  M get_IsInPartyMusicShoot                       ret=bool params=0
+  M get_LockRegion                                ret=string params=0
+  M set_LockRegion                                ret=void params=1
+  M get_FriendAuxEnabled                          ret=bool params=0
+  M set_IsAuxAiming                               ret=void params=1
+  M get_IsAuxAiming                               ret=bool params=0
+  M get_NeedLerpAuxAiming                         ret=bool params=0
+  M set_NeedLerpAuxAiming                         ret=void params=1
+  M get_IsInBlockViewTrigger                      ret=bool params=0
+  M get_InBlockViewTriggerSet                     ret=.<Module><?> params=0
+  M get_IsBanAimAssistState                       ret=bool params=0
+  M get_EAimAssit                                 ret=COW.EAimAssist params=0
+  M SetEAimAssitMode                              ret=void params=1
+  M GetAimAssistOnSighting                        ret=COW.GamePlay.DCIDAEHLHPI params=0
+  M GetSightCameraRot                             ret=COW.GamePlay.MCNHONIOILF params=0
+  M get_IsKnockDownKeepForwardAsAiming            ret=bool params=0
+  M BeRescuedAndCanBeAssisted                     ret=bool params=0
+  M IsBoneNode                                    ret=bool params=1
+  M get_HeadCollider                              ret=UnityEngine.Collider params=0
+  M get_HaveDamageAdditionBuffForOni              ret=bool params=0
+  M set_HasShowBountyBoxUnlockEffect              ret=void params=1
+  M get_HasShowBountyBoxUnlockEffect              ret=bool params=0
+  M set_IgnoreAimAssistType                       ret=void params=1
+  M get_IgnoreAimAssistType                       ret=uint params=0
+  M ResetHitFlyGetUpSpeed                         ret=void params=0
+  M ResetHitFlyInfo                               ret=void params=0
+  M get_IsHitFlyByPumpkinBoss                     ret=bool params=0
+  M NotifyPumpkinBossDamage                       ret=void params=0
+  M get_IsRecoveringFromHitFly                    ret=bool params=0
+  M SetAimRotation                                ret=void params=2
+  M get_CancelHudTarget                           ret=.MOEJCLEEFIP params=0
+  M ReleaseCancelTargetExcept                     ret=void params=1
+  M GetCancelTarget                               ret=.MOEJCLEEFIP params=0
+  M SetCancelTargetTriggered                      ret=void params=0
+  M SetCancelTargetPressed                        ret=void params=2
+  M get_IsInShootingRange                         ret=bool params=0
+  M get_IsWeaponCombineLocked                     ret=bool params=0
+  M UseBountyMotoVehicleFireController            ret=bool params=0
+  M IsPassengerInVehicleCanFire                   ret=bool params=0
+  M IsDriverInVehicleCanFire                      ret=bool params=0
+  M IsVehicleSupportDriverWeaponFire              ret=bool params=0
+  M IsInVechileCanWeaponFire                      ret=bool params=0
+  M get_SpineBoneTransform                        ret=UnityEngine.Transform params=0
+  M get_BoneRootTransform                         ret=UnityEngine.Transform params=0
+  M get_ShoulderBoneTransform                     ret=UnityEngine.Transform params=0
+  M get_RightLegBoneTransform                     ret=UnityEngine.Transform params=0
+  M get_HipsBoneTransform                         ret=UnityEngine.Transform params=0
+  M get_BipBoneTransform                          ret=UnityEngine.Transform params=0
+  M get_HeadBoneTransform                         ret=UnityEngine.Transform params=0
+  M get_BoneLeftWeapon                            ret=UnityEngine.Transform params=0
+  M SetSniperFireCollider                         ret=void params=1
+  M get_FireColliders                             ret=.<Module><?> params=0
+  M get_LockBountyVehicleIAmIn                    ret=COW.GamePlay.LevelLockBountyVehicle params=0
+  M get_SwitchToGrenadeBeforeFire                 ret=bool params=0
+  M RefreshContinueHitTime                        ret=void params=1
+  M RecordCurrentGrandElectricDamage              ret=void params=1
+  M get_LastElectricDamageRecord                  ret=uint params=0
+  M ClearWeaponContinueHitTime                    ret=void params=1
+  M ShowHandWeaponFireEffect                      ret=bool params=0
+  M NeedWeaponSkinFireSound                       ret=bool params=1
+  M NeedWeaponSkinSightReskin                     ret=bool params=1
+  M GetTargetDirection                            ret=UnityEngine.Vector3 params=0
+  M IsGroundedByRayCastHit                        ret=bool params=0
+  M get_SyncSkillIncreaseShootAndMoveSpeed        ret=bool params=0
+  M set_SyncSkillIncreaseShootAndMoveSpeed        ret=void params=1
+  M IsTargetFriend                                ret=bool params=1
+  M GetAimRotation                                ret=UnityEngine.Quaternion params=0
+  M GetAuxAimRotation                             ret=UnityEngine.Quaternion params=0
+  M ResetAuxAimRotation                           ret=void params=0
+  M get_LastAimingInfoFromWeapon                  ret=COW.GamePlay.CGKJLKPMGDJ params=0
+  M get_LastAuxAimingInfoFromWeapon               ret=COW.GamePlay.CGKJLKPMGDJ params=0
+  M get_LastAimingTargetFromWeapon                ret=COW.GamePlay.OGKFEMJNCGM params=0
+  M set_LastAimingTargetFromWeapon                ret=void params=1
+  M HasHeuristicTarget                            ret=bool params=0
+  M HeuristicTargetIsFriend                       ret=bool params=0
+  M GetHeuristicTarget                            ret=COW.GamePlay.OGKFEMJNCGM params=0
+  M GetHeuristicTargetInfoScore                   ret=float params=0
+  M get_AimStartPostion                           ret=UnityEngine.Vector3 params=0
+  M get_VMEAimStartPostion                        ret=UnityEngine.Vector3 params=0
+  M UpdateAiming                                  ret=void params=3
+  M IsAimmingViewBlockTransparent                 ret=bool params=1
+  M TakeDamage                                    ret=void params=4
+  M TakeDamage                                    ret=int params=9
+  M ShowFireInfoInMap                             ret=void params=1
+  M PlayFireEffect                                ret=void params=1
+  M PlayShootMusicTarget                          ret=void params=0
+  M StopFire                                      ret=void params=1
+  M GetOccupationContinueHitInfo                  ret=.<Module><?> params=0
+  M GetSightingState                              ret=bool params=0
+  M GetWeaponSightingAttachmentData               ret=COW.GamePlay.FOEAMCJGKIM params=0
+  M IsSightingUIAvailable                         ret=bool params=0
+  M OnSightingUIStateChange                       ret=void params=2
+  M OnGrenadeStartFire                            ret=void params=0
+  M OnGrenadeEndFire                              ret=void params=0
+  M OnIceWallStartFire                            ret=void params=0
+  M OnThrowKnifeStartFire                         ret=void params=0
+  M OnThrowKnifeEndFire                           ret=void params=0
+  M OnGrenadeQuitFire                             ret=void params=0
+  M IsFireButtonHoldWhenReLoad                    ret=bool params=0
+  M PlayHypeFireEffect                            ret=void params=2
+  M OnWeaponAnimFireEffect                        ret=void params=0
+  M ResizeSniperFireCollider                      ret=void params=4
+  M OnFireModeChanged                             ret=void params=1
+  M SetAimAssistIceWallParams                     ret=void params=4
+  M OnThrowSkillCrossHairFireBegin                ret=void params=1
+  M GetHeadTF                                     ret=UnityEngine.Transform params=0
+  M GetAimAssisYSensitivity                       ret=float params=1
+  M GetAimAssistDampCoefficient                   ret=float params=1
+  M RequestRescureTarget                          ret=bool params=1
+  M CheckCanUnlockBountyVehicle                   ret=bool params=0
+  M RequestEnterMusicShootZone                    ret=void params=1
+  M RequestExitMusicShootZone                     ret=void params=2
+  M RequestUnlockBountyVehicle                    ret=void params=0
+  M ShouldBlockDriverFireByBrakeTurn              ret=bool params=1
+  M BlockFireOnGetOnVehicleReq                    ret=void params=0
+  M IsFireBlockedByGetOnVehicleReq                ret=bool params=0
+  M IsSightingBlockedByGetOnVehicleReq            ret=bool params=0
+  M IsHoldingFireForSingleShot                    ret=bool params=0
+  M IsHoldingFireForUAV                           ret=bool params=0
+  M DisableFireOnStrop                            ret=bool params=0
+  M GetCameraTrackableEntityAimRotation           ret=UnityEngine.Quaternion params=0
+  M IsLocalPlayerOutOfControlNeedUpdataAimRotaion ret=bool params=0
+  M SetHasDriverForAim                            ret=void params=1
+  M PlayBigHeadHypeEffect                         ret=void params=0
+  M PlayBigHeadLevelUpEffect                      ret=void params=0
+  M OnEnterDamageZone                             ret=void params=1
+  M OnExitDamageZone                              ret=void params=1
+  M ReviveClearDamageZone                         ret=void params=0
+  M GetCurrentFireProgressRate                    ret=float params=0
+  M PlayHitSPEffect                               ret=void params=1
+  M GetSFXSPHitResID                              ret=GCommon.ResourceID params=0
+  M PlayDamageBlockEffect                         ret=void params=1
+  M IsInNoHeadShotState                           ret=bool params=0
+  M IsIgonreWeaponFireControl                     ret=bool params=0
+  M IsNeedAimAssists                              ret=bool params=0
+  M WithinRunLockFireFinishContinueShootInterval  ret=bool params=0
+  M WithinInvincibleContinusShootInterval         ret=bool params=0
+  M WithinEnterWalkingContinueShootInterval       ret=bool params=0
+  M IsCameraUseTargetBackOffset                   ret=bool params=0
+  M get_CanBeLockedByAimAssist                    ret=bool params=0
+  M TryGetRescureStatusForBeAssisted              ret=COW.GamePlay.NIFGKCNILIN params=0
+  M SyncAssistedDuringBeRescured                  ret=COW.GamePlay.NIFGKCNILIN params=1
+  M SyncAssistingRescuring                        ret=bool params=2
+  M RequestRescueAssistTarget                     ret=bool params=1
+  M RequestStopAssistingRescure                   ret=bool params=0
+  M get_IsLockCameraRotationUpdate                ret=bool params=0
+  M set_IsLockCameraRotationUpdate                ret=void params=1
+  M get_IsActSkillForwardFollowAimRot             ret=bool params=0
+  M set_IsActSkillForwardFollowAimRot             ret=void params=1
+  M get_IsActSkillLockJump                        ret=bool params=0
+  M set_IsActSkillLockJump                        ret=void params=1
+  M get_IsActSkillLockMove                        ret=bool params=0
+  M set_IsActSkillLockMove                        ret=void params=1
+  M ResetActSkillPlayerLockState                  ret=void params=0
+  M SetSkillLockFireState                         ret=void params=1
+  M GetSkillLockFireState                         ret=bool params=0
+  M IsArcPathMoveDirClockwise                     ret=bool params=0
+  M PlayAssistantShot                             ret=void params=1
+  M ShowAssistantMarkItem                         ret=void params=6
+  M ShowAssistantMarkForMapMark                   ret=void params=5
+  M TryRemoveAssistantMark                        ret=void params=3
+  M CheckAssistantMarkId                          ret=bool params=2
+  M CheckAssistantMarkObjectId                    ret=bool params=3
+  M TryPosRemoveAssistantMark                     ret=void params=3
+  M RemoveAssistantMark                           ret=void params=4
+  M RequestAssistantShot                          ret=void params=1
+  M RequestAssistantShot                          ret=void params=2
+  M RequestAssistantShot                          ret=void params=3
+  M IsVehicleWeaponCanFire                        ret=bool params=0
+  M OnSpectatorTargetExit                         ret=void params=1
+  M OnSpectatorTargetEnter                        ret=void params=1
+  M get_AvatarTransformTargetModelType            ret=.EAvatarModelIngameType params=0
+  M IsInBigHeadScale                              ret=bool params=0
+  M GetBigHeadScale                               ret=float params=0
+  M ApplyBigHeadScalePreHangLateUpdate            ret=bool params=0
+  M HasBoneNodeAdapter                            ret=bool params=0
+  M get_HasCarryTarget                            ret=bool params=0
+  M GetCarryMeleeAimDir                           ret=UnityEngine.Vector3 params=0
+  M IsCarryBlockedByEmoteSuperEmote               ret=bool params=0
+  M SendCarryBattleHitReq                         ret=void params=1
+  M OnCarryBattleHitRes                           ret=void params=1
+  M IsMarkTarget                                  ret=bool params=1
+  M RequestUnSightIfNeed                          ret=void params=0
+  M RequestBackToSightingIfNeed                   ret=void params=0
+  M CheckDamageHitHead                            ret=bool params=1
+  M CanUseDamageReviseScaleLimitCount             ret=bool params=1
+  M CheckDamageConditionByHeight                  ret=bool params=1
+  M CheckDamageConditionToMovingPlayer            ret=bool params=1
+  M CheckDamageConditionAfterHold                 ret=bool params=1
+  M CheckDamageConditionAttackGreaterHP           ret=bool params=1
+  M CheckDamageConditionToLowHP                   ret=bool params=1
+  M CheckPetSkillReduceDamageFromBack             ret=bool params=1
+  M CheckTakeDamageByKnife                        ret=bool params=1
+  M CheckTakeDamageFromFront                      ret=bool params=1
+  M CheckDamageConditionToAIByMelee               ret=bool params=1
+  M CheckDamageConditionToAIByShoot               ret=bool params=1
+  M IsValidToExecuteTarget                        ret=bool params=2
+  M RequestExecuteTarget                          ret=bool params=1
+  M CanBeFollowEmoteTarget                        ret=bool params=0
+  M IsFollowMoveBecomeLeaderBlockedState          ret=bool params=0
+  M IsOutOfControlBlockingPickup                  ret=bool params=0
+  M CanShowFollowMoveEmoteJoinHudActionForTarget  ret=bool params=1
+  M IsFollowEmoteButtonBlocked                    ret=bool params=1
+  M SetFollowTarget                               ret=void params=1
+  M SetFollowTarget                               ret=void params=2
+  M get_IsFollowJumpPoseLocked                    ret=bool params=0
+  M InterruptFollowEmoteOnLeaderFire              ret=void params=1
+  M TryLeaveFollowMoveEmoteForSightToggle         ret=bool params=2
+  M TryLeaveFollowMoveEmoteForFire                ret=bool params=1
+  M CanPlayFPPAccurateFireAnim                    ret=bool params=0
+  M SwitchIKTarget                                ret=void params=0
+  M SetConstantFireLimit                          ret=void params=0
+  M PlayUGC1PAim                                  ret=void params=0
+  M TryGetHorseAutoDriveSteerByAim                ret=bool params=2
+  M get_AimingInfoForVEM                          ret=COW.GamePlay.CGKJLKPMGDJ params=0
+  M TryGetDeadJSGhostAimRotation                  ret=bool params=1
+  M get_DeadJSGhostFollowTargetID                 ret=COW.GamePlay.BEADLMGGGGL params=0
+  M TryFollowDeadJSGhostTarget                    ret=bool params=1
+  M MarkLobbyLWSignUpBlockStateReleaseTime        ret=void params=0
+  M IsLobbyLWSignUpBlockedAfterStateRelease       ret=bool params=0
+  M set_CurrentArrestTarget                       ret=void params=1
+  M get_CurrentArrestTarget                       ret=COW.GamePlay.Player params=0
+  M get_UGCWeaponDamageRate                       ret=float params=0
+  M GetStartFireState                             ret=message.NDFCBGGDEFP params=0
+  M get_BRShopTokenGunTeamHitProgress             ret=uint params=0
+  M StopSighting                                  ret=void params=0
+  M GetFootballGameAssist                         ret=int params=0
+  M OnPlayerAssistCountChanged                    ret=void params=2
+  M OnPlayerTotalDamageChanged                    ret=void params=2
+  M get_AssistCount                               ret=int params=0
+  M get_TotalCaseDamage                           ret=uint params=0
+  M get_IsSighting                                ret=bool params=0
+  M set_IsSighting                                ret=void params=1
+  M ShowHandWeaponHitEffect                       ret=bool params=0
+  M OnHEXBRHeadScaleChanged                       ret=void params=2
+  M get_PlayerArmorReduceDamageIncrement          ret=float params=0
+  M get_IIVTempleDamage                           ret=uint params=0
+  M SetFireStatePRIData                           ret=void params=1
+  M SetSightingPRIData                            ret=void params=1
+  M get_LockMoveSpeedDecay                        ret=float params=0
+  M IsLockFire                                    ret=bool params=0
+  M IsShowLockFireUI                              ret=bool params=0
+  M GetLockFireFinishProgress                     ret=float params=0
+  M ShouldShowLockFireUI                          ret=bool params=0
+  M CanFireByCurrentState                         ret=bool params=0
+  M SetLockSlot                                   ret=void params=3
+  M IsGrenadeBtnLocked                            ret=bool params=1
+  M OnTrackerTargetUpdate                         ret=void params=1
+  M OnTrackerTargetUpdateShowHeartVFX             ret=void params=0
+  M get_SkateBoardCameraTarget                    ret=COW.GamePlay.VehicleDriverCameraTarget params=0
+  M JAIMLMFCDCD                                   ret=bool params=0
+  M get_LegBoneLeft                               ret=UnityEngine.Transform params=0
+  M get_LegBoneRight                              ret=UnityEngine.Transform params=0
+  M get_ArmBoneLeft                               ret=UnityEngine.Transform params=0
+  M get_ArmBoneRight                              ret=UnityEngine.Transform params=0
+  M get_FootBoneLeft                              ret=UnityEngine.Transform params=0
+  M get_FootBoneRight                             ret=UnityEngine.Transform params=0
+  M get_HandBoneLeft                              ret=UnityEngine.Transform params=0
+  M get_HandBoneRight                             ret=UnityEngine.Transform params=0
+  M get_NeckBone                                  ret=UnityEngine.Transform params=0
+  M IsHeadScaleUp                                 ret=bool params=1
+  M IsHeadScaleDown                               ret=bool params=1
+  M RequestBigHeadOrSocialLobbyDeformHangSetupAfterAvatarChanged ret=void params=0
+  M CheckAuxAimStatusChanged                      ret=void params=0
+  M CanBeAimAssistByStealth                       ret=bool params=0
+  M get_CantSwimmingFire                          ret=bool params=0
+  M get_ParachuteFollowTargetID                   ret=COW.GamePlay.BEADLMGGGGL params=0
+  M get_IsUGCKeepForwardAsAim                     ret=bool params=0
+  M set_IsUGCKeepForwardAsAim                     ret=void params=1
+  M get_IsUGCDisableSighting                      ret=bool params=0
+  M set_IsUGCDisableSighting                      ret=void params=1
+  M get_ShowDamageNum                             ret=bool params=0
+  M <>iFixBaseProxy_TakeDamage                    ret=void params=4
+  M <>iFixBaseProxy_get_CanBeLockedByAimAssist    ret=bool params=0

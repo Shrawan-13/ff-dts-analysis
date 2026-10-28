@@ -1,0 +1,175 @@
+
+### T34569 COW.GamePlay.HitDetectColliderHelper  fields=3 methods=53
+  F ColliderType                                  COW.GamePlay.EHGMCNBHNMD
+  F OCHLCHLHLJC                                   COW.GamePlay.OGKFEMJNCGM
+  F MBIDECIOIBM                                   UnityEngine.GameObject
+  M BOPCHLKIDFM                                   ret=COW.GamePlay.OGKFEMJNCGM params=0
+  M Start                                         ret=void params=0
+  M UpdateOwner                                   ret=void params=0
+  M SetOwner                                      ret=void params=1
+  M SetAttackableOwner                            ret=void params=1
+  M ClearAttackableOwner                          ret=void params=0
+  M RestoreProperties                             ret=void params=0
+  M GetOwner                                      ret=UnityEngine.GameObject params=0
+  M IsVehicle                                     ret=bool params=0
+  M IsReactor                                     ret=bool params=0
+  M IsOildrum                                     ret=bool params=0
+  M IsLandmine                                    ret=bool params=0
+  M IsIceWall                                     ret=bool params=0
+  M IsSpaceShield                                 ret=bool params=0
+  M IsArcShield                                   ret=bool params=0
+  M IsPenetrable                                  ret=bool params=0
+  M IsWeaponShield                                ret=bool params=0
+  M IsProtection                                  ret=bool params=0
+  M IsHayatoProtection                            ret=bool params=0
+  M IsUav                                         ret=bool params=0
+  M IsMiniSentry                                  ret=bool params=0
+  M IsDummy                                       ret=bool params=0
+  M IsSpecial                                     ret=bool params=0
+  M IsShoal                                       ret=bool params=0
+  M IsShield                                      ret=bool params=0
+  M IsShootingTarget                              ret=bool params=0
+  M IsVehicleShield                               ret=bool params=0
+  M IsTeleportMachine                             ret=bool params=0
+  M IsMusicElement                                ret=bool params=0
+  M IsIslandStairs                                ret=bool params=0
+  M IsEscortBossShield                            ret=bool params=0
+  M IsEscortBossBody                              ret=bool params=0
+  M IsPlayerHead                                  ret=bool params=0
+  M IsBoxingMachine                               ret=bool params=0
+  M IsTree                                        ret=bool params=0
+  M IsDestructiblePart                            ret=bool params=0
+  M IsIceDestructible                             ret=bool params=0
+  M IsTeleportDoor                                ret=bool params=0
+  M GetOwnerID                                    ret=COW.GamePlay.BEADLMGGGGL params=0
+  M IsZombie                                      ret=bool params=0
+  M IsSantinoDummy                                ret=bool params=0
+  M IsDWShield                                    ret=bool params=0
+  M IsKnockDownShield                             ret=bool params=0
+  M IsMetropolisPoint                             ret=bool params=0
+  M IsSAPGiftBox                                  ret=bool params=0
+  M NoHitEffectNeeded                             ret=bool params=0
+  M IsGlass                                       ret=bool params=0
+  M IsFragment                                    ret=bool params=0
+  M IsUGCAimAssistPart                            ret=bool params=0
+  M IsNBDefenceShield                             ret=bool params=0
+  M UseDefaultHitStoneEffect                      ret=bool params=0
+  M NoPermanentPlacementAllowed                   ret=bool params=0
+  M .ctor                                         ret=void params=0
+
+### T11057 COW.BodyPartUtilByName  fields=4 methods=13
+  F m_updatePerFrame                              bool
+  F m_updateThisFrame                             bool
+  F m_isFindBoneTransformThisFrame                bool
+  F m_bones                                       .<Module><?>
+  M get_UpdatePerFrame                            ret=bool params=0
+  M set_UpdatePerFrame                            ret=void params=1
+  M Clear                                         ret=void params=1
+  M GetOrAddBoneControl                           ret=.BoneInfo params=1
+  M ControlBoneWorldRotation                      ret=void params=2
+  M SetBoneDynamicScale                           ret=void params=3
+  M TryGetBone                                    ret=bool params=2
+  M ReFindBoneTransform                           ret=void params=0
+  M AddOrUpdateBoneScale                          ret=void params=2
+  M LateUpdate                                    ret=void params=0
+  M setAllBoneScale                               ret=void params=0
+  M searchAllBoneTransform                        ret=void params=0
+  M .ctor                                         ret=void params=0
+
+### T32146 COW.GamePlay.BigHeadComponent  fields=4 methods=9
+  F HCMNGNGFCIC                                   float
+  F OLAPDAPHKIE                                   UnityEngine.Transform
+  F GFCGPPKLKEP                                   UnityEngine.CapsuleCollider
+  F KHHAACKCJKE                                   UnityEngine.Vector3
+  M get_scaleValue                                ret=float params=0
+  M UpdateScale                                   ret=void params=1
+  M OnVisibleChange                               ret=void params=1
+  M Start                                         ret=void params=0
+  M LateUpdate                                    ret=void params=0
+  M NGGMOBJODJO                                   ret=void params=0
+  M SetNeckRevertScaleMult                        ret=void params=1
+  M FNBPNLFEIEG                                   ret=void params=1
+  M .ctor                                         ret=void params=0
+
+### T11147 COW.BigHeadData  fields=14 methods=5
+  F Lv                                            uint
+  F HeadScale                                     float
+  F HeadShotDamageScale                           float
+  F KillScore                                     int
+  F HeadKillScore                                 int
+  F BoostKillScore                                int
+  F HeadAvatar                                    uint
+  F NeedKillCount                                 int
+  F BuffIDs                                       .<Module><?>
+  F EffectID                                      GCommon.ResourceID
+  F HeadIcon                                      GCommon.ResourceID
+  F LightHeadIcon                                 GCommon.ResourceID
+  F LightOffHeadIcon                              GCommon.ResourceID
+  F Name                                          string
+  M GetPrimaryKey                                 ret=string params=0
+  M ParseData                                     ret=void params=4
+  M .ctor                                         ret=void params=0
+  M <>iFixBaseProxy_GetPrimaryKey                 ret=string params=0
+  M <>iFixBaseProxy_ParseData                     ret=void params=4
+
+### T31222 COW.Gameplay.UGC.UGCSkeletonCustomHitBox  fields=0 methods=4
+  M ApplyCustomBoxRecursively                     ret=void params=3
+  M GetHitBoxChild                                ret=message.EDFMKCJCCEB params=2
+  M EnableCustomHitBox                            ret=UnityEngine.CapsuleCollider params=3
+  M .ctor                                         ret=void params=0
+
+### T31399 COW.Gameplay.UGC.UGCLocalColliderIntegrityValidator  fields=1 methods=5
+  F COLLIDER_COMMON_NAME                          string
+  M Validate                                      ret=.Result params=2
+  M CollectFilesToValidate                        ret=.<Module><?> params=3
+  M ValidateFiles                                 ret=.Result params=1
+  M CreateSuccessResult                           ret=.Result params=0
+  M CreateFailureResult                           ret=.Result params=4
+
+### T31407 COW.Gameplay.UGC.UGCResBodyPartDef  fields=1 methods=8
+  F m_data                                        message.JDGLHIMBCAF
+  M get_DefData                                   ret=message.JDGLHIMBCAF params=0
+  M LoadFromData                                  ret=bool params=1
+  M OnUnityObjectLoaded                           ret=void params=2
+  M ReleaseUnityResRef                            ret=void params=0
+  M .ctor                                         ret=void params=0
+  M <>iFixBaseProxy_LoadFromData                  ret=bool params=1
+  M <>iFixBaseProxy_OnUnityObjectLoaded           ret=void params=2
+  M <>iFixBaseProxy_ReleaseUnityResRef            ret=void params=0
+
+### T35879 COW.GamePlay.VerticleBulletController  fields=24 methods=11
+  F CollisionMask                                 UnityEngine.LayerMask
+  F SkinWidth                                     float
+  F CacheTrans                                    UnityEngine.Transform
+  F CanMove                                       bool
+  F EndMoveTime                                   float
+  F BBLDMFHIFKB                                   COW.GamePlay.IJDBIHJBPPJ
+  F PlayerId                                      uint
+  F EOBCCFOBHLD                                   string
+  F PFMDHJDKHPL                                   bool
+  F ALNAGLKHANB                                   float
+  F FIOJDJGOPGJ                                   bool
+  F Damage                                        float
+  F CDMEELFMJAO                                   GCommon.ResourceID
+  F KMIIECFHLED                                   GCommon.ResourceID
+  F JFFBIAEPINK                                   GCommon.ResourceID
+  F EFJHICLBLJK                                   bool
+  F EADJPKNDGGD                                   float
+  F BKJMHHGINGL                                   float
+  F DLGCOIIKEIA                                   float
+  F JGCPHKDFGPH                                   float
+  F ExplosionRange                                float
+  F DHNNGGPOOMJ                                   bool
+  F KJAKOPDEPLH                                   UnityEngine.Vector3
+  F BKHNDPAJDKM                                   float
+  M Awake                                         ret=void params=0
+  M SetData                                       ret=void params=6
+  M SetEffectData                                 ret=void params=5
+  M OnFixedUpdate                                 ret=void params=1
+  M LateUpdate                                    ret=void params=0
+  M DKAJHHDADCD                                   ret=void params=0
+  M GCGCNMIJLLI                                   ret=void params=1
+  M BNDNNLFELEI                                   ret=void params=1
+  M BNDNNLFELEI                                   ret=bool params=4
+  M OnRetrunPool                                  ret=void params=0
+  M .ctor                                         ret=void params=0

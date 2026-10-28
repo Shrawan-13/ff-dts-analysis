@@ -1,0 +1,383 @@
+
+### T2868 message.MHHELEDEJHG  (fields=550 methods=0)
+  F AimAssistEntity typeIdx=43770
+  F AimAssistType typeIdx=43770
+
+### T3451 message.LOALPFDFCAP  (fields=170 methods=0)
+  F EBuffActionType_WeaponAimAssistDecayTimeScale typeIdx=42372
+  F EBuffActionType_WeaponAimAssistScreenRangeScale typeIdx=42372
+  F EBuffActionType_WeaponAimAssistLockDecreaseTimeScale typeIdx=42372
+  F EBuffActionType_WeaponAimAssistLockDecreaseTimeSightScale typeIdx=42372
+
+### T11335 COW.FoldWingConfigData  (fields=11 methods=29)
+  F <CanAimassist>k__BackingField typeIdx=25732
+  M get_CanAimassist decl=11335 ret=25731 params=65535 slot=2182
+  M set_CanAimassist decl=11335 ret=73094 params=131071 slot=2177
+
+### T11882 COW.WeaponGunFeelProfileData  (fields=123 methods=10)
+  F strongAimAssistShot typeIdx=72039
+
+### T12010 COW.GameModeSetting  (fields=975 methods=3)
+  F EnableVehicleAimAssist typeIdx=25742
+  F BanAimAssist typeIdx=25742
+  F AimAssistKnockDownParam typeIdx=51060
+  F DisableAimAssistReviveParachutingTarget typeIdx=25742
+  F AIAimAssistWeight typeIdx=51060
+  F IsAimAssistKnockdownLevelDown typeIdx=25742
+  F SkipKnockdownAimAssistNeedMoveTowardsStandMan typeIdx=25742
+  F EnableCarni25GPDanceNoAimAssist typeIdx=25742
+
+### T12013 COW.GameVarDef  (fields=5664 methods=7)
+  F EnableStropAimAssist typeIdx=25739
+  F EnableBeAimAssistWhenStropDash typeIdx=25739
+  F EnableAimAssistChange typeIdx=25739
+  F EnableSkillIgnoreAimAssistInVehicle typeIdx=25739
+  F AimAssistTeammateScore typeIdx=51057
+  F NeedAimAssistOnChargeFinish typeIdx=25745
+  F DebugWeaponAimAssistMaxScore typeIdx=51057
+  F DebugWeaponAimAssistMinScore typeIdx=51057
+  F DebugWeaponAimAssistDampCoefficient typeIdx=51057
+  F DebugWeaponAimAssistDampYSensitivity typeIdx=51057
+  F AimAssistDragOutKnockdownMinDis typeIdx=51064
+  F ElectricGirlAimTargetQueueWidth typeIdx=40253
+  F GB_GPFootballAimAssistLockHeight typeIdx=51057
+
+### T12015 COW.ResourceIDDef  (fields=11728 methods=11)
+  F UIHUDAIMTARGETSCOREINFO typeIdx=49741
+  F UIHUDELECTRICGIRLAIMTARGET typeIdx=49741
+  F UIHUDAUTOABSORBAIMTARGET typeIdx=49741
+  F INGAME_WEAPON_AIM_ASSIST_DAMP_CONFIG typeIdx=49741
+  F INGAME_WEAPON_AIM_ASSIST_AUTOABSORB_CONFIG typeIdx=49741
+
+### T12186 .EventTypeClientSettingChange  (fields=293 methods=2)
+  F pre_aim_assist typeIdx=40249
+  F cur_aim_assist typeIdx=40249
+
+### T12814 COW.UIInGameScene  (fields=532 methods=1097)
+  F m_ElectricGirlAimTargetController typeIdx=61535
+  F m_HudAutoAbsorbAimTargetCtrls typeIdx=14970
+  M ShowElectricGirlAimTargetUI decl=12814 ret=73094 params=131071 slot=134
+  M HideElectricGirlAimTargetUI decl=12814 ret=73094 params=65535 slot=134
+  M OnHudAutoAbsorbAimTarget decl=12814 ret=73094 params=65535 slot=134
+
+### T12880 COW.MovableShootingTargetData  (fields=16 methods=1)
+  F NeedAimAssist typeIdx=25735
+
+### T13085 COW.UGCAimAssistEntityRepItem  (fields=8 methods=9)
+  F PROP_ID_AIMASSISTDISTANCE typeIdx=40273
+  F PROP_ID_AIMASSISTCENTEROFFSET typeIdx=40273
+  F OnAimAssistDistanceChangeEvent typeIdx=2397
+  F OnAimAssistCenterOffsetChangeEvent typeIdx=2501
+  F <AimAssistDistance>k__BackingField typeIdx=51050
+  F <AimAssistCenterOffset>k__BackingField typeIdx=72634
+  M get_AimAssistDistance decl=13085 ret=51049 params=65535 slot=2182
+  M set_AimAssistDistance decl=13085 ret=73094 params=131071 slot=2177
+  M get_AimAssistCenterOffset decl=13085 ret=72633 params=65535 slot=2182
+  M set_AimAssistCenterOffset decl=13085 ret=73094 params=131071 slot=2177
+
+### T13096 COW.UGCAttachmentRepItem  (fields=80 methods=57)
+  F PROP_ID_SIGHTAIMASSIST typeIdx=40273
+  F PROP_ID_SIGHTAIMASSISTSNAPRANGE typeIdx=40273
+  F PROP_ID_SIGHTAIMASSISTDISTFALLOFF typeIdx=40273
+  F PROP_ID_SIGHTAIMASSISTDISTPRIORITY typeIdx=40273
+  F PROP_ID_SIGHTAIMASSISTDISTPRIOMIN typeIdx=40273
+  F PROP_ID_SIGHTAIMASSISTDISTPRIOMAX typeIdx=40273
+  F PROP_ID_SIGHTAIMASSISTDISTPRIOCOEF typeIdx=40273
+  F OnSightAimAssistChangeEvent typeIdx=2211
+  F OnSightAimAssistSnapRangeChangeEvent typeIdx=2397
+  F OnSightAimAssistDistFalloffChangeEvent typeIdx=2397
+  F OnSightAimAssistDistpriorityChangeEvent typeIdx=2211
+  F OnSightAimAssistDistprioMinChangeEvent typeIdx=2397
+  F OnSightAimAssistDistprioMaxChangeEvent typeIdx=2397
+  F OnSightAimAssistDistprioCoefChangeEvent typeIdx=2397
+  F <SightAimAssist>k__BackingField typeIdx=25732
+  F <SightAimAssistSnapRange>k__BackingField typeIdx=51050
+  F <SightAimAssistDistFalloff>k__BackingField typeIdx=51050
+  F <SightAimAssistDistpriority>k__BackingField typeIdx=25732
+  F <SightAimAssistDistprioMin>k__BackingField typeIdx=51050
+  F <SightAimAssistDistprioMax>k__BackingField typeIdx=51050
+  F <SightAimAssistDistprioCoef>k__BackingField typeIdx=51050
+  M get_SightAimAssist decl=13096 ret=25731 params=65535 slot=2182
+  M set_SightAimAssist decl=13096 ret=73094 params=131071 slot=2177
+  M get_SightAimAssistSnapRange decl=13096 ret=51049 params=65535 slot=2182
+  M set_SightAimAssistSnapRange decl=13096 ret=73094 params=131071 slot=2177
+  M get_SightAimAssistDistFalloff decl=13096 ret=51049 params=65535 slot=2182
+  M set_SightAimAssistDistFalloff decl=13096 ret=73094 params=131071 slot=2177
+  M get_SightAimAssistDistpriority decl=13096 ret=25731 params=65535 slot=2182
+  M set_SightAimAssistDistpriority decl=13096 ret=73094 params=131071 slot=2177
+  M get_SightAimAssistDistprioMin decl=13096 ret=51049 params=65535 slot=2182
+  M set_SightAimAssistDistprioMin decl=13096 ret=73094 params=131071 slot=2177
+  M get_SightAimAssistDistprioMax decl=13096 ret=51049 params=65535 slot=2182
+  M set_SightAimAssistDistprioMax decl=13096 ret=73094 params=131071 slot=2177
+  M get_SightAimAssistDistprioCoef decl=13096 ret=51049 params=65535 slot=2182
+  M set_SightAimAssistDistprioCoef decl=13096 ret=73094 params=131071 slot=2177
+
+### T13248 COW.UGCPlayerRepItem  (fields=197 methods=111)
+  F PROP_ID_AIMASSISTTYPE typeIdx=40273
+  F PROP_ID_CANBELOCKEDBYAIMASSIST typeIdx=40273
+  F OnAimAssistTypeChangeEvent typeIdx=2303
+  F OnCanBeLockedByAimAssistChangeEvent typeIdx=2211
+  F <AimAssistType>k__BackingField typeIdx=40245
+  F <CanBeLockedByAimAssist>k__BackingField typeIdx=25732
+  M get_AimAssistType decl=13248 ret=40244 params=65535 slot=2182
+  M set_AimAssistType decl=13248 ret=73094 params=131071 slot=2177
+  M get_CanBeLockedByAimAssist decl=13248 ret=25731 params=65535 slot=2182
+  M set_CanBeLockedByAimAssist decl=13248 ret=73094 params=131071 slot=2177
+
+### T13598 COW.GameSettingData  (fields=282 methods=496)
+  F AimAssistKey typeIdx=51832
+  M GetAimAssistSetting decl=13598 ret=32005 params=65535 slot=150
+
+### T17856 COW.OperationSettingInfo  (fields=31 methods=1)
+  F AimAssist typeIdx=40249
+
+### T17857 .OperationSettingKey  (fields=24 methods=0)
+  F AimAssist typeIdx=90457
+
+### T19917 COW.UIHudCrosshairsController  (fields=137 methods=114)
+  F m_LastAimTargetPlayerID typeIdx=24547
+
+### T20967 COW.ControlsSubType  (fields=21 methods=0)
+  F AimAssist typeIdx=30294
+
+### T23231 COW.SettingDetail  (fields=187 methods=2)
+  F aim_assist typeIdx=40249
+
+### T27337 COW.UIHudAutoAbsorbAimTargetView  (fields=2 methods=3)
+  F AimTargetSprite typeIdx=70403
+  F AimTargetSpriteRed typeIdx=37077
+
+### T27507 COW.UIHudCrosshairsView  (fields=115 methods=3)
+  F MedicalAimTarget typeIdx=37077
+
+### T30222 COW.GameConfig  (fields=67 methods=273)
+  F DrawAimAssistDebugInfo typeIdx=25739
+
+### T30336 COW.HUD.UIHudLockedTargetScaledController  (fields=9 methods=25)
+  M SetAsAimTarget decl=30336 ret=73094 params=131137 slot=198
+  M <>iFixBaseProxy_SetAsAimTarget decl=30336 ret=73094 params=196607 slot=6
+
+### T30384 COW.HUD.UIHudVehicleAsMissileTargetControllerBase  (fields=2 methods=8)
+  F m_AimTarget typeIdx=25734
+  M SetAsAimTarget decl=30384 ret=73094 params=131137 slot=454
+
+### T30660 COW.Graphics.CustomShadow  (fields=19 methods=20)
+  F m_LastAimTarget typeIdx=72634
+
+### T31026 COW.Gameplay.UGC.UGCClientSettings  (fields=2 methods=1)
+  F EnableClientEventPlayerAimEntity typeIdx=25739
+
+### T31581 COW.Gameplay.UGC.UGCPublicConst  (fields=309 methods=0)
+  F Type_AimAssistType typeIdx=40273
+
+### T32128 COW.GamePlay.Player  (fields=1692 methods=4143)
+  F m_AimAssist typeIdx=45479
+  F m_AimAssistForIceWall typeIdx=47345
+  M get_IsBanAimAssistState decl=32128 ret=25731 params=65535 slot=2182
+  M GetAimAssistOnSighting decl=32128 ret=30764 params=65535 slot=134
+  M set_IgnoreAimAssistType decl=32128 ret=73094 params=131071 slot=2182
+  M get_IgnoreAimAssistType decl=32128 ret=72035 params=65535 slot=2182
+  M SetAimAssistIceWallParams decl=32128 ret=73094 params=327679 slot=134
+  M GetAimAssistDampCoefficient decl=32128 ret=51049 params=131071 slot=134
+  M IsNeedAimAssists decl=32128 ret=25731 params=302 slot=454
+  M get_CanBeLockedByAimAssist decl=32128 ret=25731 params=76 slot=2246
+  M CanBeAimAssistByStealth decl=32128 ret=25731 params=65535 slot=134
+  M <>iFixBaseProxy_get_CanBeLockedByAimAssist decl=32128 ret=25731 params=65535 slot=6
+
+### T32213 COW.GamePlay.AttackableBaseLevelObject  (fields=2 methods=27)
+  M get_CanBeLockedByAimAssist decl=32213 ret=25731 params=125 slot=2502
+
+### T32214 COW.GamePlay.OGKFEMJNCGM  (fields=0 methods=22)
+  M get_CanBeLockedByAimAssist decl=32214 ret=25731 params=14 slot=3526
+
+### T32215 COW.GamePlay.AttackableEntity  (fields=2 methods=29)
+  M get_CanBeLockedByAimAssist decl=32215 ret=25731 params=76 slot=2502
+
+### T33285 COW.GamePlay.MountableAnimal  (fields=49 methods=119)
+  M CanIgnoreAimAssistBySkill decl=33285 ret=25731 params=170 slot=198
+  M <>iFixBaseProxy_CanIgnoreAimAssistBySkill decl=33285 ret=25731 params=65535 slot=6
+
+### T33360 COW.GamePlay.LevelAutoPathBomb  (fields=35 methods=74)
+  M get_CanBeLockedByAimAssist decl=33360 ret=25731 params=131 slot=2246
+  M <>iFixBaseProxy_get_CanBeLockedByAimAssist decl=33360 ret=25731 params=65535 slot=6
+
+### T33540 COW.GamePlay.LevelHitAndExplodeGiftBox  (fields=16 methods=61)
+  M get_CanBeLockedByAimAssist decl=33540 ret=25731 params=103 slot=2534
+
+### T33703 COW.GamePlay.LevelObjectSpawnedAttackable  (fields=2 methods=32)
+  M get_CanBeLockedByAimAssist decl=33703 ret=25731 params=131 slot=2502
+
+### T33721 COW.GamePlay.LevelObjectWukongIllusion  (fields=17 methods=64)
+  M get_CanBeLockedByAimAssist decl=33721 ret=25731 params=131 slot=2246
+  M <>iFixBaseProxy_get_CanBeLockedByAimAssist decl=33721 ret=25731 params=65535 slot=6
+
+### T33733 COW.GamePlay.LevelPocketRevivePoint  (fields=19 methods=94)
+  M get_CanBeLockedByAimAssist decl=33733 ret=25731 params=103 slot=2534
+
+### T33853 COW.GamePlay.LevelTeleportKnockDownDummy  (fields=7 methods=30)
+  M get_CanBeLockedByAimAssist decl=33853 ret=25731 params=131 slot=2246
+  M <>iFixBaseProxy_get_CanBeLockedByAimAssist decl=33853 ret=25731 params=65535 slot=6
+
+### T33915 COW.GamePlay.LevelVehicle  (fields=74 methods=125)
+  M get_AimAssistRepItem decl=33915 ret=53445 params=65535 slot=2182
+
+### T34040 COW.GamePlay.UGCLevelMiniSentry  (fields=26 methods=52)
+  M get_AimAssistEntityRepItem decl=34040 ret=53445 params=65535 slot=2182
+
+### T34269 COW.GamePlay.FBFFFBKLDIO  (fields=99 methods=0)
+  F Cheating_AimAssist typeIdx=35081
+
+### T34296 COW.GamePlay.LevelDynamicColliderAttackScript  (fields=3 methods=30)
+  M get_CanBeLockedByAimAssist decl=34296 ret=25731 params=18 slot=2534
+
+### T34495 COW.GamePlay.MNDPBJMLABJ  (fields=45 methods=121)
+  M NeedAimAssist decl=34495 ret=25731 params=47 slot=198
+  M <>iFixBaseProxy_NeedAimAssist decl=34495 ret=25731 params=65535 slot=6
+
+### T34568 COW.GamePlay.EHGMCNBHNMD  (fields=67 methods=0)
+  F UGCAimAssistPart typeIdx=32913
+
+### T34569 COW.GamePlay.HitDetectColliderHelper  (fields=3 methods=53)
+  M IsUGCAimAssistPart decl=34569 ret=25731 params=65535 slot=134
+
+### T34846 COW.GamePlay.PlayerAttributes  (fields=180 methods=269)
+  F CanAimassistOnStrop typeIdx=25735
+  F BuffEcaWeaponAimAssist typeIdx=17647
+  F BuffEcaWeaponAimAssistDecayTimeScale typeIdx=46443
+  F BuffEcaWeaponAimAssistScreenRangeScale typeIdx=46443
+  F BuffEcaWeaponAimAssistLockDecreaseTimeScale typeIdx=46443
+  F BuffEcaWeaponAimAssistLockDecreaseTimeSightScale typeIdx=46443
+
+### T34880 COW.GamePlay.PlayerReaper  (fields=12 methods=56)
+  M IsNeedAimAssists decl=34880 ret=25731 params=302 slot=198
+  M <>iFixBaseProxy_IsNeedAimAssists decl=34880 ret=25731 params=65535 slot=6
+
+### T35024 COW.GamePlay.MDNOGGJDJBD  (fields=6 methods=18)
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinDistance decl=35024 ret=51049 params=99 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxDistance decl=35024 ret=51049 params=100 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinScreenRange decl=35024 ret=72664 params=101 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxScreenRange decl=35024 ret=72664 params=102 slot=481
+
+### T35106 COW.GamePlay.GNIODMIEICB  (fields=13 methods=59)
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinDistance decl=35106 ret=51049 params=99 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxDistance decl=35106 ret=51049 params=100 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinScreenRange decl=35106 ret=72664 params=101 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxScreenRange decl=35106 ret=72664 params=102 slot=481
+
+### T35124 COW.GamePlay.JMKAFFGOLIO  (fields=8 methods=21)
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinDistance decl=35124 ret=51049 params=99 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxDistance decl=35124 ret=51049 params=100 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinScreenRange decl=35124 ret=72664 params=101 slot=481
+  M COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxScreenRange decl=35124 ret=72664 params=102 slot=481
+
+### T35663 COW.GamePlay.UGCAimAssistEntity  (fields=4 methods=32)
+  M get_CanBeLockedByAimAssist decl=35663 ret=25731 params=35 slot=2502
+
+### T35854 COW.GamePlay.Vehicle  (fields=175 methods=333)
+  M CanIgnoreAimAssistBySkill decl=35854 ret=25731 params=170 slot=454
+
+### T36365 COW.GamePlay.UGCRuntime.UGCPlayerBridge  (fields=69 methods=136)
+  M CalUGCAimTarget decl=36365 ret=73094 params=65535 slot=129
+
+### T36584 GCommon.BaseGame  (fields=26 methods=116)
+  M NeedAimAssist decl=36584 ret=25731 params=47 slot=454
+
+### T37665 IFix.IDMAP0  (fields=32760 methods=0)
+  F COW-WeaponAimAssistAutoAbsorbData-GetId0 typeIdx=38884
+  F COW-WeaponAimAssistAutoAbsorbData-GetUIntKey0 typeIdx=38884
+  F COW-WeaponAimAssistAutoAbsorbData-GetIntKey0 typeIdx=38884
+  F COW-WeaponAimAssistAutoAbsorbData-DeserializeData0 typeIdx=38884
+  F COW-GameSettingData-GetAimAssistSetting0 typeIdx=38884
+  F COW-GamePlay-UGCAimAssistEntity-CreateUGC0 typeIdx=38884
+  F COW-GamePlay-Player-get_IsBanAimAssistState0 typeIdx=38884
+  F COW-GamePlay-Player-GetAimAssistDampCoefficient0 typeIdx=38884
+  F COW-GamePlay-Player-GetAimAssistOnSighting0 typeIdx=38884
+  F COW-GamePlay-Player-CanBeAimAssistByStealth0 typeIdx=38884
+  F COW-GamePlay-Player-IsNeedAimAssists0 typeIdx=38884
+  F COW-GamePlay-Vehicle-CanIgnoreAimAssistBySkill0 typeIdx=38884
+  F COW-HUD-UIHudVehicleAsMissileTargetControllerBase-SetAsAimTarget0 typeIdx=38884
+
+### T37666 IFix.IDMAP1  (fields=32760 methods=0)
+  F COW-UIHudElectricGirlAimTargetController-SetData0 typeIdx=38886
+  F COW-UIInGameScene-ShowElectricGirlAimTargetUI0 typeIdx=38886
+  F COW-UIInGameScene-HideElectricGirlAimTargetUI0 typeIdx=38886
+  F COW-UIInGameScene-OnHudAutoAbsorbAimTarget0 typeIdx=38886
+  F COW-UGCAimAssistEntityRepItem-OnRepItemChanged0 typeIdx=38886
+  F COW-UGCAimAssistEntityRepItem-OnDestroy0 typeIdx=38886
+
+### T37668 IFix.IDMAP3  (fields=32760 methods=0)
+  F COW-GamePlay-Player-SetAimAssistIceWallParams0 typeIdx=38890
+  F COW-UIHudAutoAbsorbAimTargetController-GetResourceID0 typeIdx=38890
+  F COW-UIHudAutoAbsorbAimTargetController-OnUIInit0 typeIdx=38890
+  F COW-UIHudAutoAbsorbAimTargetController-ChangeTeammateSpriteColor0 typeIdx=38890
+  F COW-UIHudAutoAbsorbAimTargetController-ShowData0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-GetResourceID0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-OnUIInit0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-OnUIOpen0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-Hide0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-OnUIDestroy0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-GetPlayerPosInUI0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-FindNearestTeammateInScreen0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-FindPlayerToShowUI0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetController-LateUpdate0 typeIdx=38890
+  F COW-UIHudAimTargetScoreInfoView-OnInit0 typeIdx=38890
+  F COW-UIHudAutoAbsorbAimTargetView-OnInit0 typeIdx=38890
+  F COW-UIHudElectricGirlAimTargetView-OnInit0 typeIdx=38890
+
+### T37669 IFix.IDMAP4  (fields=30448 methods=0)
+  F COW-HUD-UIHudLockedTargetScaledController-SetAsAimTarget0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-AddExtraScript0 typeIdx=38892
+  F COW-GamePlay-Player-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-AttackableBaseLevelObject-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-AttackableEntity-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-HitDetectColliderHelper-IsUGCAimAssistPart0 typeIdx=38892
+  F COW-GamePlay-MountableAnimal-CanIgnoreAimAssistBySkill0 typeIdx=38892
+  F COW-GamePlay-LevelAutoPathBomb-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-LevelHitAndExplodeGiftBox-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-LevelObjectSpawnedAttackable-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-LevelObjectWukongIllusion-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-LevelPocketRevivePoint-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-LevelTeleportKnockDownDummy-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-CreateUGC1 typeIdx=38892
+  F COW-GamePlay-LevelDynamicColliderAttackScript-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-MNDPBJMLABJ-NeedAimAssist0 typeIdx=38892
+  F COW-GamePlay-PlayerReaper-IsNeedAimAssists0 typeIdx=38892
+  F COW-GamePlay-UGCRuntime-UGCPlayerBridge-CalUGCAimTarget0 typeIdx=38892
+  F COW-GamePlay-MDNOGGJDJBD-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinDistance0 typeIdx=38892
+  F COW-GamePlay-MDNOGGJDJBD-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxDistance0 typeIdx=38892
+  F COW-GamePlay-MDNOGGJDJBD-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinScreenRange0 typeIdx=38892
+  F COW-GamePlay-MDNOGGJDJBD-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxScreenRange0 typeIdx=38892
+  F COW-GamePlay-GNIODMIEICB-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinDistance0 typeIdx=38892
+  F COW-GamePlay-GNIODMIEICB-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxDistance0 typeIdx=38892
+  F COW-GamePlay-GNIODMIEICB-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinScreenRange0 typeIdx=38892
+  F COW-GamePlay-GNIODMIEICB-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxScreenRange0 typeIdx=38892
+  F COW-GamePlay-JMKAFFGOLIO-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinDistance0 typeIdx=38892
+  F COW-GamePlay-JMKAFFGOLIO-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxDistance0 typeIdx=38892
+  F COW-GamePlay-JMKAFFGOLIO-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMinScreenRange0 typeIdx=38892
+  F COW-GamePlay-JMKAFFGOLIO-COW.GamePlay.IActiveSkillAimAssistIceWall.GetAimAssistIceWallMaxScreenRange0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-get_Position0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-set_Position0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-get_Rotation0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-set_Rotation0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-get_IsDead0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-BFCHGFKDDCK0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-set_IsDead0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-GetAttackableCenterWS0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-GetAttackableRadius0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-GetHitDamagePos0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-NeedAssit0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-CanAssitByWeapon0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-IsSameTeamWithPlayerID0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-IsVisible0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-IsStreamerVisible0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-Awake0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-OnDestroy0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-get_CanBeLockedByAimAssist0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-get_IsMovableEntity0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-CanAssistByUGC0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-GetUGCEntityID0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-TakeDamage0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-TakeHealing0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-GetAttackableID0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-GetAttackableType0 typeIdx=38892
+  F COW-GamePlay-UGCAimAssistEntity-COW.GamePlay.IAttackableEntity.get_gameObject0 typeIdx=38892

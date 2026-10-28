@@ -1,0 +1,20 @@
+
+### T13598 COW.GameSettingData  (fields=282 methods=496)
+  M GetAuxAimSensitivity decl=13598 ret=51049 params=65535 slot=150
+  M GetAimAssistSetting decl=13598 ret=32005 params=65535 slot=150
+
+### T32128 COW.GamePlay.Player  (fields=1692 methods=4143)
+  M set_IsAuxAiming decl=32128 ret=73094 params=131071 slot=2182
+  M get_IsAuxAiming decl=32128 ret=25731 params=65535 slot=2182
+  M get_NeedLerpAuxAiming decl=32128 ret=25731 params=65535 slot=2182
+  M GetAimAssistOnSighting decl=32128 ret=30764 params=65535 slot=134
+  M GetAuxAimRotation decl=32128 ret=48849 params=65535 slot=134
+  M ResetAuxAimRotation decl=32128 ret=73094 params=65535 slot=134
+  M SetAimAssistIceWallParams decl=32128 ret=73094 params=327679 slot=134
+  M GetAimAssistDampCoefficient decl=32128 ret=51049 params=131071 slot=134
+  M IsNeedAimAssists decl=32128 ret=25731 params=302 slot=454
+  M CheckAuxAimStatusChanged decl=32128 ret=73094 params=65535 slot=134
+  M CanBeAimAssistByStealth decl=32128 ret=25731 params=65535 slot=134
+
+### T34880 COW.GamePlay.PlayerReaper  (fields=12 methods=56)
+  M IsNeedAimAssists decl=34880 ret=25731 params=302 slot=198
