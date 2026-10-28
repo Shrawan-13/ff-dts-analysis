@@ -48,6 +48,7 @@ analysis/
   README.md
   scripts/
     dump_type_resolved.py
+    verify_evidence.py           static evidence verifier (32/32 checks)
     mdparse.py
     findmembers.py
     dump_type.py
@@ -81,22 +82,32 @@ analysis/
     player_aim.txt               earlier Player aim search
     members_hit.txt              hit/bodypart member search
     members_bone.txt             bone/hitbox member search
+    evidence-verification.txt    output of verify_evidence.py (32/32 pass)
   reports/
-    report-draft.md
+    README.md                    report index
+    management-summary.md        one-page summary for higher staff
+    report.md                    final feasibility report
+    qa-test-plan.md              dynamic QA validation plan (QA-01..QA-10)
+    report-draft.md              earlier draft (historical)
   gh-repo-reference/
     analyze.py, analyze.yml, README.md
 ```
 
 ## Resume checklist
 
+- [x] Static evidence verifier passes 32/32 (`scripts/verify_evidence.py`).
+- [x] Final report (`reports/report.md`) and QA plan
+      (`reports/qa-test-plan.md`) written.
+- [ ] Run QA-01..QA-10 in an authorized private test environment.
+- [ ] Confirm dynamic proof gates G2/G6 in `reports/report.md`.
 - [ ] Confirm the in-match payload carrying `EHITBODYPART`/`EHGMCNBHNMD`.
 - [ ] Trace `set_LockedAimingCollider` and `SetAimRotation` callers.
 - [ ] Test whether `BigHeadComponent.UpdateScale` affects enemy hit colliders.
 - [ ] Inspect iFix for signature/hash verification and patch-load call sites.
 - [ ] Confirm whether `extra_hitbox_*` and `DebugWeaponAimAssist*` are active.
 - [ ] Fix the GitHub Actions workflow to be metadata-only.
-- [ ] Finalize and push the report (do not commit game binaries or the 55 MB
-      decrypted metadata).
+- [ ] Push final updates (do not commit game binaries or the 55 MB decrypted
+      metadata).
 
 ## GitHub
 

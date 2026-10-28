@@ -23,7 +23,12 @@ whether that abuse is practical.
 - Several concrete cheat vectors were identified. The strongest match for the
   exact "first body, then head" pattern is **client-side aim/aim-assist
   override**, with **hit-collider-type spoofing** as the strongest alternative.
-- A draft report is in `analysis/reports/report-draft.md`.
+- A final report is in `analysis/reports/report.md`, with a dynamic QA plan in
+  `analysis/reports/qa-test-plan.md`.
+- `analysis/scripts/verify_evidence.py` reproduces the static evidence:
+  **32/32 checks pass** (see `analysis/outputs/evidence-verification.txt`).
+- Dynamic proof is still pending: run QA-01..QA-10 in an authorized private
+  test environment (see the QA plan and decision gates G2/G6 in the report).
 
 ## Artifacts / paths
 
@@ -34,6 +39,7 @@ analysis/
   STATE.md                         <- this file
   scripts/
     dump_type_resolved.py          <- main metadata + ELF type dumper
+    verify_evidence.py             <- static evidence verifier (32/32)
     mdparse.py                     <- metadata header/type parser
     findmembers.py                 <- field/method keyword search
     dump_type.py                   <- older dumper (40-byte method stride)
@@ -43,9 +49,15 @@ analysis/
   data/
     global-metadata.dec.dat        <- decrypted metadata (55 MB)
     assembly-csharp-patch.enc.bin  <- decompressed encrypted iFix patch bundle
-  outputs/                         <- saved dumps/searches (see below)
+  outputs/
+    ...                            <- saved dumps/searches (see below)
+    evidence-verification.txt      <- verifier output (32/32 pass)
   reports/
-    report-draft.md
+    README.md                      <- report index
+    management-summary.md          <- one-page summary for higher staff
+    report.md                      <- final feasibility report
+    qa-test-plan.md                <- dynamic QA validation plan
+    report-draft.md                <- earlier draft (historical)
   gh-repo-reference/
     analyze.py, analyze.yml, README.md
 ```
@@ -407,27 +419,33 @@ config-diff.
 
 ## Next steps (priority order)
 
-1. **Confirm the network hit/fire payload.** Search `message` types for fields
+1. **Run the QA plan.** Execute QA-01..QA-10 from
+   `reports/qa-test-plan.md` in an authorized private test environment. This
+   is the dynamic proof step for gates G2/G6 in `reports/report.md`. If QA-02
+   or QA-04 passes and QA-10 shows the behavior is observable, the vector is
+   live-practical; if not, document the mitigation.
+2. **Confirm the network hit/fire payload.** Search `message` types for fields
    of type `HNLIMBLIANL`, `EHGMCNBHNMD`, or `EHITBODYPART`; inspect
    `TakeDamage` callers and the RUDP send path. If the client sends the body
    part, Vector B is confirmed as a server-trust issue.
-2. **Confirm the aim-assist lock path.** Dump `NLIMDENAFNN` and `OGKFEMJNCGM`
+3. **Confirm the aim-assist lock path.** Dump `NLIMDENAFNN` and `OGKFEMJNCGM`
    methods with parameter types; find who calls
    `set_LockedAimingCollider` and `SetAimRotation`. Determine whether the
    locked collider is used for the shot ray or only for camera assist.
-3. **Test the big-head path.** Check whether `BigHeadComponent` is present on
+4. **Test the big-head path.** Check whether `BigHeadComponent` is present on
    enemies in normal modes, and whether `UpdateScale` changes the hit collider
    used by `HitDetectColliderHelper`.
-4. **Inspect iFix integrity.** Search `IFix.Core` for signature/hash checks;
+5. **Inspect iFix integrity.** Search `IFix.Core` for signature/hash checks;
    inspect `InjectFixManager.LoadPatch` and `PatchManager.Load` callers. Check
    whether the patch bundle is authenticated.
-5. **Fix the GitHub Actions workflow.** Remove the Il2CppDumper dependency and
+6. **Fix the GitHub Actions workflow.** Remove the Il2CppDumper dependency and
    make the run metadata-only (decrypt metadata + run
-   `dump_type_resolved.py`/report generator). Keep `actions/cache` for the
+   `verify_evidence.py`/`dump_type_resolved.py`). Keep `actions/cache` for the
    XAPK/metadata. The current workflow fails at `test -s out/script.json`.
-6. **Write the final report** from `reports/report-draft.md`, with a clear
-   distinction between confirmed client surfaces and unconfirmed server trust.
-7. **Push** the report/scripts (not the 55 MB metadata or game binaries) to
+7. **Update the final report after QA.** `reports/report.md` is complete for the
+   static phase; replace the PENDING gates with QA results and adjust the
+   verdict.
+8. **Push** the report/scripts (not the 55 MB metadata or game binaries) to
    `Shrawan-13/ff-dts-analysis`.
 
 ## Resume commands

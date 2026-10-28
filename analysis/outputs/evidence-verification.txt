@@ -1,0 +1,41 @@
+=== Free Fire MAX 2.133.1 - Static Evidence Verification ===
+Metadata: /home/shrawan/experiments/hackathon/analysis/data/global-metadata.dec.dat
+Binary:   /home/shrawan/experiments/hackathon/extracted/work/config/lib/arm64-v8a/libil2cpp.so
+Types:    43956
+
+[PASS] COW.GamePlay.Player (T32128, 1692 fields, 4143 methods)
+[PASS] COW.GamePlay.OGKFEMJNCGM (T32214, 0 fields, 22 methods)
+[PASS] COW.GamePlay.HitDetectColliderHelper (T34569, 3 fields, 53 methods)
+[PASS] .ColliderInfo (T438, 2 fields, 1 methods)
+[PASS] .HitPart (T439, 22 fields, 0 methods)
+[PASS] COW.GamePlay.EHGMCNBHNMD (T34568, 67 fields, 0 methods)
+[PASS] COW.GamePlay.HNLIMBLIANL (T34272, 15 fields, 23 methods)
+[PASS] COW.GamePlay.BigHeadComponent (T32146, 4 fields, 9 methods)
+[PASS] COW.BigHeadData (T11147, 14 fields, 5 methods)
+[PASS] COW.BodyPartUtilByName (T11057, 4 fields, 13 methods)
+[PASS] COW.Gameplay.UGC.UGCSkeletonCustomHitBox (T31222, 0 fields, 4 methods)
+[PASS] COW.Gameplay.UGC.UGCLocalColliderIntegrityValidator (T31399, 1 fields, 5 methods)
+[PASS] COW.UGCAttachmentRepItem (T13096, 80 fields, 57 methods)
+[PASS] COW.UGCAimAssistEntityRepItem (T13085, 8 fields, 9 methods)
+[PASS] COW.GamePlay.UGCAimAssistEntity (T35663, 4 fields, 32 methods)
+[PASS] COW.WeaponGunFeelProfileData (T11882, 123 fields, 10 methods)
+[PASS] COW.WeaponAimAssistAutoAbsorbData (T11875, 10 fields, 8 methods)
+[PASS] COW.SettingDetail (T23231, 187 fields, 2 methods)
+[PASS] COW.GameModeSetting (T12010, 975 fields, 3 methods)
+[PASS] COW.GameVarDef (T12013, 5664 fields, 7 methods)
+[PASS] COW.GamePlay.PlayerAttributes (T34846, 180 fields, 269 methods)
+[PASS] GCommon.InjectFixManager (T36645, 3 fields, 6 methods)
+[PASS] IFix.Core.PatchManager (T43247, 2 fields, 11 methods)
+
+Config/string literals:
+  [PASS] 'aim_assist'
+  [PASS] 'sight_aim_assist'
+  [PASS] 'use_auxaim'
+  [PASS] 'extra_hitbox_enable'
+  [PASS] 'use_snipercollider_whensighting'
+  [PASS] 'EnableLocalColliderAntiHack'
+  [PASS] 'HeadScale'
+  [PASS] 'HeadShotDamageScale'
+  [PASS] 'ColliderCommon SHA1 mismatch'
+
+Summary: 32 passed, 0 failed
