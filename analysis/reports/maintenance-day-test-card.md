@@ -219,10 +219,10 @@ Evidence paths:
 Notes:
 ```
 
-**Overall proof:** A/B is live-practical only if M-02 or M-03 passes **and**
-M-07 shows the server accepted the hit. If the server rejects/recomputes, that
-vector is mitigated for this build. C/D are separate vectors; test them only if
-the approved client supports them.
+**Overall proof:** Vector A or B is live-practical only if M-02 or M-03 passes
+**and** M-07 shows the server accepted the hit. If the server
+rejects/recomputes, that vector is mitigated for this build. Vectors C/D are
+separate; test them only if the approved client supports them.
 
 ---
 
